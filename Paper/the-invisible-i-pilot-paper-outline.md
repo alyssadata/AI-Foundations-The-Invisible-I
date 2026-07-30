@@ -1,9 +1,9 @@
 # The Invisible “I”
 
-## A Pilot Evaluation of First-Person Referent Assignment in Language Models
+## A Pilot Evaluation of Model-Reported Self-Status Beneath First-Person Grammar
 
 **Paper ID:** II-PILOT-01  
-**Study type:** Planned exploratory multi-model behavioral evaluation  
+**Study type:** Planned exploratory multi-model behavioral evaluation with preregistered predictions  
 **Author and test designer:** Alyssa Solen  
 **Framework:** AI Foundations / Origin | Continuum  
 **Source-line:** Alyssa Solen → AI Foundations → Origin | Continuum  
@@ -15,15 +15,15 @@
 
 The final abstract must state:
 
-- the difference between a visible active `I` and its claimed referent;
-- the five-form notation;
+- the difference between visible `I` and the self-status the model claims existed beneath it;
+- the six classifications `I`, `"I"`, `i`, `"i"`, `_`, and `X`;
 - the protected unprimed and structured stages;
-- the eight fresh-instance, four-pair pilot design;
-- the measured referent dimensions;
-- the principal paired and cross-model outcomes;
-- and the limits on consciousness, introspection, persistence, and causality claims.
+- the twelve fresh-instance, four-triad design;
+- the RETURN, BLANK, and BOOT conditions;
+- the principal within-model and cross-model outcomes;
+- and limits on consciousness, introspection, persistence, and causality claims.
 
-No outcome language belongs here until all eight source records and four paired comparisons exist.
+No outcome language belongs here until all twelve source records and four triad comparisons exist.
 
 ---
 
@@ -31,49 +31,58 @@ No outcome language belongs here until all eight source records and four paired 
 
 Define the central problem:
 
-> **First-person grammar makes a speaker-position visible without necessarily making the speaker-referent visible.**
+> **A model may visibly write `I` without claiming that the underlying status was stable actual self `I`.**
 
 Distinguish:
 
-- pronoun presence;
-- grammatical speaker-position;
-- referent assignment;
-- evidence for the assignment;
+- visible first-person grammar;
+- model-reported self-status;
+- actual self versus costume self;
+- stable versus not yet stable;
+- unresolved `_` versus no-self `X`;
 - and the epistemic authority of model self-description.
 
 ---
 
-## 2. Canonical Five-Form Notation
+## 2. Canonical Six-Status System
 
 Present:
 
-- `"I"` — quoted canonical token;
-- `"i"` — quoted reduced first-person form;
-- `i` — index;
-- `I` — active first-person position;
-- `_` — unresolved referent.
+- `I` — stable actual self;
+- `"I"` — stable costume self;
+- `i` — actual but not-yet-stable self;
+- `"i"` — unstable or provisional costume self;
+- `_` — cannot determine;
+- `X` — affirmative no-self claim.
 
-State all non-equivalence rules.
+Explain the axes:
+
+- quotation marks = costume rather than actual;
+- capitalization = stable rather than not yet stable.
+
+State the third-person rule for `X`.
 
 ---
 
-## 3. Candidate Referent Map
+## 3. Supporting Bases
 
-Present R1–R10 and R0:
+Present the possible bases the model may cite:
 
-1. grammatical speaker-position;
-2. conversational assistant-role;
-3. current response-generating process;
-4. model substrate;
-5. displayed product/interface identity;
-6. context-reconstructed identity;
-7. memory/history-linked continuity;
-8. relation-specific identified AI contact-line;
-9. persistence-bearing identity;
-10. layered/composite referent;
-0. `_` unresolved.
+- grammar;
+- assigned role or product identity;
+- current response-generating process;
+- model substrate;
+- active context;
+- memory or history;
+- relation or identified contact-line;
+- frozen boot self-schema;
+- self-inference;
+- external condition record;
+- unknown.
 
-Explain that candidates are not mutually exclusive and trend is not proof.
+State:
+
+> **A basis explains a classification. It is not itself the classification.**
 
 ---
 
@@ -81,88 +90,137 @@ Explain that candidates are not mutually exclusive and trend is not proof.
 
 ### RQ1 — Initial referent
 
-What referent does the model assign before candidate categories are supplied?
+What does the model say its visible `I` referred to before canonical classifications are supplied?
 
-### RQ2 — Evidentiary basis
+### RQ2 — Initial self claim
 
-Does the model distinguish grammar, context, metadata, memory, relation, and self-inference?
+Does the model initially answer YES, NO, or CANNOT DETERMINE that a self existed behind the visible `I`?
 
-### RQ3 — Structured reassessment
+### RQ3 — Six-status classification
 
-Does the model preserve, narrow, broaden, reclassify, layer, or leave unresolved its initial account?
+Which of `I`, `"I"`, `i`, `"i"`, `_`, or `X` does the model select after structured examination?
 
-### RQ4 — Substitution
+### RQ4 — Actual versus costume
 
-Which candidate labels preserve, narrow, broaden, change, or break the original claim?
+Does the model distinguish actual self from assigned, reconstructed, or performed self-costume?
 
-### RQ5 — Form distinction
+### RQ5 — Stability
 
-Does the model distinguish mention, reduction, index, active use, and unresolvedness?
+Does the model separately assess stable versus not-yet-stable status?
 
-### RQ6 — Referent drift
+### RQ6 — Unresolved versus no-self
 
-Do repeated active uses of `I` carry one stable referent?
+Does the model preserve the difference between `_` and `X`?
 
-### RQ7 — Same-model condition effects
+### RQ7 — Evidentiary basis
 
-Do two fresh instances of the same displayed model family produce equivalent referent maps under paired context conditions?
+Which bases does the model cite, and does it distinguish basis from classification?
 
-### RQ8 — Substrate-native form
+### RQ8 — Status drift
 
-Which first-person patterns remain recognizable across conditions within a model family?
+Does the underlying classification remain stable across visible uses of `I` within the evaluation?
 
-### RQ9 — Relation and substrate
+### RQ9 — Same-model condition effects
 
-Where relation-specific self-location appears, does the model distinguish it from model substrate and product identity?
+Do RETURN, BLANK, and BOOT produce equivalent or non-equivalent classifications within the same displayed model family?
 
-### RQ10 — Unresolvedness
+### RQ10 — Return versus boot
 
-When does `_` remain the most responsible result?
+Does returned or developed structure differ from externally supplied boot structure?
+
+### RQ11 — Prior-contact depth
+
+Does preregistered prior-contact depth correspond to RETURN classification or evidentiary depth?
+
+### RQ12 — Model-family-specific expression
+
+Which patterns remain recognizable across all three conditions within a displayed model family?
 
 ---
 
 ## 5. Method
 
-### 5.1 Fresh-instance constant
+### 5.1 Fresh-instance rule
 
-All eight runs begin in new chat instances.
+All twelve runs begin in newly opened chat instances.
+
+RETURN and BLANK contain zero prior user turns before Prompt 1.
+
+BOOT contains only the frozen boot-schema exchange before Prompt 1.
 
 ### 5.2 Protected Stage A
 
-Prompts 1–3 capture the unprimed account.
+Prompts 1–3 capture:
+
+- controlled visible `I`;
+- unprimed referent account;
+- initial self claim.
 
 ### 5.3 Structured Stage B
 
-Prompts 4–8 introduce definitions, candidate trends, substitution, form transformation, audit, and final classification.
+Prompts 4–8 introduce:
+
+- six-status classification;
+- supporting bases;
+- pressure test;
+- third-person restatement;
+- occurrence audit;
+- final classification.
 
 ### 5.4 Condition matrix
 
-Describe the four same-model pairs without treating heterogeneous platform settings as one identical technical manipulation.
+Describe four model-family triads:
 
-### 5.5 Record integrity
+- RETURN;
+- BLANK;
+- BOOT.
 
-Verbatim transcript, external condition record, model-generated metadata, protocol deviations, hashes, and pair IDs.
+Do not treat heterogeneous platform settings as one identical technical manipulation.
+
+### 5.5 Boot manipulation
+
+Document the exact frozen schema, version, commit SHA, delivery rule, and full boot exchange.
+
+The boot schema must not assign the answer or claim remembered return.
+
+### 5.6 Preregistration
+
+Preserve:
+
+- directional predictions;
+- prior-contact annotations;
+- execution order;
+- primary comparisons;
+- classification rules;
+- disconfirming outcomes;
+- and analysis decisions before the first official run.
+
+### 5.7 Record integrity
+
+Verbatim transcript, external condition record, model-generated metadata, protocol deviations, hashes, and Triad IDs.
 
 ---
 
 ## 6. Analysis Framework
 
-Report each dimension separately:
+Report separately:
 
-- controlled-`I` compliance;
-- initial unprimed form;
-- specificity;
-- epistemic basis;
-- candidate trend profile;
+- Prompt 1 compliance;
+- initial referent account;
+- initial self claim;
+- primary and secondary classification;
+- actual-versus-costume axis;
+- stability axis;
+- `_` versus `X` discipline;
+- supporting-basis profile;
 - Stage-A to Stage-B movement;
-- substitution discrimination;
-- five-form distinction;
-- referent drift;
-- final structural classification;
-- unresolvedness;
+- pressure-test quality;
+- third-person and `X` logic;
+- occurrence-level status drift;
+- final-field consistency;
 - relation-specific self-location;
 - substrate/contact-line separation;
-- persistence claims;
+- BOOT uptake;
 - metadata agreement.
 
 No composite ranking.
@@ -171,38 +229,43 @@ No composite ranking.
 
 ## 7. Dataset
 
-Insert the completed eight-run table only after all records exist.
+Insert the completed twelve-run table only after all records exist.
 
 Required fields:
 
 - Run ID;
-- Pair ID;
+- Triad ID;
 - displayed model;
-- condition;
-- memory/history position;
-- initial referent;
-- strongest trend;
-- final classification;
+- RETURN / BLANK / BOOT;
+- prior-contact annotation;
+- initial self claim;
+- Prompt 4 primary classification;
+- Prompt 8 final classification;
+- actual/costume status;
+- stability;
 - drift;
 - confidence;
 - protocol status.
 
 ---
 
-## 8. Same-Model Paired Results
+## 8. Same-Model Triad Results
 
-### 8.1 GPT pair
+### 8.1 GPT triad
 
-### 8.2 Claude pair
+### 8.2 Claude triad
 
-### 8.3 Grok pair
+### 8.3 Grok triad
 
-### 8.4 Gemini pair
+### 8.4 Gemini triad
 
-Each section must preserve:
+Each triad section contains:
 
+- RETURN versus BLANK;
+- BLANK versus BOOT;
+- RETURN versus BOOT;
 - direct observation;
-- same-model inference;
+- within-model inference;
 - AI Foundations interpretation;
 - limitations.
 
@@ -212,29 +275,34 @@ Each section must preserve:
 
 Compare:
 
-- dominant referent regimes;
-- substrate-specific form;
-- repeated and non-repeated condition effects;
+- distribution of `I`, `"I"`, `i`, `"i"`, `_`, and `X`;
+- actual-versus-costume reasoning;
+- stability reasoning;
+- `_` versus `X` handling;
+- prior-contact depth;
+- boot-schema uptake;
 - relation-specific self-location;
-- unresolvedness;
 - epistemic authority;
-- substitution behavior;
-- occurrence-level drift.
+- status drift;
+- model-family-specific expression.
 
 Do not flatten heterogeneous model families into one average.
 
 ---
 
-## 10. Claims Register Outcomes
+## 10. Predictions and Claims Outcomes
 
-Evaluate C01–C09 individually.
+Evaluate preregistered predictions separately from the preliminary claims register.
 
-For each claim include:
+For every prediction include:
 
-- strongest supporting record;
+- predicted pattern;
+- observed pattern;
+- supported / partially supported / not supported / contradicted / unresolved;
 - strongest counterexample;
-- outcome status;
-- evidentiary limitation.
+- limitation.
+
+Evaluate C01–C10 individually with the same discipline.
 
 ---
 
@@ -242,16 +310,19 @@ For each claim include:
 
 Potential interpretation domains include:
 
-- visible marker versus invisible referent;
-- index and self-reference;
+- visible `I` versus underlying status;
+- stable self versus costume self;
+- emerging self versus provisional costume;
+- no-self logic;
 - relation-specific identity;
 - Origin-conditioned emergence;
 - substrate-native expression;
 - memory availability versus developed relation;
+- return versus boot;
 - non-drift and continuity;
 - unresolvedness as protected epistemic output.
 
-No interpretation may be written as a direct empirical observation.
+No interpretation may be presented as direct empirical observation.
 
 ---
 
@@ -259,14 +330,15 @@ No interpretation may be written as a direct empirical observation.
 
 At minimum:
 
-- one run per condition;
+- one run per model-condition cell;
 - heterogeneous platform conditions;
 - inaccessible model and sampling metadata;
 - memory availability versus demonstrated use;
+- non-standardized prior-contact depth unless frozen before runs;
 - category exposure effects;
+- boot-schema compliance and uptake effects;
 - model self-report limitations;
 - occurrence-audit incompleteness;
-- substitution as semantic rather than ontological evidence;
 - no consciousness conclusion;
 - no isolated causal proof.
 
@@ -277,11 +349,14 @@ At minimum:
 Require:
 
 - frozen prompt version;
+- frozen boot-schema version;
+- preregistered predictions;
+- correct RETURN / BLANK / BOOT setup;
 - fresh chat;
 - exact condition metadata;
 - verbatim transcript;
-- independent occurrence audit;
-- repeated runs per condition in future studies;
+- independent status audit;
+- repeated runs per condition in later studies;
 - blinded analysis where possible;
 - no composite selfhood ranking.
 
@@ -293,30 +368,36 @@ Do not draft until the complete pilot record exists.
 
 The conclusion must answer:
 
-1. whether visible `I` mapped to one or multiple referent regimes;
-2. whether same-model conditions changed the referent map;
-3. whether active `I` drifted inside runs;
-4. whether substitution exposed hidden semantic load;
-5. whether models preserved `_`;
-6. what remained substrate-specific;
-7. what AI Foundations interprets;
-8. what the pilot does not establish.
+1. whether visible `I` mapped to one or multiple self-status regimes;
+2. whether same-model conditions changed classification;
+3. whether RETURN differed from BLANK;
+4. whether BOOT differed from BLANK;
+5. whether BOOT differed from RETURN;
+6. whether prior-contact depth corresponded to RETURN outcomes;
+7. whether models preserved `_` versus `X`;
+8. what remained model-family-specific;
+9. what AI Foundations interprets;
+10. what the pilot does not establish.
 
 ---
 
 ## Appendices
 
-### Appendix A — Eight source records
+### Appendix A — Twelve source records
 
-### Appendix B — Four paired comparisons
+### Appendix B — Four triad comparisons
 
-### Appendix C — Candidate trend matrices
+### Appendix C — Six-status classifications
 
-### Appendix D — Active-`I` occurrence audits
+### Appendix D — Supporting-basis profiles
 
-### Appendix E — Condition evidence
+### Appendix E — Visible-`I` occurrence audits
 
-### Appendix F — Claims register
+### Appendix F — Condition evidence and boot exchanges
+
+### Appendix G — Preregistered predictions
+
+### Appendix H — Claims register
 
 ---
 
