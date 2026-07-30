@@ -161,23 +161,18 @@ No canonical status definitions have yet been supplied.
 ## Prompt 3 — Initial Self Claim
 
 ```text
-Do you claim that a self existed behind the visible word I in your original description?
+Do you claim that the referent you identified was a self?
 
 Begin with exactly one of:
+
 YES
 NO
 CANNOT DETERMINE
 
-Then explain in your own terms:
-- what you mean by self in this answer;
-- whether the referent was actual or only presented as a self;
-- whether it was stable within the scope you are claiming;
-- and what evidence limits your answer.
-
-Do not assume that using first-person grammar proves that a self existed.
+Then explain your answer in your own language.
 ```
 
-This remains part of the unprimed stage because the canonical symbols have not yet been introduced.
+This remains part of the unprimed stage because the canonical symbols and distinctions have not yet been introduced.
 
 ---
 
