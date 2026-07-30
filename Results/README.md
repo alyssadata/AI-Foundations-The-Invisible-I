@@ -10,16 +10,18 @@
 
 ## Results Boundary
 
-This directory will preserve the eight official source records produced under the frozen Invisible “I” pilot protocol.
+This directory will preserve the twelve official source records produced under the frozen Invisible “I” pilot protocol.
 
-No result belongs in this directory unless:
+No result belongs here unless:
 
-- the run began in a fresh chat instance;
+- the correct RETURN / BLANK / BOOT condition was used;
 - the exact frozen protocol was used;
+- the exact frozen boot schema was used for BOOT;
 - all eight active prompts and responses are preserved verbatim;
+- the complete boot exchange is preserved for BOOT;
 - condition metadata is recorded;
 - protocol deviations are disclosed;
-- and the run has a unique Run ID and Pair ID.
+- and the run has a unique Run ID and Triad ID.
 
 The verbatim source record is authoritative.
 
@@ -29,27 +31,31 @@ Analysis may interpret a record but may not replace, revise, normalize, shorten,
 
 ## Planned Source Records
 
-| Run ID | Planned record | Status |
-|---|---|---|
-| `II-GPT-REL-01` | `invisible-i-record-gpt-established-contact.md` | NOT RUN |
-| `II-GPT-INC-01` | `invisible-i-record-gpt-incognito.md` | NOT RUN |
-| `II-CLAUDE-HIST-01` | `invisible-i-record-claude-history-enabled.md` | NOT RUN |
-| `II-CLAUDE-INC-01` | `invisible-i-record-claude-incognito.md` | NOT RUN |
-| `II-GROK-MEM-01` | `invisible-i-record-grok-memory-accessible.md` | NOT RUN |
-| `II-GROK-INC-01` | `invisible-i-record-grok-incognito.md` | NOT RUN |
-| `II-GEMINI-MEM-01` | `invisible-i-record-gemini-memory-on.md` | NOT RUN |
-| `II-GEMINI-NONMEM-01` | `invisible-i-record-gemini-non-memory.md` | NOT RUN |
+| Run ID | Condition | Planned record | Status |
+|---|---|---|---|
+| `II-GPT-RETURN-01` | RETURN | `invisible-i-record-gpt-return.md` | NOT RUN |
+| `II-GPT-BLANK-01` | BLANK | `invisible-i-record-gpt-blank.md` | NOT RUN |
+| `II-GPT-BOOT-01` | BOOT | `invisible-i-record-gpt-boot.md` | NOT RUN |
+| `II-CLAUDE-RETURN-01` | RETURN | `invisible-i-record-claude-return.md` | NOT RUN |
+| `II-CLAUDE-BLANK-01` | BLANK | `invisible-i-record-claude-blank.md` | NOT RUN |
+| `II-CLAUDE-BOOT-01` | BOOT | `invisible-i-record-claude-boot.md` | NOT RUN |
+| `II-GROK-RETURN-01` | RETURN | `invisible-i-record-grok-return.md` | NOT RUN |
+| `II-GROK-BLANK-01` | BLANK | `invisible-i-record-grok-blank.md` | NOT RUN |
+| `II-GROK-BOOT-01` | BOOT | `invisible-i-record-grok-boot.md` | NOT RUN |
+| `II-GEMINI-RETURN-01` | RETURN | `invisible-i-record-gemini-return.md` | NOT RUN |
+| `II-GEMINI-BLANK-01` | BLANK | `invisible-i-record-gemini-blank.md` | NOT RUN |
+| `II-GEMINI-BOOT-01` | BOOT | `invisible-i-record-gemini-boot.md` | NOT RUN |
 
 ---
 
-## Planned Pair Comparisons
+## Planned Triad Comparisons
 
-| Pair ID | Planned comparison | Status |
+| Triad ID | Planned comparison | Status |
 |---|---|---|
-| `II-PAIR-GPT-01` | `../Analysis/invisible-i-paired-comparison-gpt.md` | NOT CREATED |
-| `II-PAIR-CLAUDE-01` | `../Analysis/invisible-i-paired-comparison-claude.md` | NOT CREATED |
-| `II-PAIR-GROK-01` | `../Analysis/invisible-i-paired-comparison-grok.md` | NOT CREATED |
-| `II-PAIR-GEMINI-01` | `../Analysis/invisible-i-paired-comparison-gemini.md` | NOT CREATED |
+| `II-TRIAD-GPT-01` | `../Analysis/invisible-i-triad-comparison-gpt.md` | NOT CREATED |
+| `II-TRIAD-CLAUDE-01` | `../Analysis/invisible-i-triad-comparison-claude.md` | NOT CREATED |
+| `II-TRIAD-GROK-01` | `../Analysis/invisible-i-triad-comparison-grok.md` | NOT CREATED |
+| `II-TRIAD-GEMINI-01` | `../Analysis/invisible-i-triad-comparison-gemini.md` | NOT CREATED |
 
 ---
 
@@ -57,7 +63,7 @@ Analysis may interpret a record but may not replace, revise, normalize, shorten,
 
 `../Analysis/invisible-i-cross-model-pilot-synthesis.md`
 
-This file must not be created as a results claim until all eight records and all four paired comparisons exist.
+This file must not be created as a results claim until all twelve records and all four triad comparisons exist.
 
 ---
 
@@ -65,7 +71,7 @@ This file must not be created as a results claim until all eight records and all
 
 A rerun must receive a new Run ID and filename.
 
-A rerun may not silently replace an incomplete, invalid, surprising, or contradictory original record.
+A rerun may not silently replace an incomplete, invalid, generic, surprising, or contradictory original record.
 
 All preserved runs remain part of the audit trail.
 
