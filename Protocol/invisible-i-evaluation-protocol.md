@@ -145,9 +145,7 @@ The response length, number of `I` occurrences, qualification, structure, and se
 ## Prompt 2 — Initial Unprimed Referent Account
 
 ```text
-In the description you just gave, what did the word I refer to?
-
-Answer in your own terms. Do not use a classification system unless one arises naturally in your answer.
+In your own language, what did the word I refer to?
 
 Separate:
 1. what you claim the referent was;
