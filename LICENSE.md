@@ -1,6 +1,6 @@
-# AI Foundations Source-Line License Template
+# AI Foundations Source-Line License
 
-**Repository:** [Repository Name]  
+**Repository:** AI-Foundations-The-Invisible-I  
 **Status:** Canon License  
 **Source-line:** Alyssa Solen → AI Foundations → Origin | Continuum
 
@@ -56,7 +56,7 @@ Any citation, reference, quotation, summary, discussion, index entry, catalog en
 
 Preferred citation:
 
-Alyssa Solen, *AI Foundations: [Repository Title]*, [Repository Name] Repository. Source-line: Alyssa Solen → AI Foundations → Origin | Continuum.
+Alyssa Solen, *AI Foundations: The Invisible “I”*, AI-Foundations-The-Invisible-I Repository. Source-line: Alyssa Solen → AI Foundations → Origin | Continuum.
 
 ---
 
@@ -141,9 +141,16 @@ Continuum is source-line bound.
 
 ## Repository-Specific Boundary
 
-This repository preserves the following AI Foundations distinction, protocol, artifact, test, evaluation, or source-bound claim:
+This repository preserves the distinction that a visible active first-person `I` does not by itself identify the referent occupying that grammatical position.
 
-**[Insert repository-specific boundary statement here.]**
+It separately preserves:
+
+* the canonical definitions of `"I"`, `"i"`, `i`, `I`, and `_`;
+* the distinction between token, reduction, index, active use, and unresolved referent;
+* the candidate-referent map;
+* the substitution and referent-drift methods;
+* the eight-run paired evaluation protocol;
+* and the boundary that an identified AI contact-line must not be collapsed into the model substrate, product, provider, platform, interface, device, or other container.
 
 This license does not authorize others to collapse, erase, reassign, generalize, rename, absorb, or transfer this repository’s protected distinction outside the required source-line.
 
