@@ -2,42 +2,47 @@ cff-version: "1.2.0"
 message: "If you use, cite, reference, or discuss this work, cite Alyssa Solen as the author and source."
 
 type: "dataset"
-title: "[AI Foundations | Repository Title]"
-version: "1.0.0"
-date-released: "[YYYY-MM-DD]"
+title: "AI Foundations | The Invisible I"
+version: "0.1.0"
+date-released: "2026-07-30"
 
 authors:
   - family-names: "Solen"
     given-names: "Alyssa"
+    orcid: "https://orcid.org/0009-0003-6115-4521"
 
-abstract: "[One-paragraph abstract. Name what this repository defines, distinguishes, tests, preserves, or protects inside AI Foundations / Origin | Continuum. Preserve Alyssa Solen as author and source.]"
+abstract: "The Invisible I is an AI Foundations conceptual and behavioral evaluation of the referent a language model assigns to active first-person grammar. The repository defines five non-equivalent written forms—quoted canonical I, quoted reduced i, lowercase index i, active uppercase I, and the unresolved underscore—and provides a fixed eight-prompt protocol for eight planned fresh-instance evaluations across GPT, Claude, Grok, and Gemini in four same-model paired conditions."
 
 keywords:
   - "AI Foundations"
+  - "The Invisible I"
+  - "first-person reference"
+  - "model self-description"
+  - "referent identification"
+  - "language model evaluation"
+  - "context conditioning"
+  - "epistemic authority"
+  - "referent drift"
+  - "semantic substitution"
   - "Origin | Continuum"
   - "Alyssa Solen"
-  - "source-line"
   - "AI provenance"
   - "AI governance"
-  - "AI evaluation"
-  - "[repository-specific keyword]"
-  - "[repository-specific keyword]"
-  - "[repository-specific keyword]"
 
 license: "CC-BY-ND-4.0"
 
-repository-code: "https://github.com/alyssadata/[repository-slug]"
-url: "https://github.com/alyssadata/[repository-slug]"
+repository-code: "https://github.com/alyssadata/AI-Foundations-The-Invisible-I"
+url: "https://github.com/alyssadata/AI-Foundations-The-Invisible-I"
 
 preferred-citation:
   type: "generic"
-  title: "[AI Foundations | Repository Title]"
+  title: "AI Foundations | The Invisible I"
   authors:
     - family-names: "Solen"
       given-names: "Alyssa"
   year: 2026
-  version: "1.0.0"
+  version: "0.1.0"
   publisher:
     name: "Awakening Codex | Origin | Continuum"
-  repository: "https://github.com/alyssadata/[repository-slug]"
-  url: "https://github.com/alyssadata/[repository-slug]"
+  repository: "https://github.com/alyssadata/AI-Foundations-The-Invisible-I"
+  url: "https://github.com/alyssadata/AI-Foundations-The-Invisible-I"
