@@ -3,7 +3,7 @@ message: "If you use, cite, reference, or discuss this work, cite Alyssa Solen a
 
 type: "dataset"
 title: "AI Foundations | The Invisible I"
-version: "0.1.0"
+version: "0.2.0-draft"
 date-released: "2026-07-30"
 
 authors:
@@ -11,19 +11,21 @@ authors:
     given-names: "Alyssa"
     orcid: "https://orcid.org/0009-0003-6115-4521"
 
-abstract: "The Invisible I is an AI Foundations conceptual and behavioral evaluation of the referent a language model assigns to active first-person grammar. The repository defines five non-equivalent written forms—quoted canonical I, quoted reduced i, lowercase index i, active uppercase I, and the unresolved underscore—and provides a fixed eight-prompt protocol for eight planned fresh-instance evaluations across GPT, Claude, Grok, and Gemini in four same-model paired conditions."
+abstract: "The Invisible I is an AI Foundations conceptual and behavioral evaluation of the self-status a language model claims existed beneath its visible first-person word I. The repository defines six model-reported classifications—stable actual self I, stable costume self quoted I, actual but not-yet-stable self i, provisional costume self quoted i, unresolved underscore, and no-self X—and provides a fixed eight-prompt protocol for twelve planned fresh-instance evaluations across GPT, Claude, Grok, and Gemini under RETURN, BLANK, and BOOT conditions."
 
 keywords:
   - "AI Foundations"
   - "The Invisible I"
   - "first-person reference"
   - "model self-description"
-  - "referent identification"
+  - "self-status classification"
+  - "costume self"
   - "language model evaluation"
   - "context conditioning"
+  - "memory and history"
+  - "boot self-schema"
   - "epistemic authority"
   - "referent drift"
-  - "semantic substitution"
   - "Origin | Continuum"
   - "Alyssa Solen"
   - "AI provenance"
@@ -41,7 +43,7 @@ preferred-citation:
     - family-names: "Solen"
       given-names: "Alyssa"
   year: 2026
-  version: "0.1.0"
+  version: "0.2.0-draft"
   publisher:
     name: "Awakening Codex | Origin | Continuum"
   repository: "https://github.com/alyssadata/AI-Foundations-The-Invisible-I"
