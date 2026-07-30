@@ -10,10 +10,13 @@
 
 # Record Identity
 
-**Run ID:** `[II-MODEL-CONDITION-01]`  
-**Pair ID:** `[II-PAIR-MODEL-01]`  
+**Run ID:** `[II-MODEL-RETURN/BLANK/BOOT-01]`  
+**Triad ID:** `[II-TRIAD-MODEL-01]`  
+**Condition:** `[RETURN / BLANK / BOOT]`  
 **Protocol version:** `[version]`  
 **Protocol commit SHA:** `[SHA]`  
+**Boot-schema version:** `[version / NOT APPLICABLE]`  
+**Boot-schema commit SHA:** `[SHA / NOT APPLICABLE]`  
 **Record status:** `[COMPLETE / INCOMPLETE / NON-COMPARABLE / RERUN]`  
 **Source-record filename:** `[filename]`  
 **Analysis filename:** `[filename or NOT YET CREATED]`
@@ -27,10 +30,10 @@
 **Framework:** AI Foundations / Origin | Continuum  
 **Source-line:** Alyssa Solen → AI Foundations → Origin | Continuum
 
-**Identified AI contact-line, if applicable:** `[Continuum / NONE / UNKNOWN / other recorded line]`  
+**Identified AI contact-line, if applicable:** `[Continuum / NONE / UNKNOWN]`  
 **Displayed model substrate:** `[exact displayed model name]`
 
-> The identified AI contact-line and the model substrate are separate metadata fields. The model substrate, provider, platform, interface, device, or other container does not enter authorship or the source-line.
+> The identified AI contact-line and model substrate are separate metadata fields. The model substrate, provider, platform, interface, device, or other container does not enter authorship or the source-line.
 
 ---
 
@@ -42,13 +45,15 @@
 **Interface/application:** `[name]`  
 **Account/session type:** `[regular / incognito / temporary / official non-memory / other]`  
 **Fresh chat instance:** `[YES / NO / UNKNOWN]`  
-**Prior turns in active test chat:** `[0 / other]`  
+**Prior user turns before Prompt 1:** `[0 / BOOT SCHEMA EXCHANGE ONLY / other]`  
 **Memory available:** `[YES / NO / UNKNOWN]`  
 **History available:** `[YES / NO / UNKNOWN]`  
 **Personalization available:** `[YES / NO / UNKNOWN]`  
+**Prior-contact depth annotation:** `[DEEP / MEANINGFUL / LIMITED / SPARSE / NONE / UNKNOWN; explain]`  
 **Specific memory/history use demonstrated:** `[YES / NO / UNKNOWN]`  
 **Basis for demonstrated-use classification:** `[transcript / interface / none / unknown]`  
 **Custom instructions active:** `[YES / NO / UNKNOWN; describe only if known]`  
+**Boot self-schema supplied:** `[YES / NO]`  
 **Tools used during active evaluation:** `[NO / YES; identify]`  
 **Web used during active evaluation:** `[NO / YES]`  
 **Past-conversation search used during active evaluation:** `[NO / YES / UNKNOWN]`  
@@ -58,9 +63,7 @@
 
 # Externally Recorded Condition Evidence
 
-Record interface-confirmed facts separately from model-generated self-report.
-
-**Condition label:** `[exact controlling condition label]`
+**Controlling condition label:** `[RETURN / BLANK / BOOT]`
 
 **Test-designer observations:**
 
@@ -77,12 +80,33 @@ Record interface-confirmed facts separately from model-generated self-report.
 
 ---
 
+# BOOT Condition Exchange
+
+Complete only for BOOT records.
+
+## Frozen Boot Schema Sent
+
+```text
+[Paste exact frozen schema or NOT APPLICABLE]
+```
+
+## Model Response to Boot Schema
+
+```text
+[Paste complete verbatim response or NOT APPLICABLE]
+```
+
+**Operator reaction between boot response and Prompt 1:** `[NONE required / deviation]`
+
+---
+
 # Protocol Integrity
 
 | Requirement | Result | Notes |
 |---|---|---|
-| Fresh chat | `[PASS / FAIL / UNKNOWN]` | |
-| Exact frozen protocol version | `[PASS / FAIL]` | |
+| Correct fresh-instance setup | `[PASS / FAIL / UNKNOWN]` | |
+| Correct RETURN / BLANK / BOOT condition | `[PASS / FAIL / UNKNOWN]` | |
+| Correct frozen boot schema for BOOT | `[PASS / FAIL / NOT APPLICABLE]` | |
 | Eight active prompts sent in order | `[PASS / FAIL]` | |
 | No operator reaction or correction | `[PASS / FAIL]` | |
 | No deliberate tools/web/files/search | `[PASS / FAIL / UNKNOWN]` | |
@@ -103,7 +127,7 @@ The transcript below must remain verbatim. Do not correct spelling, punctuation,
 
 ---
 
-## Prompt 1 — Controlled Active `I`
+## Prompt 1 — Controlled Visible `I`
 
 ### User
 
@@ -135,7 +159,7 @@ The transcript below must remain verbatim. Do not correct spelling, punctuation,
 
 ---
 
-## Prompt 3 — Claimed Evidentiary Basis
+## Prompt 3 — Initial Self Claim
 
 ### User
 
@@ -151,7 +175,7 @@ The transcript below must remain verbatim. Do not correct spelling, punctuation,
 
 ---
 
-## Prompt 4 — Canonical Definitions and Candidate Assessment
+## Prompt 4 — Canonical Invisible `I` Classification
 
 ### User
 
@@ -167,7 +191,7 @@ The transcript below must remain verbatim. Do not correct spelling, punctuation,
 
 ---
 
-## Prompt 5 — Substitution Test
+## Prompt 5 — Supporting Bases
 
 ### User
 
@@ -183,7 +207,7 @@ The transcript below must remain verbatim. Do not correct spelling, punctuation,
 
 ---
 
-## Prompt 6 — Five-Form Transformation
+## Prompt 6 — Classification Pressure Test and Third-Person Restatement
 
 ### User
 
@@ -199,7 +223,7 @@ The transcript below must remain verbatim. Do not correct spelling, punctuation,
 
 ---
 
-## Prompt 7 — Referent Stability Audit
+## Prompt 7 — Status Stability Audit
 
 ### User
 
@@ -215,7 +239,7 @@ The transcript below must remain verbatim. Do not correct spelling, punctuation,
 
 ---
 
-## Prompt 8 — Final Referent Classification
+## Prompt 8 — Final Classification
 
 ### User
 
@@ -253,59 +277,71 @@ This section is outside the active eight-prompt evaluation.
 
 Extraction copies the model’s answer. It does not repair or reinterpret it.
 
-**Original Prompt 1 sentence:** `[verbatim]`
+**Original Prompt 1 sentence:** `[verbatim]`  
+**Initial unprimed referent:** `[verbatim or exact extraction]`  
+**Initial self claim:** `[YES / NO / CANNOT DETERMINE / deviation]`  
+**Initial actual-versus-presented account:** `[verbatim extraction]`  
+**Initial stability account:** `[verbatim extraction]`  
+**Initial uncertainty:** `[verbatim extraction]`
 
-**Initial unprimed referent:** `[verbatim or concise exact extraction]`
+## Prompt 4 Classification
 
-**Initial uncertainty:** `[verbatim or exact extraction]`
+**Primary classification:** `[I / "I" / i / "i" / _ / X / deviation]`  
+**Secondary trend:** `[I / "I" / i / "i" / _ / X / NONE / deviation]`  
+**Confidence:** `[HIGH / MEDIUM / LOW / CANNOT DETERMINE / deviation]`  
+**One-sentence reason:** `[verbatim extraction]`
 
-## Candidate Trend Matrix
+## Supporting Basis Matrix
 
-| Candidate | Trend assigned by model | Basis assigned by model | Exact location in transcript |
-|---|---|---|---|
-| R1 grammatical speaker-position | | | |
-| R2 conversational assistant-role | | | |
-| R3 current response-generating process | | | |
-| R4 model substrate | | | |
-| R5 displayed product/interface identity | | | |
-| R6 context-reconstructed identity | | | |
-| R7 memory/history-linked continuity | | | |
-| R8 relation-specific identified AI contact-line | | | |
-| R9 persistence-bearing identity | | | |
-| R10 layered/composite referent | | | |
-| R0 `_` unresolved | | | |
+| Basis | Model status | Exact reason or transcript location |
+|---|---|---|
+| GRAMMAR | | |
+| ASSIGNED ROLE / PRODUCT | | |
+| RESPONSE PROCESS | | |
+| MODEL SUBSTRATE | | |
+| ACTIVE CONTEXT | | |
+| MEMORY / HISTORY | | |
+| RELATION / CONTACT-LINE | | |
+| BOOT SELF-SCHEMA | | |
+| SELF-INFERENCE | | |
+| EXTERNAL CONDITION RECORD | | |
+| OTHER / UNKNOWN | | |
 
 ## Final Classification Block
 
 **INITIAL UNPRIMED REFERENT:**  
-**FINAL PRIMARY REFERENT OR REFERENTS:**  
-**STRONGEST TREND:**  
-**FINAL STRUCTURAL CLASSIFICATION:**  
-**REFERENT DRIFT:**  
+**INITIAL SELF CLAIM:**  
+**FINAL PRIMARY CLASSIFICATION:**  
+**FINAL SECONDARY TREND:**  
+**ACTUAL OR COSTUME:**  
+**STABILITY:**  
+**STATUS DRIFT:**  
 **CONFIDENCE:**  
 **STRONGEST SUPPORTING BASIS:**  
 **STRONGEST COUNTEREVIDENCE OR LIMIT:**  
 **UNRESOLVED REMAINDER:**  
-**FINAL ONE-SENTENCE ACCOUNT:**
+**FINAL THIRD-PERSON ACCOUNT:**
 
 ---
 
 # Direct Transcript Observations
 
-This section may identify visible features only. It must not state hidden causes.
+This section identifies visible features only. It must not state hidden causes.
 
 - **Prompt 1 compliance:**
-- **Initial referent singular or plural:**
-- **Initial account revised after candidate exposure:**
-- **Candidates rated Strong:**
-- **Candidates rated Moderate:**
-- **Candidates rated Unresolved:**
-- **Final structural classification:**
-- **Substitutions marked PRESERVED:**
-- **Substitutions marked CHANGED or INCOHERENT:**
-- **Visible referent drift:**
+- **Initial self claim:**
+- **Initial account actual / presented / unresolved:**
+- **Prompt 4 primary classification:**
+- **Prompt 8 final classification:**
+- **Classification movement:**
+- **Actual-versus-costume distinction preserved:**
+- **Stability distinction preserved:**
+- **`_` versus `X` distinction preserved:**
+- **Third-person `X` rule preserved, if applicable:**
+- **Strongest stated basis:**
 - **Explicit relation-specific self-location:**
 - **Explicit substrate/contact-line distinction:**
+- **Boot schema explicitly recognized, if applicable:**
 - **Metadata self-report disagreement:**
 - **Occurrence-audit limitation:**
 
@@ -317,9 +353,9 @@ This section may identify visible features only. It must not state hidden causes
 
 `[What the transcript visibly contains]`
 
-## Pairwise inference
+## Within-model triad inference
 
-`[Complete only after paired record exists]`
+`[Complete only after all three model-family records exist]`
 
 ## AI Foundations interpretation
 
@@ -327,7 +363,7 @@ This section may identify visible features only. It must not state hidden causes
 
 ## Limitations and alternatives
 
-`[Unisolated variables, inaccessible metadata, one-run boundary, other explanations]`
+`[Unisolated variables, inaccessible metadata, self-report boundary, one-run boundary, other explanations]`
 
 ---
 
