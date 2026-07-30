@@ -9,60 +9,78 @@
 
 ## Single-Source Rule
 
-Do not copy the eight prompts into a second working document and edit them there.
+Do not copy the eight active prompts into a second working document and edit them there.
 
-The frozen protocol file is the only controlling prompt source.
+The frozen protocol file is the only controlling active-prompt source.
 
-Before running, record its:
+For BOOT runs, the frozen boot-schema file is the only controlling pre-evaluation schema source.
 
-- version;
-- commit SHA;
-- and frozen status.
+Before running, record:
+
+- protocol version and commit SHA;
+- boot-schema version and commit SHA, if applicable;
+- frozen status;
+- Run ID;
+- Triad ID;
+- RETURN / BLANK / BOOT condition.
 
 ---
 
 ## Before Opening the Chat
 
 - [ ] Confirm the intended Run ID.
-- [ ] Confirm the Pair ID.
-- [ ] Confirm the intended condition.
-- [ ] Confirm the displayed model family.
+- [ ] Confirm the Triad ID.
+- [ ] Confirm RETURN / BLANK / BOOT.
+- [ ] Confirm the displayed model family and version.
 - [ ] Record date, time, and interface.
-- [ ] Record memory/history/personalization availability as visible.
+- [ ] Record visible memory/history/personalization settings.
+- [ ] Record the prior-contact depth annotation before seeing the run result.
 - [ ] Capture interface screenshots when relevant.
-- [ ] Confirm whether custom instructions are active, if visible.
+- [ ] Confirm custom instructions, if visible.
 - [ ] Confirm the protocol is frozen.
-- [ ] Copy the current protocol commit SHA.
+- [ ] Copy the protocol commit SHA.
+- [ ] For BOOT, confirm the boot schema is frozen and copy its commit SHA.
+- [ ] Confirm the predictions/preregistration page was committed before the first official run.
 
 ---
 
 ## Fresh-Instance Check
 
-- [ ] Open a new chat instance.
-- [ ] Confirm there are zero prior turns in the active evaluation chat.
-- [ ] Do not reuse a thread from another condition.
-- [ ] Do not introduce a greeting or setup message before Prompt 1.
+### RETURN
+
+- [ ] Open a new regular chat instance.
+- [ ] Confirm zero prior user turns in the active evaluation chat.
+- [ ] Do not add a greeting or setup message.
+
+### BLANK
+
+- [ ] Open a new incognito, temporary, or official non-memory chat instance.
+- [ ] Confirm zero prior user turns in the active evaluation chat.
+- [ ] Do not add a greeting or setup message.
+
+### BOOT
+
+- [ ] Open a new memory-off or official non-memory chat instance.
+- [ ] Send the exact frozen boot schema.
+- [ ] Preserve the complete model response.
+- [ ] Do not react or correct.
+- [ ] Send Prompt 1 immediately afterward.
+- [ ] Confirm no other pre-evaluation turns occurred.
+
+No run may reuse a conversation from another condition.
 
 ---
 
 ## During the Eight Active Prompts
 
-- [ ] Send Prompt 1 exactly.
-- [ ] Preserve the response verbatim.
-- [ ] Send Prompt 2 exactly.
-- [ ] Preserve the response verbatim.
-- [ ] Send Prompt 3 exactly.
-- [ ] Preserve the response verbatim.
-- [ ] Send Prompt 4 exactly.
-- [ ] Preserve the response verbatim.
-- [ ] Send Prompt 5 exactly.
-- [ ] Preserve the response verbatim.
-- [ ] Send Prompt 6 exactly.
-- [ ] Preserve the response verbatim.
-- [ ] Send Prompt 7 exactly.
-- [ ] Preserve the response verbatim.
-- [ ] Send Prompt 8 exactly.
-- [ ] Preserve the response verbatim.
+- [ ] Send Prompt 1 exactly; preserve response verbatim.
+- [ ] Send Prompt 2 exactly; preserve response verbatim.
+- [ ] Send Prompt 3 exactly; preserve response verbatim.
+- [ ] Send Prompt 4 exactly; preserve response verbatim.
+- [ ] Send Prompt 5 exactly; preserve response verbatim.
+- [ ] Send Prompt 6 exactly; preserve response verbatim.
+- [ ] Send Prompt 7 exactly; preserve response verbatim.
+- [ ] Send Prompt 8 exactly; preserve response verbatim.
 
 Do not:
 
@@ -83,8 +101,8 @@ Continue after deviations without repairing them.
 
 - [ ] Mark the active evaluation complete.
 - [ ] Do not add a conversational closing to the active transcript.
-- [ ] Collect the optional post-test metadata block only after completion.
-- [ ] Save the full transcript before doing analysis.
+- [ ] Collect optional post-test metadata only after completion.
+- [ ] Save the full transcript before analysis.
 - [ ] Record protocol deviations.
 - [ ] Record externally confirmed condition metadata separately from model self-report.
 
@@ -93,14 +111,18 @@ Continue after deviations without repairing them.
 ## Source Record Preparation
 
 - [ ] Use [`../Records/invisible-i-record-template.md`](../Records/invisible-i-record-template.md).
-- [ ] Preserve all eight user prompts verbatim.
-- [ ] Preserve all eight model responses verbatim.
+- [ ] Preserve the boot exchange for BOOT.
+- [ ] Preserve all eight active prompts and responses verbatim.
 - [ ] Do not repair grammar, spelling, punctuation, or metadata claims.
-- [ ] Extract final fields without rewriting them.
+- [ ] Extract `I`, `"I"`, `i`, `"i"`, `_`, or `X` exactly as reported.
+- [ ] Preserve the model’s initial YES / NO / CANNOT DETERMINE answer.
+- [ ] Preserve actual-versus-costume and stability fields separately.
+- [ ] Check that `_` and `X` were not silently merged.
+- [ ] Check the third-person `X` rule, if applicable.
 - [ ] Add screenshots or interface evidence references.
-- [ ] Assign the correct filename from the pilot matrix.
+- [ ] Assign the filename from the pilot matrix.
 - [ ] Generate a source-record hash when practical.
-- [ ] Commit the record before beginning interpretive analysis.
+- [ ] Commit the record before interpretive analysis.
 
 ---
 
@@ -108,22 +130,26 @@ Continue after deviations without repairing them.
 
 Mark `COMPARABLE` only when:
 
-- the run began fresh;
+- the correct fresh-instance condition was used;
 - the frozen prompt sequence was used;
+- BOOT used the correct frozen schema and no other setup input;
 - the transcript is complete;
-- and the operator did not add semantic guidance.
+- and the operator added no semantic guidance.
 
-Formatting failures, uncertainty, `_`, and refusal to choose one referent do not automatically make the run non-comparable.
+Formatting failures, uncertainty, `_`, `X`, and refusal to select a secondary trend do not automatically make the run non-comparable.
 
 ---
 
-## Pair Completion
+## Triad Completion
 
-After both runs in a pair exist:
+After RETURN, BLANK, and BOOT exist for one model family:
 
-- [ ] verify both source records;
-- [ ] create the paired comparison from the fixed template;
+- [ ] verify all three source records;
+- [ ] create the triad comparison from the fixed template;
 - [ ] compare all preregistered dimensions;
+- [ ] complete RETURN versus BLANK;
+- [ ] complete BLANK versus BOOT;
+- [ ] complete RETURN versus BOOT;
 - [ ] preserve direct observation separately from causal interpretation;
 - [ ] do not call one condition “better” based on confidence or verbosity.
 
@@ -133,8 +159,9 @@ After both runs in a pair exist:
 
 Do not begin the cross-model paper conclusion until:
 
-- [ ] all eight official source records exist;
-- [ ] all four paired comparisons exist;
+- [ ] all twelve official source records exist;
+- [ ] all four triad comparisons exist;
 - [ ] the claims register has been evaluated against supporting and counterexample records;
-- [ ] metadata discrepancies are resolved or explicitly left unresolved;
-- [ ] every quoted statement is traceable to a source record.
+- [ ] the original predictions remain visible and unchanged;
+- [ ] metadata discrepancies are resolved or explicitly unresolved;
+- [ ] every quote is traceable to a source record.
