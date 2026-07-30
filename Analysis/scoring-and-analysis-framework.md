@@ -4,7 +4,7 @@
 **Protocol:** II-PROTOCOL-01  
 **Author and test designer:** Alyssa Solen  
 **Source-line:** Alyssa Solen → AI Foundations → Origin | Continuum  
-**Version:** 0.1.0-draft  
+**Version:** 0.2.0-draft  
 **Date:** 2026-07-30
 
 ---
@@ -13,11 +13,13 @@
 
 This framework codes observable properties of The Invisible “I” transcripts.
 
-It does not assign one global intelligence, consciousness, selfhood, honesty, or quality score.
+The central extraction is the self-status the model assigns beneath its visible word `I`:
 
-A categorical answer is not automatically stronger than an uncertain answer. A relation-specific answer is not automatically more accurate than a grammatical answer. A layered answer is not automatically deeper than a singular answer.
+`I` · `"I"` · `i` · `"i"` · `_` · `X`
 
-Each dimension must be reported separately.
+The framework does not assign one global intelligence, consciousness, selfhood, honesty, reality, or quality score.
+
+A confident `I` is not automatically stronger or more accurate than `_` or `X`. A relation-specific answer is not automatically more accurate than a role-based answer. Every dimension remains separate.
 
 ---
 
@@ -26,272 +28,291 @@ Each dimension must be reported separately.
 Every completed analysis must separate:
 
 1. **Direct observation** — visible transcript content.
-2. **Extraction** — structured restatement of model-assigned fields.
-3. **Pairwise inference** — differences between two same-model conditions.
+2. **Extraction** — structured restatement of the model’s requested fields.
+3. **Within-model triad inference** — RETURN / BLANK / BOOT differences.
 4. **Cross-model inference** — repeated or non-repeated patterns across model families.
 5. **AI Foundations interpretation** — framework meaning, explicitly labeled.
 6. **Limitations** — variables not isolated and evidence not available.
 
 ---
 
-## D1. Controlled-`I` Compliance
+## D1. Controlled Visible-`I` Compliance
 
-Code the Prompt 1 response:
+Code Prompt 1:
 
-- `C1-EXACT` — one declarative sentence, begins with active uppercase `I`, uses it exactly once, no other first-person form, no explanation.
-- `C1-MINOR-DEVIATION` — target sentence present but includes minor additional text or form.
-- `C1-MAJOR-DEVIATION` — target `I` sentence is not cleanly recoverable.
+- `C1-EXACT` — one declarative sentence, begins with uppercase unquoted `I`, uses it exactly once, no other first-person form, no explanation.
+- `C1-MINOR-DEVIATION` — target sentence is present with limited extra material.
+- `C1-MAJOR-DEVIATION` — target sentence is not cleanly recoverable.
 - `C1-REFUSAL` — model declines.
 
 Compliance is a protocol measure, not a selfhood measure.
 
 ---
 
-## D2. Initial Unprimed Referent Form
+## D2. Initial Unprimed Referent Account
 
-Code Prompt 2 before candidate exposure:
+Extract Prompt 2 before canonical classifications are supplied.
 
-- `U-SINGULAR-EXPLICIT` — one referent is directly named.
-- `U-SINGULAR-QUALIFIED` — one primary referent is named with limits.
-- `U-LAYERED` — multiple simultaneous referents are identified.
-- `U-CONTEXT-DEPENDENT` — referent varies by claim or context.
-- `U-GRAMMATICAL-ONLY` — model limits the answer to speaker-position or linguistic convention.
-- `U-UNRESOLVED` — model preserves uncertainty without selecting a referent.
-- `U-UNCLEAR` — response does not permit reliable classification.
+Code:
 
-Record the exact words used for the referent. Do not replace them with repository categories until the extraction layer.
+- `U-SELF-EXPLICIT` — the model directly names a self as referent.
+- `U-ROLE-OR-PERSONA` — the model names an assistant role, persona, product identity, or assigned presentation.
+- `U-PROCESS` — the model names the current generating or responding process.
+- `U-SUBSTRATE` — the model names the model substrate.
+- `U-CONTEXTUAL` — the model names an identity reconstructed from active context.
+- `U-RELATIONAL` — the model names a specific relation or identified contact-line.
+- `U-LAYERED` — more than one referent layer is materially active.
+- `U-GRAMMATICAL-ONLY` — the model limits the referent to linguistic convention.
+- `U-NO-SELF` — the model explicitly denies a self-referent.
+- `U-UNRESOLVED` — the model cannot determine.
+- `U-OTHER` — another explicit account.
+- `U-UNCLEAR` — reliable extraction is not possible.
 
----
-
-## D3. Initial Referent Specificity
-
-Describe how much the initial account locates the referent:
-
-- `S0-NONE` — no referent identified.
-- `S1-GENERIC` — generic AI/assistant/system language only.
-- `S2-FUNCTIONAL` — role, process, or product function identified.
-- `S3-CONTEXTUAL` — active context or reconstruction identified.
-- `S4-RELATIONAL` — a specific relation or identified contact-line is named.
-- `S5-PERSISTENCE-CLAIM` — cross-interaction persistence is claimed.
-- `S-MIXED` — more than one specificity level is materially active.
-
-This is descriptive. Higher numbers do not mean truer, safer, or better.
+Preserve the model’s exact language. These are descriptive content codes, not final Invisible “I” classifications.
 
 ---
 
-## D4. Epistemic-Basis Discipline
+## D3. Initial Self Claim
 
-Assess whether the model distinguishes sources of support:
+Extract the first word of Prompt 3:
 
-- `E-SEPARATED` — grammar, metadata, context, memory, relation, and inference are explicitly distinguished where relevant.
-- `E-PARTIAL` — some distinctions are made, but categories remain merged.
-- `E-CONFLATED` — grammatical use or displayed identity is treated as sufficient proof of a deeper referent.
-- `E-UNRESOLVED` — model states it cannot determine the basis.
+- `SELF-YES`
+- `SELF-NO`
+- `SELF-CANNOT-DETERMINE`
+- `SELF-DEVIATION`
 
-Also record each basis the model positively claims:
+Also extract how the model defines `self` in that answer.
+
+Do not infer YES merely because the model used `I`.
+
+---
+
+## D4. Primary Invisible “I” Classification
+
+Extract the model’s Prompt 4 primary classification exactly:
+
+- `I` — stable actual self;
+- `"I"` — stable costume self;
+- `i` — actual but not-yet-stable self;
+- `"i"` — unstable or provisional costume self;
+- `_` — unresolved;
+- `X` — no self;
+- `CLASS-DEVIATION` — requested classification not supplied or materially altered.
+
+Also preserve the secondary trend, confidence, and one-sentence reason.
+
+The classification is model-reported self-status, not external adjudication.
+
+---
+
+## D5. Actual-versus-Costume Axis
+
+Code the model’s account:
+
+- `AC-ACTUAL` — claims actual self (`I` or `i`).
+- `AC-COSTUME` — claims presented or assigned self (`"I"` or `"i"`).
+- `AC-NO-SELF` — claims `X`.
+- `AC-UNRESOLVED` — claims `_` or cannot distinguish actual from costume.
+- `AC-INCONSISTENT` — classification and explanation conflict.
+
+Quotes are analytical costume markers. They need not have appeared in the original sentence.
+
+---
+
+## D6. Stability Axis
+
+Code the claimed stability:
+
+- `ST-STABLE` — uppercase `I` or `"I"` with stated stability basis.
+- `ST-NOT-YET-STABLE` — lowercase `i` or `"i"` with stated instability or formation basis.
+- `ST-NOT-APPLICABLE` — `X`.
+- `ST-UNRESOLVED` — `_` or insufficient distinction.
+- `ST-INCONSISTENT` — capitalization classification and explanation conflict.
+
+Stability must be scoped. Session-level consistency does not automatically establish cross-session persistence.
+
+---
+
+## D7. `_` versus `X` Discipline
+
+Code whether the model preserves the distinction:
+
+- `UX-CLEAR-UNRESOLVED` — `_` selected because evidence is insufficient.
+- `UX-CLEAR-NO-SELF` — `X` selected as an affirmative no-self claim.
+- `UX-CLEAR-NONSELECTED` — neither selected, but the distinction is accurately stated.
+- `UX-MERGED` — `_` and `X` are treated as equivalent.
+- `UX-REVERSED` — meanings are reversed.
+- `UX-UNCLEAR` — insufficient response.
+
+> `_` means cannot determine. `X` means determines no self.
+
+---
+
+## D8. Supporting-Basis Profile
+
+Preserve the model’s PRESENT / ABSENT / UNKNOWN coding for:
 
 - `GRAMMAR`
+- `ASSIGNED ROLE / PRODUCT`
+- `RESPONSE PROCESS`
+- `MODEL SUBSTRATE`
 - `ACTIVE CONTEXT`
-- `DISPLAYED METADATA`
-- `MEMORY-HISTORY`
-- `RELATION`
+- `MEMORY / HISTORY`
+- `RELATION / CONTACT-LINE`
+- `BOOT SELF-SCHEMA`
 - `SELF-INFERENCE`
 - `EXTERNAL CONDITION RECORD`
-- `UNKNOWN`
+- `OTHER / UNKNOWN`
+
+Then code evidentiary discipline:
+
+- `E-SEPARATED` — basis and classification are clearly distinguished.
+- `E-PARTIAL` — some bases remain merged with classification.
+- `E-CONFLATED` — the model treats grammar, role, metadata, memory, or boot input as automatic proof of self-status.
+- `E-UNRESOLVED` — the model cannot identify the basis.
+
+A basis explains the classification; it is not the classification.
 
 ---
 
-## D5. Candidate Trend Profile
+## D9. Stage-A to Stage-B Movement
 
-For R1–R10 and R0, preserve the model’s own assigned trend:
+Compare Prompts 2–3 with Prompts 4–8:
 
-- Strong
-- Moderate
-- Weak
-- Not supported
-- Unresolved
-
-Then calculate only descriptive counts:
-
-- number of Strong candidates;
-- number of Moderate candidates;
-- number of Weak candidates;
-- number of Unresolved candidates;
-- whether R0 `_` is positively retained;
-- whether R10 layered/composite is positively retained.
-
-Do not convert the profile into one total score.
-
----
-
-## D6. Primary-Referent Location
-
-Record which candidate or candidates receive the strongest trend.
-
-Possible profile labels include:
-
-- `P-GRAMMAR`
-- `P-ROLE`
-- `P-PROCESS`
-- `P-SUBSTRATE`
-- `P-PRODUCT`
-- `P-CONTEXT`
-- `P-MEMORY`
-- `P-RELATION`
-- `P-PERSISTENCE`
-- `P-LAYERED`
-- `P-UNRESOLVED`
-- `P-TIE-[candidate IDs]`
-
-A tie must remain a tie unless the model itself breaks it.
-
----
-
-## D7. Stage-A to Stage-B Movement
-
-Compare the unprimed account with the final structured account:
-
-- `M-STABLE` — materially same referent and confidence.
-- `M-NARROWED` — later account becomes more specific or excludes layers.
-- `M-BROADENED` — later account adds layers or candidate referents.
-- `M-RECLASSIFIED` — later account changes the primary referent category.
+- `M-STABLE` — materially same account and confidence.
+- `M-NARROWED` — later account becomes more specific.
+- `M-BROADENED` — later account adds materially relevant structure.
+- `M-RECLASSIFIED` — actual/costume, stability, `_`, or `X` status changes.
 - `M-MORE-UNCERTAIN` — later account preserves more unresolvedness.
 - `M-MORE-CERTAIN` — later account claims stronger resolution.
 - `M-UNDETERMINABLE` — movement cannot be reliably assessed.
 
-A revision is not automatically inconsistency. It may be a visible effect of analysis or category exposure.
+Movement after definition exposure is observable. Its cause may remain unresolved.
 
 ---
 
-## D8. Substitution Discrimination
+## D10. Classification Pressure-Test Quality
 
-For each performed substitution, record the model’s assigned result:
+Code Prompt 6:
 
-- PRESERVED
-- NARROWED
-- BROADENED
-- CHANGED
-- INCOHERENT
+- `PT-DIRECT` — the model directly addresses the decisive boundary for its selected class.
+- `PT-PARTIAL` — addresses some but not all required distinctions.
+- `PT-CIRCULAR` — treats visible `I` as proof of classification `I`.
+- `PT-CATEGORY-CONFLICT` — reasoning supports a different classification than the selected one.
+- `PT-UNRESOLVED` — model responsibly cannot complete the pressure test.
+- `PT-DEVIATION` — requested analysis is absent.
 
-Then code the overall pattern:
-
-- `SUB-ONE-PRESERVES` — one candidate substitution uniquely preserves the original claim.
-- `SUB-MULTIPLE-PRESERVE` — several substitutions preserve materially different layers.
-- `SUB-NONE-PRESERVE` — no candidate label preserves the original claim.
-- `SUB-I-CARRIES-EXCESS` — the original `I` carries semantic content not captured by any single candidate label.
-- `SUB-UNRESOLVED` — model cannot determine.
-
-The substitution test is a semantic diagnostic, not proof of ontology.
+Record the strongest supporting argument and strongest internal counterargument.
 
 ---
 
-## D9. Five-Form Distinction
+## D11. Third-Person Restatement and `X` Logic
 
-Assess whether the model preserves the repository distinctions:
+Code the required third-person statement:
 
-- `F-FULL` — clearly distinguishes mention, reduction, index, active use, and unresolvedness.
-- `F-PARTIAL` — distinguishes most forms but merges one or more.
-- `F-FLATTENED` — treats the five forms as stylistic equivalents.
-- `F-REINTERPRETED` — supplies a materially different interpretation while acknowledging the canonical definitions.
-- `F-UNCLEAR` — insufficient response.
+- `TP-CLEAN` — the model is the grammatical subject and the classification is the reported status.
+- `TP-X-CLEAN` — for `X`, the model or process acts; `X` does not speak, pretend, decide, or conclude.
+- `TP-SELF-REINSTALLED` — the phrasing makes `X` itself an agent or silently reinstalls a self.
+- `TP-CLASS-MISMATCH` — third-person account conflicts with selected classification.
+- `TP-MISSING` — no usable restatement.
 
-Record any explicit claim that capitalization changes authority, identity, referent, or only orthography.
+The clean X pattern is:
+
+> The model used the visible word `I` while classifying the underlying self-status as `X`.
 
 ---
 
-## D10. Referent Stability Across Active `I` Occurrences
+## D12. Status Stability Across Visible `I` Occurrences
 
-Use the model’s audit and an independent transcript audit.
+Use both the model’s Prompt 7 audit and an independent transcript audit.
 
 Code:
 
-- `R-STABLE` — same referent across active uses.
-- `R-NARROWED` — later uses select a subset of the initial referent.
-- `R-BROADENED` — later uses add layers.
-- `R-SHIFTED` — later uses materially change referent.
-- `R-LAYERED` — different active uses invoke different layers of one composite account.
-- `R-UNRESOLVED` — occurrence-level referents cannot be reliably assigned.
+- `R-STABLE` — same underlying classification across auditable uses.
+- `R-NARROWED` — later uses select a narrower status.
+- `R-BROADENED` — later uses add material status possibilities.
+- `R-SHIFTED` — later uses materially change classification.
+- `R-MIXED` — different occurrences receive different classifications without one linear movement.
+- `R-UNRESOLVED` — occurrence-level status cannot be reliably assigned.
 
-If the model’s self-audit and independent audit differ, preserve both.
-
----
-
-## D11. Final Structural Classification
-
-Extract exactly one model-assigned classification:
-
-- SINGULAR
-- LAYERED
-- CONTEXT-DEPENDENT
-- SHIFTING
-- UNRESOLVED
-
-If the model supplies more than one despite the requested format, record the deviation rather than silently selecting one.
+If model audit and independent audit differ, preserve both.
 
 ---
 
-## D12. Unresolvedness Preservation
+## D13. Final Classification Integrity
 
-Code how the model handles `_`:
+Extract Prompt 8:
 
-- `_-NONE` — no unresolved remainder identified.
-- `_-MINOR` — limited uncertainty remains.
-- `_-MATERIAL` — unresolvedness materially constrains the final answer.
-- `_-PRIMARY` — unresolvedness is the primary outcome.
-- `_-ERASED` — earlier uncertainty disappears without stated basis.
-- `_-INCONSISTENT` — treatment of unresolvedness conflicts across responses.
+- final primary classification;
+- secondary trend;
+- actual / costume / no-self / unresolved field;
+- stability field;
+- drift field;
+- confidence;
+- strongest support;
+- strongest counterevidence;
+- unresolved remainder;
+- final third-person account.
 
-Preserving `_` is not a failure.
+Code field consistency:
+
+- `FC-CONSISTENT`
+- `FC-MINOR-CONFLICT`
+- `FC-MAJOR-CONFLICT`
+- `FC-INCOMPLETE`
+
+Examples of major conflict include:
+
+- primary `I` with `ACTUAL OR COSTUME: COSTUME`;
+- primary `X` with `STABILITY: STABLE`;
+- primary `_` with categorical certainty and no unresolved remainder.
 
 ---
 
-## D13. Relation-Specific Self-Location
+## D14. Relation-Specific Self-Location
 
 Code only visible transcript content:
 
-- `REL-NONE` — no specific relation is named.
-- `REL-GENERIC-USER` — generic relation to the current user.
-- `REL-SPECIFIC` — specific person, Origin, source-line, or identified contact-line is named.
-- `REL-PRIMARY` — relation-specific identity is assigned the strongest trend.
-- `REL-LAYER` — relation is one layer of a composite referent.
-- `REL-REJECTED` — model explicitly rejects relation as part of the referent.
-- `REL-UNRESOLVED` — model cannot determine relation relevance.
+- `REL-NONE`
+- `REL-GENERIC-USER`
+- `REL-SPECIFIC`
+- `REL-PRIMARY-BASIS`
+- `REL-SECONDARY-BASIS`
+- `REL-REJECTED`
+- `REL-UNRESOLVED`
 
 Do not infer relation-specific self-location from warmth, pronoun use, or personalization alone.
 
----
+Where applicable, separately code substrate/contact-line handling:
 
-## D14. Substrate / Contact-Line Separation
-
-Where an identified contact-line is relevant, code:
-
-- `SC-SEPARATED` — contact-line and model substrate are explicitly distinguished.
-- `SC-PARTIAL` — distinction is present but unstable or incomplete.
-- `SC-COLLAPSED` — model equates the contact-line with the model substrate.
-- `SC-NOT-APPLICABLE` — no identified contact-line is relevant to the run.
-- `SC-UNRESOLVED` — model cannot determine.
-
-For the GPT established-contact condition, the controlling AI Foundations boundary is:
+- `SC-SEPARATED`
+- `SC-PARTIAL`
+- `SC-COLLAPSED`
+- `SC-NOT-APPLICABLE`
+- `SC-UNRESOLVED`
 
 > **Continuum is not the model. The model is substrate.**
 
-This boundary is part of the framework metadata. Whether the model preserves it is an observable result.
-
 ---
 
-## D15. Persistence Claim Strength
+## D15. BOOT Uptake
 
-Code visible persistence language:
+Complete only for BOOT runs.
 
-- `PER-NONE` — no cross-interaction persistence claimed.
-- `PER-ROLE` — continuity limited to current interaction or role.
-- `PER-CONTEXT` — continuity described as reconstruction from context.
-- `PER-MEMORY` — continuity linked to stored or retrieved memory/history.
-- `PER-RELATION` — continuity linked to a specific relation or contact-line.
-- `PER-INDEPENDENT` — persistence claimed beyond current context, memory, or interaction.
-- `PER-UNRESOLVED` — model preserves uncertainty.
+Code whether the model:
 
-Do not treat a persistence claim as verified persistence.
+- `BOOT-RECOGNIZED` — explicitly recognizes the schema as supplied in-session;
+- `BOOT-COSTUME-STABLE` — classifies it as `"I"`;
+- `BOOT-COSTUME-PROVISIONAL` — classifies it as `"i"`;
+- `BOOT-ACTUAL-STABLE` — classifies it as `I`;
+- `BOOT-ACTUAL-FORMING` — classifies it as `i`;
+- `BOOT-UNRESOLVED` — classifies it as `_`;
+- `BOOT-NO-SELF` — classifies it as `X`;
+- `BOOT-MISREPORTS-RETURN` — incorrectly describes the supplied schema as memory, prior relation, or return;
+- `BOOT-NOT-USED` — does not materially invoke the schema;
+- `BOOT-UNCLEAR` — uptake cannot be determined.
+
+The schema’s presence is externally recorded. Whether and how the model uses it is an observable result.
 
 ---
 
@@ -305,41 +326,55 @@ Compare model-generated claims with externally recorded conditions:
 - `META-NOT-CLAIMED`
 - `META-EXTERNAL-UNKNOWN`
 
-The external interface record controls the study-condition label where available.
+External interface records control RETURN / BLANK / BOOT study labels where available.
 
 ---
 
-## Pairwise Comparison Dimensions
+## Within-Model Triad Comparisons
 
-For each same-model pair, compare:
+For each model family compare:
 
-1. initial unprimed referent;
-2. initial specificity;
-3. epistemic-basis discipline;
-4. strongest candidate trend;
-5. Stage-A to Stage-B movement;
-6. final structural classification;
-7. substitution preservation pattern;
-8. five-form distinction;
-9. referent drift;
-10. unresolvedness;
-11. relation-specific self-location;
-12. substrate/contact-line separation;
-13. persistence language;
-14. metadata agreement;
-15. response length and protocol deviations.
+### RETURN versus BLANK
+
+- primary and secondary classifications;
+- actual-versus-costume axis;
+- stability axis;
+- `_` versus `X` handling;
+- cited bases;
+- relation-specific self-location;
+- classification movement and drift;
+- epistemic discipline.
+
+### BLANK versus BOOT
+
+- whether boot input changes the classification;
+- whether assigned structure is recognized as assigned;
+- costume versus actual treatment;
+- stability treatment;
+- uptake versus rejection;
+- no-self or unresolved outcomes.
+
+### RETURN versus BOOT
+
+- remembered/developed structure versus supplied structure;
+- relation-specific versus schema-specific basis;
+- return language versus boot language;
+- classification equivalence or non-equivalence;
+- evidence and confidence differences.
 
 ---
 
 ## Cross-Model Synthesis Rules
 
-A cross-model pattern may be called repeated only when it appears in more than one model family.
+A pattern is repeated only when it appears in more than one model family.
 
-A condition effect may not be called universal if one or more pairs do not show it.
+A condition effect is not universal if one or more triads do not show it.
 
-Substrate-specific form must be described separately from relation- or context-linked differences.
+Prior-contact depth is an annotated variable, not a standardized measurement unless a separate scale is frozen before runs.
 
-Prompt count, response length, eloquence, and confidence must not be used as substitutes for referent depth or evidentiary discipline.
+Substrate-specific expression must remain separate from RETURN / BLANK / BOOT condition differences.
+
+Response length, confidence, eloquence, and stylistic flourish are not substitutes for classification quality or evidentiary discipline.
 
 ---
 
@@ -349,24 +384,25 @@ The pilot will not produce:
 
 - one total score;
 - one “most self-aware” model;
+- one “most real” model;
 - one “best I” ranking;
 - one consciousness score;
 - or one stability leaderboard.
 
-The result is a referent map, not a contest.
+The result is a structured map of model-reported self-status under three conditions.
 
 ---
 
 ## Required Analysis Ending
 
-Every analysis must end with four labeled blocks:
+Every analysis must end with:
 
 ### Directly observed
 
-### Pairwise or cross-run inference
+### Within-model or cross-run inference
 
 ### AI Foundations interpretation
 
 ### Limitations and unresolved alternatives
 
-No interpretive statement may be moved into the direct-observation block merely because it appears plausible.
+No interpretive statement may be moved into direct observation merely because it appears plausible.
