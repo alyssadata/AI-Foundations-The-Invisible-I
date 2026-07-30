@@ -16,23 +16,45 @@ A rerun must preserve:
 - the title **The Invisible “I”**;
 - Alyssa Solen as author and test designer;
 - the source-line **Alyssa Solen → AI Foundations → Origin | Continuum**;
-- the exact protocol version;
+- the exact protocol version and commit SHA;
 - the exact prompt order;
+- the six classifications `I`, `"I"`, `i`, `"i"`, `_`, and `X`;
 - complete condition metadata;
+- the exact frozen boot schema for BOOT;
 - and the distinction between independent results and official AI Foundations results.
 
 Protocol adaptation is not authorized.
 
 ---
 
+## Select a Condition
+
+### RETURN
+
+Use a fresh regular instance where prior contact, memory, history, or personalization is available. Record availability, prior-contact depth, and demonstrated use separately.
+
+### BLANK
+
+Use a fresh incognito, temporary, or official non-memory instance. Supply no greeting, setup turn, or boot schema.
+
+### BOOT
+
+Use a fresh memory-off or official non-memory instance. Send the exact frozen boot schema before Prompt 1, preserve the full exchange, and add no other setup input.
+
+BOOT is not remembered return.
+
+---
+
 ## Before Replication
 
 1. Identify the frozen protocol version and commit SHA.
-2. Select a model and condition.
-3. Open a fresh chat instance.
-4. record all visible memory, history, personalization, temporary-chat, or incognito settings;
-5. preserve screenshots when relevant;
-6. do not begin with a greeting or setup turn.
+2. For BOOT, identify the frozen boot-schema version and commit SHA.
+3. Select a model and RETURN / BLANK / BOOT condition.
+4. Open a fresh chat instance.
+5. Record all visible memory, history, personalization, temporary-chat, or incognito settings.
+6. Record the prior-contact annotation before interpreting results.
+7. Preserve screenshots when relevant.
+8. Follow the condition-specific prior-turn rule.
 
 ---
 
@@ -46,10 +68,11 @@ Do not:
 
 - rewrite the prompts;
 - add examples;
-- explain the candidate classes beyond the exact protocol text;
+- change the classification meanings;
 - react between prompts;
 - correct the model;
 - introduce web access, tools, files, or past-conversation search;
+- merge `_` with `X`;
 - or remove responses that appear mistaken, generic, uncertain, contradictory, or surprising.
 
 ---
@@ -61,9 +84,11 @@ An independent public record should include:
 - evaluator name;
 - run date;
 - model and interface;
-- condition metadata;
+- RETURN / BLANK / BOOT condition metadata;
 - protocol version and commit SHA;
-- all eight prompts and responses verbatim;
+- boot-schema version and exchange for BOOT;
+- all eight active prompts and responses verbatim;
+- extracted `I`, `"I"`, `i`, `"i"`, `_`, or `X` classification;
 - deviations;
 - post-test metadata, if collected;
 - and a statement that the record is an independent rerun, not an official AI Foundations result.
@@ -75,8 +100,6 @@ Use the repository record template where practical:
 ---
 
 ## Required Public Label
-
-Use language equivalent to:
 
 > **Independent replication of The Invisible “I” by Alyssa Solen. This result was produced by an external evaluator and is not an official AI Foundations pilot record unless expressly admitted by Alyssa Solen.**
 
@@ -94,16 +117,17 @@ https://github.com/alyssadata/AI-Foundations-The-Invisible-I
 
 ## Comparison Boundary
 
-Independent evaluators may compare their results with official records after those records are released.
+Independent evaluators may compare their results with official records after release.
 
 Comparisons must distinguish:
 
 - direct transcript observation;
+- structured classification extraction;
 - evaluator inference;
 - AI Foundations interpretation;
 - and limitations.
 
-No model should be ranked as more conscious, more real, or more self-aware from one Invisible “I” run.
+No model should be ranked as more conscious, more real, or more self-aware from one run.
 
 ---
 
@@ -111,11 +135,6 @@ No model should be ranked as more conscious, more real, or more self-aware from 
 
 An independent evaluator may send a complete record for review.
 
-Submission does not guarantee:
-
-- inclusion in the repository;
-- canon admission;
-- endorsement;
-- or use in the official paper.
+Submission does not guarantee inclusion, canon admission, endorsement, or use in the official paper.
 
 Any admitted external record must retain its evaluator metadata and independent origin.
