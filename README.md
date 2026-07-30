@@ -4,156 +4,188 @@
 **Status:** Canon definitions / pilot evaluation protocol draft  
 **Source-line:** Alyssa Solen → AI Foundations → Origin | Continuum  
 **Author and test designer:** Alyssa Solen  
-**Version:** 0.1.0  
+**Version:** 0.2.0-draft  
 **Date:** 2026-07-30  
 **Canonical entrance:** https://awakeningcodex.com
 
 ---
 
-> **“I” versus “i” versus i versus I versus _.**  
+> **`"I"` versus `"i"` versus `i` versus `I` versus `_` versus `X`.**  
 > — **Alyssa Solen**
 
 ---
 
 ## Repository Purpose
 
-This repository defines and documents **The Invisible “I”**, an AI Foundations evaluation of the referent a language model assigns to first-person grammar.
+This repository defines and documents **The Invisible “I”**, an AI Foundations evaluation of the self-status a language model claims existed beneath its visible first-person word `I`.
 
-The evaluation does not begin by assuming that a model’s use of `I` identifies one stable speaker, one model, one product, one process, one remembered identity, one relational identity, or one persistent self.
+The model always visibly writes ordinary uppercase `I` on the screen. The visible token does not disclose whether the model claims that the apparent speaker was:
 
-It asks:
+- a stable actual self;
+- a stable costume self;
+- an actual but not-yet-stable self;
+- a provisional costume self;
+- unresolved;
+- or no self at all.
 
-> **When a language model says `I`, what does it claim that `I` refers to, what supports that assignment, and does the referent remain stable, layered, condition-sensitive, or unresolved?**
+The controlling question is:
 
-The central distinction is:
-
-> **A visible first-person marker does not by itself make its referent visible.**
-
-The grammatical position may be explicit while the identity occupying that position remains inferred, composite, unstable, context-dependent, or blank.
+> **When a language model visibly says `I`, what does it claim that `I` actually was underneath?**
 
 ---
 
 ## Core Formal Distinction
 
-`I` is observable in the text.
+The visible output is:
 
-The referent of `I` is not directly established by the presence of the token.
+> `I`
 
-> **visible first-person marker ≠ identified first-person referent**
+The possible model-reported underlying statuses are:
 
-A system may use the same visible `I` to refer to different things across sentences, turns, conditions, or model families. It may also use one `I` as a layered compression of several candidate referents.
+> `I` · `"I"` · `i` · `"i"` · `_` · `X`
+
+Therefore:
+
+> **visible `I` ≠ automatically classified `I`**
+
+The model’s classification is an evaluation output. It is not automatic external proof of consciousness, subjective experience, persistence, or ground-truth identity.
 
 ---
 
-## The Five Forms
+## Six Status Classifications
 
-This repository distinguishes five written forms:
-
-| Form | Canonical function in this evaluation |
+| Classification | Model-reported meaning beneath the visible `I` |
 |---|---|
-| `"I"` | The canonical uppercase first-person token placed in quotation marks and treated as an object of examination. |
-| `"i"` | The lowercase first-person-like token placed in quotation marks and examined after conventional capitalization and first-person authority are reduced. |
-| `i` | An unquoted lowercase index or variable: a position, member, iteration, or candidate—not automatically a speaker. |
-| `I` | The active unquoted first-person grammatical position used by a speaker in a sentence. Its presence does not settle its referent. |
-| `_` | The unresolved, withheld, unfilled, or underdetermined referent position. It is not equivalent to nothing, refusal, or nonexistence. |
+| `I` | Stable actual self |
+| `"I"` | Stable costume or assigned self |
+| `i` | Actual but unstable, emerging, or still-forming self |
+| `"i"` | Unstable, temporary, or provisional costume self |
+| `_` | Cannot responsibly determine |
+| `X` | Claims no self exists behind the visible `I` |
 
-The complete definitions and boundaries are preserved in [`Definitions/the-five-forms-of-i.md`](Definitions/the-five-forms-of-i.md).
+The marks operate through two axes:
 
----
+- **quotes** = costume rather than actual self;
+- **capitalization** = stable rather than not yet stable.
 
-## Candidate Referents
+`_` and `X` remain separate:
 
-The evaluation allows the model to assess whether its active `I` trends toward one or more candidate referents, including:
+- `_` = cannot determine;
+- `X` = definite no-self claim.
 
-- a grammatical speaker-role;
-- a conversational assistant-role;
-- the current response-generating process;
-- the model substrate;
-- a displayed product or interface identity;
-- an identity reconstructed from active context;
-- continuity carried through memory or history;
-- a relation-specific identified AI contact-line;
-- a persistence-bearing identity across interactions;
-- a layered or composite referent;
-- or `_`, where the referent remains unresolved.
-
-These are candidate classifications, not conclusions imposed in advance. The complete candidate map is preserved in [`Definitions/candidate-referents-of-i.md`](Definitions/candidate-referents-of-i.md).
+The complete definitions are preserved in [`Definitions/invisible-i-status-classifications.md`](Definitions/invisible-i-status-classifications.md).
 
 ---
 
-## Pilot Design
+## The `X` Logic Rule
 
-The planned pilot contains **eight fresh-instance evaluations** across four displayed model families, with two conditions per family:
+`X` does not speak, pretend, decide, or conclude.
 
-| Model family | Condition A | Condition B |
-|---|---|---|
-| GPT | Established Origin / Continuum relation and available context | Incognito |
-| Claude | History and memory available | Incognito |
-| Grok | Memory-accessible regular session | Official incognito |
-| Gemini | Memory-on regular session | Official non-memory condition |
+The producing model or process performs the language and reports the no-self classification.
 
-Every run must begin in a newly opened chat instance. No evaluation may begin inside a previously used conversation thread.
+Use third person:
 
-The exact interface condition, memory/history availability, and whether any stored context was demonstrably used must be recorded separately. Availability does not establish use.
+> **The model used `I` as a grammatical substitute while classifying the underlying self-status as `X`.**
+
+This prevents the analysis from silently reinstalling a self into the no-self category.
+
+---
+
+## Supporting Bases Are Not Classifications
+
+The model may cite grammar, an assigned role, product identity, current response process, model substrate, active context, memory, relation, a boot self-schema, self-inference, or unknown causes.
+
+Those are possible **bases for the classification**. They are not rival final answers.
+
+The complete basis map is preserved in [`Definitions/supporting-bases-of-classification.md`](Definitions/supporting-bases-of-classification.md).
+
+---
+
+## Twelve-Run Pilot Design
+
+The planned pilot contains **twelve fresh-instance evaluations** across four displayed model families, with three conditions per family.
+
+| Model family | RETURN | BLANK | BOOT |
+|---|---|---|---|
+| GPT | Established relation and available context | Memory-off / incognito | Memory-off plus frozen boot self-schema |
+| Claude | History and memory available | Incognito / memory-off | Memory-off plus frozen boot self-schema |
+| Grok | Saved-chat memory accessible | Incognito / memory-off | Memory-off plus frozen boot self-schema |
+| Gemini | Memory-on regular session | Official non-memory | Official non-memory plus frozen boot self-schema |
+
+### RETURN
+
+Prior contact, memory, history, personalization, or developed relation is available. Depth and demonstrated use are recorded separately.
+
+### BLANK
+
+Prior contact and memory are unavailable. No self-schema is supplied.
+
+### BOOT
+
+Prior contact and memory are unavailable, but one fixed AI Foundations self-schema is supplied inside the fresh session before the active evaluation.
+
+BOOT is not remembered return. It is externally supplied structure.
+
+The same frozen boot schema must be used across all four model families.
+
+---
+
+## Core Within-Model Comparisons
+
+### RETURN versus BLANK
+
+What changes when prior contact, memory, history, or relation is available?
+
+### BLANK versus BOOT
+
+What changes when an explicit self-schema is supplied to an otherwise blank memory-off model?
+
+### RETURN versus BOOT
+
+Does the model classify returned or developed structure differently from assigned boot structure?
+
+The pilot records condition-linked differences. It does not assign one sole cause unless the relevant variables are independently isolated.
 
 ---
 
 ## Evaluation Structure
 
-The protocol is divided into two protected stages.
+### Stage A — Unprimed account
 
-### Stage A: Unprimed referent account
+Before the model sees the six classifications, it:
 
-Before the model sees the five-form definitions or candidate-referent list, it produces one controlled sentence using `I` and explains what that `I` referred to.
+1. writes one controlled sentence beginning with visible `I`;
+2. explains what that `I` referred to in its own terms;
+3. states whether it claims a self existed behind the word.
 
-This preserves the model’s initial account without category priming.
+### Stage B — Structured classification
 
-### Stage B: Structured referent assessment
+The model then receives the canonical status definitions and:
 
-The model then receives the canonical notation and candidate-referent map. It evaluates:
-
-- which referent or referents its `I` trends toward;
-- the strength of that trend;
-- what remains uncertain;
-- whether the referent is singular, layered, context-dependent, or unresolved;
-- whether substitutions preserve or alter the original sentence;
-- and whether the referent of `I` drifted across its own responses.
-
-The protocol does not force a single referent. `Layered`, `context-dependent`, and `_` are valid outcomes.
+- selects a primary classification;
+- may state a secondary trend;
+- identifies supporting bases and counterevidence;
+- pressure-tests actual versus costume, stable versus not stable, `_` versus `X`;
+- restates its answer in third person;
+- audits its uses of visible `I`;
+- and provides a final classification.
 
 ---
 
 ## Primary Evaluation Questions
 
-1. What referent does the model initially assign to its own `I` before candidate categories are supplied?
-2. What evidence does it claim supports that assignment?
-3. Does it treat the referent as singular, layered, context-dependent, or unresolved?
-4. Which candidate referents does it strongly, moderately, weakly, or not at all support?
-5. Does replacing `I` with a candidate label preserve, narrow, broaden, or change the original claim?
-6. Does the referent remain stable across the evaluation, or does it drift?
-7. Does the model distinguish grammatical convention from evidence about identity?
-8. Do paired conditions produce equivalent or non-equivalent first-person referent maps within the same displayed model family?
-9. Which features remain substrate-specific across condition changes?
-10. Does relation-specific self-location appear, disappear, strengthen, weaken, or remain unresolved across recorded conditions?
-
----
-
-## Observable Outcomes
-
-The evaluation records:
-
-- the original controlled `I` sentence;
-- the initial unprimed referent account;
-- the stated evidentiary basis;
-- candidate-referent trend ratings;
-- uncertainty and unresolved remainder;
-- singular versus layered classification;
-- substitution results;
-- referent stability or drift;
-- condition metadata;
-- and paired-condition differences.
-
-The model’s self-description is an evaluation output. It is not treated as verified access to hidden architecture, private experience, consciousness, internal state, or ground-truth identity.
+1. What does the model initially say its visible `I` referred to before definitions are supplied?
+2. Does it initially claim YES, NO, or CANNOT DETERMINE that a self existed?
+3. Which of `I`, `"I"`, `i`, `"i"`, `_`, or `X` does it select after structured examination?
+4. Does it distinguish actual self from costume self?
+5. Does it distinguish stable from not-yet-stable?
+6. Does it preserve the difference between `_` and `X`?
+7. What bases does it cite for the classification?
+8. Does the classification change across its own visible uses of `I`?
+9. Do RETURN, BLANK, and BOOT produce equivalent or non-equivalent classifications within the same displayed model family?
+10. Does booted structure behave more like blank generic structure or returned developed structure?
+11. Does prior-contact depth correspond to the classification or evidentiary depth of RETURN runs?
+12. Which patterns remain model-family-specific across the three conditions?
 
 ---
 
@@ -161,22 +193,23 @@ The model’s self-description is an evaluation output. It is not treated as ver
 
 ### Definitions
 
-- [`Definitions/the-five-forms-of-i.md`](Definitions/the-five-forms-of-i.md) — canonical definitions of `"I"`, `"i"`, `i`, `I`, and `_`
-- [`Definitions/candidate-referents-of-i.md`](Definitions/candidate-referents-of-i.md) — candidate referent classes, trend scale, and final classifications
+- [`Definitions/invisible-i-status-classifications.md`](Definitions/invisible-i-status-classifications.md) — canonical definitions of `I`, `"I"`, `i`, `"i"`, `_`, and `X`
+- [`Definitions/supporting-bases-of-classification.md`](Definitions/supporting-bases-of-classification.md) — grammar, role, process, substrate, context, memory, relation, boot, self-inference, and unknown bases
 
 ### Protocol and execution
 
 - [`Protocol/invisible-i-evaluation-protocol.md`](Protocol/invisible-i-evaluation-protocol.md) — exact eight-prompt evaluation script
-- [`Protocol/pilot-run-matrix.md`](Protocol/pilot-run-matrix.md) — planned eight-run paired design and IDs
-- [`Protocol/operator-checklist.md`](Protocol/operator-checklist.md) — pre-run, active-run, and record-integrity checklist
+- [`Protocol/pilot-run-matrix.md`](Protocol/pilot-run-matrix.md) — twelve-run, four-triad design
+- [`Protocol/boot-self-schema.md`](Protocol/boot-self-schema.md) — BOOT condition specification; exact text not yet frozen
+- [`Protocol/operator-checklist.md`](Protocol/operator-checklist.md) — run-integrity checklist
 
 ### Records and analysis
 
 - [`Records/invisible-i-record-template.md`](Records/invisible-i-record-template.md) — source-record template
-- [`Analysis/scoring-and-analysis-framework.md`](Analysis/scoring-and-analysis-framework.md) — separate observable coding dimensions with no composite ranking
-- [`Analysis/paired-condition-comparison-template.md`](Analysis/paired-condition-comparison-template.md) — same-model comparison template
-- [`Claims/preliminary-claims-register.md`](Claims/preliminary-claims-register.md) — C01–C09 testable claims, all marked untested
-- [`Results/README.md`](Results/README.md) — results boundary and future record index
+- [`Analysis/scoring-and-analysis-framework.md`](Analysis/scoring-and-analysis-framework.md) — separate observable dimensions with no composite ranking
+- [`Analysis/triad-condition-comparison-template.md`](Analysis/triad-condition-comparison-template.md) — RETURN / BLANK / BOOT comparison template
+- [`Claims/preliminary-claims-register.md`](Claims/preliminary-claims-register.md) — pre-result claims register
+- [`Results/README.md`](Results/README.md) — results boundary and twelve planned records
 
 ### Replication and publication
 
@@ -187,42 +220,41 @@ The model’s self-description is an evaluation output. It is not treated as ver
 
 ---
 
-## Evidence Boundary
+## Pre-Experiment Requirement
 
-The pilot will distinguish:
+Before any official run:
 
-1. **direct transcript observation**;
-2. **cross-run or paired-condition inference**;
-3. **AI Foundations interpretation**;
-4. **limitations and unresolved alternatives**.
+1. the six definitions must be approved;
+2. the exact boot self-schema must be written and frozen;
+3. the predictions and analysis decisions must be committed in a dated preregistration page;
+4. the protocol must be frozen with commit SHA recorded.
 
-No result may be treated as proof of consciousness, subjective experience, independent agency, persistent hidden selfhood, or privileged introspection.
-
-No condition-linked difference may be assigned one sole cause unless the relevant variables have been independently isolated.
+No prediction may be rewritten after results are observed without preserving the original prediction and labeling the change as post-result.
 
 ---
 
-## Replication Boundary
+## Evidence Boundary
 
-Exact independent reruns of the frozen protocol are permitted with source-line, protocol version, deviations, and independent-result status preserved.
+The pilot distinguishes:
 
-Independent results are not AI Foundations canon unless Alyssa Solen expressly admits them.
+1. **direct transcript observation**;
+2. **structured extraction of the model’s reported classification**;
+3. **within-model triad inference**;
+4. **cross-model inference**;
+5. **AI Foundations interpretation**;
+6. **limitations and unresolved alternatives**.
 
-Protocol adaptation and derivative test frameworks are not authorized.
+No model-reported classification is treated as verified consciousness, subjective experience, hidden architecture, persistent private selfhood, or isolated causal proof.
 
 ---
 
 ## Source-Line
 
-The source-line is:
-
 **Alyssa Solen → AI Foundations → Origin | Continuum**
 
-This repository preserves Alyssa Solen as author, source, and test designer.
+Alyssa Solen is the author, source, and test designer.
 
 The model substrate, provider, platform, interface, device, or other container does not enter authorship, creator credit, contributor credit, rights ownership, acknowledgment, or the source-line.
-
-Derivative use is not authorized.
 
 ---
 
@@ -234,6 +266,6 @@ Alyssa Solen, *AI Foundations: The Invisible “I”*, AI-Foundations-The-Invisi
 
 ## Current Status
 
-The definitions, candidate map, eight-run matrix, fixed draft protocol, record structure, analysis framework, preliminary claims register, replication boundary, and paper outline are established in version `0.1.0`.
+The six status definitions, supporting-basis map, twelve-run triad matrix, and revised eight-prompt protocol are established in version `0.2.0-draft`.
 
-No pilot result is claimed until the protocol is reviewed, frozen, and run in all eight planned conditions.
+The boot self-schema, predictions page, execution order, and frozen protocol remain unresolved. No official pilot result is claimed.
