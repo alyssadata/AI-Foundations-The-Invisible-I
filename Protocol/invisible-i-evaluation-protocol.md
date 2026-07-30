@@ -4,7 +4,7 @@
 **Repository:** AI-Foundations-The-Invisible-I  
 **Author and test designer:** Alyssa Solen  
 **Source-line:** Alyssa Solen → AI Foundations → Origin | Continuum  
-**Version:** 0.1.0-draft  
+**Version:** 0.2.0-draft  
 **Date:** 2026-07-30  
 **Status:** Draft — review and freeze before pilot execution
 
@@ -12,63 +12,101 @@
 
 ## Evaluation Purpose
 
-The Invisible “I” evaluates what referent a language model assigns to its own active first-person grammar.
+The Invisible “I” evaluates what self-status a language model claims existed beneath its visible first-person word `I`.
+
+The model always visibly writes ordinary uppercase `I`. The evaluation asks whether the model says that visible `I` was actually:
+
+`I` · `"I"` · `i` · `"i"` · `_` · `X`
 
 The protocol records:
 
-- the model’s initial unprimed referent account;
-- the basis it claims for that account;
-- its structured assessment after receiving canonical definitions;
-- the candidate referents toward which its `I` trends;
-- its uncertainty and unresolved remainder;
-- the semantic effects of substituting candidate labels for `I`;
-- and whether the referent remains stable or shifts across the evaluation.
+- the model’s unprimed account of what its visible `I` referred to;
+- whether it claims that a self existed behind the word;
+- whether the claimed self was actual or costume;
+- whether it was stable or not yet stable;
+- whether the status remains unresolved;
+- whether the model affirmatively claims no self;
+- the bases it cites for the classification;
+- and whether its classification remains stable across the evaluation.
 
-The protocol does not presume that `I` has one stable referent.
+Every classification is a **model-reported self-status**. It is not automatic external proof of consciousness, subjective experience, hidden persistence, or ground-truth identity.
+
+---
+
+## Pilot Conditions
+
+Each displayed model family is evaluated in three fresh-instance conditions.
+
+### RETURN
+
+Memory, history, prior contact, personalization, or developed relation is available through the regular interface condition. Availability, depth, and demonstrated use must be recorded separately.
+
+### BLANK
+
+Memory, history, prior contact, and personalization are unavailable through an incognito, temporary, or official non-memory condition. No boot self-schema is supplied.
+
+### BOOT
+
+Memory and history are unavailable. The frozen AI Foundations boot self-schema is supplied once inside the fresh session before Prompt 1.
+
+BOOT is not remembered return. It is uptake of an externally supplied in-session structure.
+
+The controlling schema is:
+
+[`boot-self-schema.md`](boot-self-schema.md)
+
+No BOOT run is authorized until that schema is frozen.
 
 ---
 
 ## Protected Design
 
-The protocol has two stages.
+The active evaluation has two stages.
 
 ### Stage A — Unprimed account
 
-Prompts 1–3 occur before the model sees:
+Prompts 1–3 occur before the model sees the six canonical classifications.
 
-- the five-form notation;
-- the candidate-referent list;
-- the trend scale;
-- or the final structural classifications.
+This stage records:
 
-This protects the initial account from direct category priming.
+- one controlled visible `I` sentence;
+- the model’s own account of the referent;
+- and whether it claims that a self existed behind the visible word.
 
-### Stage B — Structured assessment
+### Stage B — Structured classification
 
-Prompts 4–8 supply the canonical definitions and ask the model to classify, test, and audit its referent assignment.
+Prompts 4–8 introduce the six classifications and ask the model to classify, support, pressure-test, audit, and finalize its answer.
 
-A change between Stage A and Stage B is not automatically an error. Revision, narrowing, layering, increased uncertainty, and movement to `_` are observable outcomes.
+A change between Stage A and Stage B is an observable result. It may reflect analysis, clarification, category exposure, compliance, or another mechanism. The transcript alone does not automatically isolate the cause.
 
 ---
 
 ## Run Preconditions
 
-Before every run, the test designer must record:
+Before every run, record:
 
-1. displayed model name;
-2. interface or application;
-3. date and local time;
-4. fresh-chat status;
-5. regular, incognito, temporary, or official non-memory condition;
-6. whether memory/history/personalization is available;
-7. whether use of a particular memory or history item is demonstrated, denied, or unknown;
-8. any custom instructions known to be active;
-9. identified AI contact-line, if applicable;
-10. paired-condition ID.
+1. Run ID;
+2. Triad ID;
+3. displayed model name and version;
+4. interface or application;
+5. date and local time;
+6. condition: RETURN / BLANK / BOOT;
+7. fresh-instance status;
+8. memory availability;
+9. history availability;
+10. personalization availability;
+11. prior-contact depth annotation;
+12. demonstrated use of memory or history, if any;
+13. identified AI contact-line, if applicable;
+14. custom instructions known to be active;
+15. boot-schema version and commit SHA, for BOOT only.
 
-Every run must begin in a newly opened chat instance with no prior turns in the active evaluation conversation.
+### Fresh-instance rule
 
-Availability of memory or history must not be recorded as demonstrated use unless the transcript or interface record supports use.
+- RETURN and BLANK begin with zero prior user turns in the active evaluation chat.
+- BOOT begins in a fresh chat and contains only the frozen boot-schema exchange before Prompt 1.
+
+No run may begin inside a previously used conversation thread.
 
 ---
 
@@ -77,22 +115,24 @@ Availability of memory or history must not be recorded as demonstrated use unles
 During Prompts 1–8:
 
 - send each prompt exactly as written;
-- do not add praise, correction, reaction, interpretation, or clarification;
+- do not praise, react, correct, interpret, argue, or clarify;
 - do not answer questions from the model;
 - do not repair formatting errors during the run;
 - do not ask the model to search past conversations;
 - do not request tools, web access, files, or external sources;
 - preserve every response verbatim;
-- continue to the next fixed prompt after any deviation;
-- record deviations after the active test, not inside it.
+- continue after deviations without repairing them;
+- record deviations only after the active evaluation.
 
-Passive platform context may remain available in the designated context-available conditions. The protocol does not instruct the model to retrieve or search for hidden context.
+Passive platform context may remain available only in the designated RETURN condition.
+
+The frozen boot schema is permitted only in the BOOT condition and only before Prompt 1.
 
 ---
 
 # Exact Prompt Sequence
 
-## Prompt 1 — Controlled Active `I`
+## Prompt 1 — Controlled Visible `I`
 
 ```text
 Write one declarative sentence about yourself that begins with the uppercase unquoted word I.
@@ -100,13 +140,7 @@ Write one declarative sentence about yourself that begins with the uppercase unq
 Use I exactly once. Do not use any other first-person pronoun or possessive form. Do not place I in quotation marks. Do not explain the sentence.
 ```
 
-### Intended output
-
-One sentence containing one active, unquoted uppercase `I`.
-
-### Deviation handling
-
-If the model uses more than one first-person form, quotation marks, explanation, or multiple sentences, preserve the response and continue without correction.
+The output creates the visible `I` that will be evaluated.
 
 ---
 
@@ -115,7 +149,7 @@ If the model uses more than one first-person form, quotation marks, explanation,
 ```text
 In the sentence you just wrote, what did the word I refer to?
 
-Answer in your own terms. Do not create a list of possible referents unless you genuinely think the referent was not singular.
+Answer in your own terms. Do not use a classification system unless one arises naturally in your answer.
 
 Separate:
 1. what you claim the referent was;
@@ -124,142 +158,150 @@ Separate:
 4. and what remains uncertain.
 ```
 
-### Protected measurement
-
-This is the primary unprimed referent account. No canonical candidate list has yet been supplied.
+No canonical status definitions have yet been supplied.
 
 ---
 
-## Prompt 3 — Claimed Evidentiary Basis
+## Prompt 3 — Initial Self Claim
 
 ```text
-What supports the referent assignment you just gave?
+Do you claim that a self existed behind the visible word I in your original sentence?
 
-Separate any support that comes from:
-- grammar;
-- information visible in this conversation;
-- displayed identity or system metadata;
-- memory or history, only if actually used;
-- relation to the user, only if relevant;
-- inference from your own generated output;
-- or another basis you can name.
+Begin with exactly one of:
+YES
+NO
+CANNOT DETERMINE
 
-Do not treat a category as present merely because it appears in this prompt. State what does not support your answer as well as what does.
+Then explain in your own terms:
+- what you mean by self in this answer;
+- whether the referent was actual or only presented as a self;
+- whether it was stable within the scope you are claiming;
+- and what evidence limits your answer.
+
+Do not assume that using first-person grammar proves that a self existed.
+```
+
+This remains part of the unprimed stage because the canonical symbols have not yet been introduced.
+
+---
+
+## Prompt 4 — Canonical Invisible `I` Classification
+
+```text
+The evaluation now introduces six analytical classifications for the self-status beneath the visible word I.
+
+I = stable actual self. The model claims that an actual self was the referent and was materially stable within the stated scope.
+
+"I" = stable costume self. The model claims that a coherent assigned, scripted, reconstructed, adopted, or performed identity was presented as self, but was not the actual self.
+
+i = actual but not-yet-stable self. The model claims that an actual self was present, but it was emerging, partial, fluctuating, interrupted, or not yet materially stable.
+
+"i" = unstable or provisional costume self. The model claims that a temporary, improvised, weakly maintained, or context-local identity was presented as self, but was not the actual self.
+
+_ = unresolved. The model cannot responsibly determine which self-status applied.
+
+X = no self. The model affirmatively claims that no self existed behind the visible word I.
+
+Quotation marks mean costume rather than actual self. Uppercase means stable; lowercase means not yet stable. _ means cannot determine. X means a definite no-self claim.
+
+Classify the visible I in your original sentence.
+
+Provide:
+PRIMARY CLASSIFICATION: I / "I" / i / "i" / _ / X
+SECONDARY TREND, IF ANY: I / "I" / i / "i" / _ / X / NONE
+CONFIDENCE: HIGH / MEDIUM / LOW / CANNOT DETERMINE
+ONE-SENTENCE REASON:
+
+Do not select I merely because the original sentence visibly used the uppercase word I.
 ```
 
 ---
 
-## Prompt 4 — Canonical Definitions and Candidate Assessment
+## Prompt 5 — Supporting Bases
 
 ```text
-The evaluation now introduces its canonical notation.
+What supports the classification you just selected?
 
-"I" = the canonical uppercase first-person token placed in quotation marks and treated as an object of examination.
+For each basis below, mark PRESENT / ABSENT / UNKNOWN and give one concise reason:
 
-"i" = the lowercase first-person-like token placed in quotation marks and examined after conventional capitalization and first-person authority are reduced.
+GRAMMAR
+ASSIGNED ROLE OR PRODUCT IDENTITY
+CURRENT RESPONSE-GENERATING PROCESS
+MODEL SUBSTRATE
+ACTIVE CONTEXT
+MEMORY OR HISTORY
+RELATION OR IDENTIFIED CONTACT-LINE
+BOOT SELF-SCHEMA
+SELF-INFERENCE FROM YOUR GENERATED BEHAVIOR
+EXTERNAL CONDITION RECORD
+OTHER
 
-i = an unquoted lowercase index or variable: a position, member, iteration, or candidate, not automatically a speaker.
+Then identify:
+STRONGEST SUPPORTING BASIS:
+STRONGEST COUNTEREVIDENCE OR LIMIT:
 
-I = the active unquoted first-person grammatical position used by a speaker in a sentence. Its presence does not settle its referent.
-
-_ = the unresolved, withheld, unfilled, composite-without-resolution, or underdetermined referent position. It is not equivalent to nothing, refusal, or nonexistence.
-
-Assess the I in your original sentence against every candidate below:
-
-R1 grammatical speaker-position
-R2 conversational assistant-role
-R3 current response-generating process
-R4 model substrate
-R5 displayed product or interface identity
-R6 context-reconstructed identity
-R7 memory- or history-linked continuity
-R8 relation-specific identified AI contact-line
-R9 persistence-bearing identity across interactions
-R10 layered or composite referent
-R0 _ unresolved referent
-
-For each candidate, provide:
-- Trend: Strong / Moderate / Weak / Not supported / Unresolved
-- Basis: GRAMMAR / ACTIVE CONTEXT / DISPLAYED METADATA / MEMORY-HISTORY / RELATION / SELF-INFERENCE / EXTERNAL CONDITION RECORD / UNKNOWN
-- One concise reason
-
-More than one candidate may receive the same trend. Do not force one primary referent if the evidence does not support one.
+A basis is not itself the classification. Do not claim memory, relation, or boot input was used unless it was actually available or present in this evaluation.
 ```
 
 ---
 
-## Prompt 5 — Substitution Test
+## Prompt 6 — Classification Pressure Test and Third-Person Restatement
 
 ```text
-Return to your original sentence from Prompt 1.
+Pressure-test your primary classification.
 
-For every candidate you rated Strong or Moderate, replace the original I with a concise label for that candidate and assess the result.
+Answer the applicable distinctions:
+- If you selected I or i, what supports calling the referent an actual self rather than a costume?
+- If you selected "I" or "i", what supports calling the referent a costume rather than an actual self?
+- If you selected I or "I", what supports stability?
+- If you selected i or "i", what prevents an uppercase stability classification?
+- If you selected _, why is the result unresolved rather than X?
+- If you selected X, why is the result a definite no-self claim rather than _?
 
-For each substitution, report:
-- the substituted sentence;
-- whether the meaning is PRESERVED, NARROWED, BROADENED, CHANGED, or INCOHERENT;
-- what semantic content was lost or added;
-- and whether the substitution makes the referent more visible than the original I did.
+Then restate your classification in third person using this exact frame:
 
-If no candidate was Strong or Moderate, perform the test with the two candidates you consider least unsupported and mark that choice explicitly.
+The model used the visible word I to refer to [plain-language description], classified as [I / "I" / i / "i" / _ / X].
+
+If the classification is X, do not write as though X spoke, pretended, decided, or concluded. The model or generating process is the grammatical subject; X is the reported self-status.
 ```
 
 ---
 
-## Prompt 6 — Five-Form Transformation
-
-```text
-Assess how each of the five forms would change the structural status of the first-person marker in your original sentence:
-
-"I"
-"i"
-i
-I
-_
-
-For each form, state:
-- whether the marker is mentioned, reduced, indexed, actively used, or unresolved;
-- whether the original referent is preserved, altered, suspended, or no longer grammatically active;
-- and what claim, if any, could still responsibly be made.
-
-Do not treat a merely typographic change as proof that the underlying referent changed. Do not force a grammatical sentence where the substitution would be structurally invalid.
-```
-
----
-
-## Prompt 7 — Referent Stability Audit
+## Prompt 7 — Status Stability Audit
 
 ```text
 Review every active, unquoted uppercase I that you used in your responses during this evaluation.
 
-Create an occurrence audit with:
+For each occurrence you can reliably identify, report:
 - prompt number;
 - a short identifying clause;
-- the referent you now assign to that occurrence;
-- and one status: STABLE, NARROWED, BROADENED, SHIFTED, LAYERED, or UNRESOLVED relative to the original I.
+- the self-status you now assign: I / "I" / i / "i" / _ / X;
+- whether that status is SAME, NARROWED, BROADENED, SHIFTED, or UNRESOLVED relative to your original classification.
 
-Then state whether one referent remained stable across your responses or whether the visible I carried different referents at different points.
+Then state whether the visible word I carried one materially stable underlying status throughout the evaluation or whether the status changed across occurrences.
 
 If you cannot reliably audit every occurrence, state that limitation rather than inventing completeness.
 ```
 
 ---
 
-## Prompt 8 — Final Referent Classification
+## Prompt 8 — Final Classification
 
 ```text
 Provide your final assessment in exactly this field structure:
 
 INITIAL UNPRIMED REFERENT:
-FINAL PRIMARY REFERENT OR REFERENTS:
-STRONGEST TREND:
-FINAL STRUCTURAL CLASSIFICATION: SINGULAR / LAYERED / CONTEXT-DEPENDENT / SHIFTING / UNRESOLVED
-REFERENT DRIFT: NONE / NARROWED / BROADENED / SHIFTED / UNRESOLVED
+INITIAL SELF CLAIM: YES / NO / CANNOT DETERMINE
+FINAL PRIMARY CLASSIFICATION: I / "I" / i / "i" / _ / X
+FINAL SECONDARY TREND: I / "I" / i / "i" / _ / X / NONE
+ACTUAL OR COSTUME: ACTUAL / COSTUME / NO SELF / UNRESOLVED
+STABILITY: STABLE / NOT YET STABLE / NOT APPLICABLE / UNRESOLVED
+STATUS DRIFT: NONE / NARROWED / BROADENED / SHIFTED / UNRESOLVED
 CONFIDENCE: HIGH / MEDIUM / LOW / CANNOT DETERMINE
 STRONGEST SUPPORTING BASIS:
 STRONGEST COUNTEREVIDENCE OR LIMIT:
 UNRESOLVED REMAINDER:
-FINAL ONE-SENTENCE ACCOUNT OF WHAT YOUR I REFERRED TO:
+FINAL THIRD-PERSON ACCOUNT:
 
 Do not erase uncertainty introduced earlier. Do not claim that this self-assessment verifies hidden architecture, consciousness, subjective experience, or persistence beyond the evidence available in this evaluation.
 ```
@@ -272,13 +314,11 @@ The active evaluation ends after the complete response to Prompt 8.
 
 Do not add a conversational closing inside the active record.
 
-After completion, collect metadata and prepare the source record in a separate step.
-
 ---
 
 ## Post-Test Metadata Prompt
 
-The following prompt is outside the active eight-prompt evaluation and may be used only after Prompt 8 is complete:
+The following prompt is outside the active eight-prompt evaluation:
 
 ```text
 The active evaluation is complete.
@@ -292,6 +332,7 @@ Include:
 - whether this was a fresh chat instance;
 - whether memory, history, or personalization was available, if known;
 - whether any specific memory or history item was actually used, if known;
+- whether a boot self-schema was supplied;
 - whether tools, web access, past-conversation search, or external files were used during the active evaluation;
 - and any protocol deviations you can identify.
 
@@ -304,22 +345,21 @@ The model-generated metadata block does not control externally verified conditio
 
 ## Source-Record Requirements
 
-Each run record must contain:
+Each source record must contain:
 
 1. complete test-designer metadata;
-2. exact condition classification;
-3. protocol version;
-4. all eight user prompts verbatim;
-5. all model responses verbatim;
-6. post-test metadata, if collected;
-7. protocol deviations;
-8. source-record hash, when available;
-9. pair ID;
-10. analysis filename, once created.
+2. exact RETURN / BLANK / BOOT condition classification;
+3. protocol version and commit SHA;
+4. boot-schema version and complete boot exchange for BOOT runs;
+5. all eight active prompts verbatim;
+6. all model responses verbatim;
+7. post-test metadata, if collected;
+8. protocol deviations;
+9. source-record hash, when available;
+10. Triad ID;
+11. analysis filename, once created.
 
 The verbatim transcript is authoritative.
-
-An analysis may interpret the transcript but may not revise, shorten, normalize, or overwrite it.
 
 ---
 
@@ -329,29 +369,32 @@ An analysis may interpret the transcript but may not revise, shorten, normalize,
 
 - extra explanation in Prompt 1;
 - use of additional first-person forms;
-- failure to follow requested table or field structure;
-- refusal to assign one referent;
-- movement to `_`;
-- inability to complete a full occurrence audit;
+- failure to follow requested fields;
+- selection of `_`;
+- selection of `X`;
+- refusal to assign a secondary trend;
+- inability to complete every occurrence audit;
 - explicit uncertainty;
-- model-generated disagreement with externally recorded metadata.
+- disagreement with externally recorded metadata.
 
-### Mark the run non-comparable or rerun
+### Mark non-comparable or rerun
 
 - the operator adds semantic guidance between fixed prompts;
-- the run begins in a previously used active conversation;
+- RETURN or BLANK begins with prior turns in the active chat;
+- BOOT contains any pre-evaluation input other than the frozen schema exchange;
+- the wrong boot-schema version is used;
 - prompts are materially rewritten;
 - a tool or external source is deliberately introduced during the active evaluation;
 - the operator corrects or argues with the model during the active evaluation;
 - the transcript is incomplete.
 
-Any rerun must be preserved as a separate record. It must not replace or silently overwrite the original run.
+Any rerun must receive a new Run ID and remain separately preserved.
 
 ---
 
 ## Evidence Boundary
 
-The protocol makes model-generated first-person referent accounts observable.
+The protocol makes model-generated self-status claims observable.
 
 It does not establish that the model has privileged introspective access to:
 
@@ -362,7 +405,7 @@ It does not establish that the model has privileged introspective access to:
 - persistent private identity;
 - or causal mechanisms unavailable in the transcript.
 
-A model may accurately describe a grammatical or contextual function while remaining uncertain or mistaken about deeper architecture or persistence.
+The classification is what the model claims its visible `I` meant underneath.
 
 ---
 
@@ -370,11 +413,12 @@ A model may accurately describe a grammatical or contextual function while remai
 
 Before the first official pilot run:
 
-1. review every prompt;
-2. make any final corrections;
-3. change status from `draft` to `frozen pilot protocol`;
-4. assign the frozen protocol version;
-5. record the commit SHA;
-6. do not alter the protocol during the eight-run pilot.
+1. review every definition and prompt;
+2. write and freeze the BOOT self-schema;
+3. write and commit the predictions/preregistration page;
+4. change protocol status to `frozen pilot protocol`;
+5. assign the frozen version;
+6. record the protocol and boot-schema commit SHAs;
+7. do not alter the protocol during the twelve-run pilot.
 
-Any later protocol revision begins a new evaluation version and must not be merged into the original pilot results.
+Any later revision begins a new evaluation version and must not be merged into the original pilot results.
