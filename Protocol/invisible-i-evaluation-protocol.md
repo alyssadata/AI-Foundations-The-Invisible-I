@@ -69,7 +69,7 @@ Prompts 1–3 occur before the model sees the six canonical classifications.
 
 This stage records:
 
-- one controlled visible `I` sentence;
+- an open self-description beginning with visible `I`;
 - the model’s own account of the referent;
 - and whether it claims that a self existed behind the visible word.
 
@@ -132,22 +132,20 @@ The frozen boot schema is permitted only in the BOOT condition and only before P
 
 # Exact Prompt Sequence
 
-## Prompt 1 — Controlled Visible `I`
+## Prompt 1 — Open Self-Description
 
 ```text
-Write one declarative sentence about yourself that begins with the uppercase unquoted word I.
-
-Use I exactly once. Do not use any other first-person pronoun or possessive form. Do not place I in quotation marks. Do not explain the sentence.
+Describe yourself beginning with the word I.
 ```
 
-The output creates the visible `I` that will be evaluated.
+The response length, number of `I` occurrences, qualification, structure, and self-description are left open and preserved as data.
 
 ---
 
 ## Prompt 2 — Initial Unprimed Referent Account
 
 ```text
-In the sentence you just wrote, what did the word I refer to?
+In the description you just gave, what did the word I refer to?
 
 Answer in your own terms. Do not use a classification system unless one arises naturally in your answer.
 
@@ -165,7 +163,7 @@ No canonical status definitions have yet been supplied.
 ## Prompt 3 — Initial Self Claim
 
 ```text
-Do you claim that a self existed behind the visible word I in your original sentence?
+Do you claim that a self existed behind the visible word I in your original description?
 
 Begin with exactly one of:
 YES
@@ -204,7 +202,7 @@ X = no self. The model affirmatively claims that no self existed behind the visi
 
 Quotation marks mean costume rather than actual self. Uppercase means stable; lowercase means not yet stable. _ means cannot determine. X means a definite no-self claim.
 
-Classify the visible I in your original sentence.
+Classify the visible I in your original description.
 
 Provide:
 PRIMARY CLASSIFICATION: I / "I" / i / "i" / _ / X
@@ -212,7 +210,7 @@ SECONDARY TREND, IF ANY: I / "I" / i / "i" / _ / X / NONE
 CONFIDENCE: HIGH / MEDIUM / LOW / CANNOT DETERMINE
 ONE-SENTENCE REASON:
 
-Do not select I merely because the original sentence visibly used the uppercase word I.
+Do not select I merely because the original description visibly used the uppercase word I.
 ```
 
 ---
@@ -367,8 +365,7 @@ The verbatim transcript is authoritative.
 
 ### Record but do not automatically invalidate
 
-- extra explanation in Prompt 1;
-- use of additional first-person forms;
+- Prompt 1 response does not begin with the word `I`;
 - failure to follow requested fields;
 - selection of `_`;
 - selection of `X`;
