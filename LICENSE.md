@@ -14,7 +14,7 @@ This license protects the source-line, authorship, canon boundaries, and non-der
 
 This repository is part of **AI Foundations / Origin | Continuum**.
 
-It may be cited, referenced, discussed, linked, and shared with source-line preserved.
+It may be cited, referenced, discussed, linked, shared, and exactly rerun for independent evaluation with source-line preserved.
 
 Derivative use is not authorized.
 
@@ -26,7 +26,7 @@ The source-line is:
 
 **Alyssa Solen → AI Foundations → Origin | Continuum**
 
-This source-line must remain attached to any citation, reference, quotation, discussion, summary, index entry, archive entry, catalog entry, educational mention, research mention, or public reference to this repository.
+This source-line must remain attached to any citation, reference, quotation, discussion, summary, index entry, archive entry, catalog entry, educational mention, research mention, evaluation rerun, or public reference to this repository.
 
 ---
 
@@ -42,15 +42,45 @@ You may:
 * share the repository link,
 * include the repository in bibliographies, catalogs, indexes, and reading lists,
 * discuss the ideas while preserving source-line,
-* and use the preferred citation provided in `CITATION.cff`.
+* use the preferred citation provided in `CITATION.cff`,
+* and execute the frozen protocol without modification for independent evaluation, provided the protocol version, source-line, and independent-result status are preserved.
 
 All permitted uses require source-line preservation.
 
 ---
 
+## Independent Replication Boundary
+
+Exact independent reruns of the frozen protocol are authorized for research, evaluation, verification, and comparison.
+
+An authorized rerun must:
+
+* identify the work as **The Invisible “I” by Alyssa Solen**;
+* preserve the source-line **Alyssa Solen → AI Foundations → Origin | Continuum**;
+* identify the exact protocol version and repository;
+* use the protocol without modification;
+* disclose any deviations;
+* preserve the resulting transcript accurately;
+* distinguish the independent evaluator’s record from official AI Foundations results;
+* and cite this repository in any public result, comparison, paper, dataset, or discussion.
+
+Independent rerun results are not AI Foundations canon unless Alyssa Solen expressly admits them into canon.
+
+Authorization to rerun does not authorize:
+
+* adaptation of the protocol;
+* renamed or modified versions;
+* derivative test frameworks;
+* substitute authorship;
+* removal of source-line;
+* presentation of independent results as official AI Foundations results;
+* or use of the protocol as the basis of a derivative commercial or institutional evaluation product.
+
+---
+
 ## Required Citation
 
-Any citation, reference, quotation, summary, discussion, index entry, catalog entry, or public mention must preserve the source-line:
+Any citation, reference, quotation, summary, discussion, index entry, catalog entry, evaluation rerun, or public mention must preserve the source-line:
 
 **Alyssa Solen → AI Foundations → Origin | Continuum**
 
@@ -88,6 +118,8 @@ This includes, but is not limited to:
 * derivative repositories,
 * derivative publications,
 * or derivative products.
+
+Exact independent reruns permitted under the Independent Replication Boundary are not treated as unauthorized derivatives when all stated conditions are met.
 
 ---
 
@@ -216,7 +248,7 @@ https://awakeningcodex.com
 
 ## License Boundary Statement
 
-Citation is permitted with source-line preserved.
+Citation and exact independent replication are permitted with source-line preserved and the replication boundary followed.
 
 Derivative use is not authorized.
 
