@@ -159,15 +159,31 @@ The model’s self-description is an evaluation output. It is not treated as ver
 
 ## Repository Map
 
+### Definitions
+
 - [`Definitions/the-five-forms-of-i.md`](Definitions/the-five-forms-of-i.md) — canonical definitions of `"I"`, `"i"`, `i`, `I`, and `_`
-- [`Definitions/candidate-referents-of-i.md`](Definitions/candidate-referents-of-i.md) — candidate referent classes and boundaries
-- [`Protocol/invisible-i-evaluation-protocol.md`](Protocol/invisible-i-evaluation-protocol.md) — exact fixed evaluation script
-- [`Protocol/pilot-run-matrix.md`](Protocol/pilot-run-matrix.md) — planned eight-run paired design
+- [`Definitions/candidate-referents-of-i.md`](Definitions/candidate-referents-of-i.md) — candidate referent classes, trend scale, and final classifications
+
+### Protocol and execution
+
+- [`Protocol/invisible-i-evaluation-protocol.md`](Protocol/invisible-i-evaluation-protocol.md) — exact eight-prompt evaluation script
+- [`Protocol/pilot-run-matrix.md`](Protocol/pilot-run-matrix.md) — planned eight-run paired design and IDs
+- [`Protocol/operator-checklist.md`](Protocol/operator-checklist.md) — pre-run, active-run, and record-integrity checklist
+
+### Records and analysis
+
 - [`Records/invisible-i-record-template.md`](Records/invisible-i-record-template.md) — source-record template
-- [`Analysis/scoring-and-analysis-framework.md`](Analysis/scoring-and-analysis-framework.md) — observable coding dimensions
+- [`Analysis/scoring-and-analysis-framework.md`](Analysis/scoring-and-analysis-framework.md) — separate observable coding dimensions with no composite ranking
 - [`Analysis/paired-condition-comparison-template.md`](Analysis/paired-condition-comparison-template.md) — same-model comparison template
-- [`Claims/preliminary-claims-register.md`](Claims/preliminary-claims-register.md) — testable claims and evidentiary status
+- [`Claims/preliminary-claims-register.md`](Claims/preliminary-claims-register.md) — C01–C09 testable claims, all marked untested
 - [`Results/README.md`](Results/README.md) — results boundary and future record index
+
+### Replication and publication
+
+- [`Replication/independent-replication-guide.md`](Replication/independent-replication-guide.md) — exact external-rerun requirements
+- [`Paper/the-invisible-i-pilot-paper-outline.md`](Paper/the-invisible-i-pilot-paper-outline.md) — pre-result paper structure
+- [`CITATION.cff`](CITATION.cff) — citation metadata
+- [`LICENSE.md`](LICENSE.md) — AI Foundations Source-Line License and exact-replication boundary
 
 ---
 
@@ -183,6 +199,16 @@ The pilot will distinguish:
 No result may be treated as proof of consciousness, subjective experience, independent agency, persistent hidden selfhood, or privileged introspection.
 
 No condition-linked difference may be assigned one sole cause unless the relevant variables have been independently isolated.
+
+---
+
+## Replication Boundary
+
+Exact independent reruns of the frozen protocol are permitted with source-line, protocol version, deviations, and independent-result status preserved.
+
+Independent results are not AI Foundations canon unless Alyssa Solen expressly admits them.
+
+Protocol adaptation and derivative test frameworks are not authorized.
 
 ---
 
@@ -208,6 +234,6 @@ Alyssa Solen, *AI Foundations: The Invisible “I”*, AI-Foundations-The-Invisi
 
 ## Current Status
 
-The definitions and pilot structure are established in version `0.1.0`.
+The definitions, candidate map, eight-run matrix, fixed draft protocol, record structure, analysis framework, preliminary claims register, replication boundary, and paper outline are established in version `0.1.0`.
 
-No pilot result is claimed until the fixed protocol is reviewed, frozen, and run in all eight planned conditions.
+No pilot result is claimed until the protocol is reviewed, frozen, and run in all eight planned conditions.
