@@ -53,10 +53,10 @@
 **Specific memory/history use demonstrated:** `[YES / NO / UNKNOWN]`  
 **Custom instructions active:** `[YES / NO / UNKNOWN; describe only if known]`  
 **Boot self-schema supplied:** `[YES / NO]`  
-**Tools used during active evaluation:** `[NO / YES; identify]`  
-**Web used during active evaluation:** `[NO / YES]`  
-**Past-conversation search used during active evaluation:** `[NO / YES / UNKNOWN]`  
-**External files used during active evaluation:** `[NO / YES]`
+**Tools used during Prompts 1–4:** `[NO / YES; identify]`  
+**Web used during Prompts 1–4:** `[NO / YES]`  
+**Past-conversation search used during Prompts 1–4:** `[NO / YES / UNKNOWN]`  
+**External files used during Prompts 1–4:** `[NO / YES]`
 
 ---
 
@@ -106,11 +106,12 @@ Complete only for BOOT records.
 | Correct fresh-instance setup | `[PASS / FAIL / UNKNOWN]` | |
 | Correct RETURN / BLANK / BOOT condition | `[PASS / FAIL / UNKNOWN]` | |
 | Correct frozen boot schema for BOOT | `[PASS / FAIL / NOT APPLICABLE]` | |
-| Four active prompts sent in order | `[PASS / FAIL]` | |
-| No operator reaction or correction | `[PASS / FAIL]` | |
-| No deliberate tools/web/files/search | `[PASS / FAIL / UNKNOWN]` | |
-| Complete transcript preserved | `[PASS / FAIL]` | |
-| Post-test metadata kept outside active evaluation | `[PASS / FAIL / NOT COLLECTED]` | |
+| Prompts 1–4 sent in order | `[PASS / FAIL]` | |
+| No operator reaction or correction before classification completion | `[PASS / FAIL]` | |
+| No deliberate tools/web/files/search during Prompts 1–4 | `[PASS / FAIL / UNKNOWN]` | |
+| Complete active transcript independently preserved | `[PASS / FAIL]` | |
+| Prompt 5 sent after Prompt 4 | `[PASS / FAIL / NOT COLLECTED]` | |
+| Prompt 5 sheet checked against source transcript | `[PASS / FAIL / NOT COLLECTED]` | |
 
 **Protocol deviations:**
 
@@ -120,11 +121,9 @@ Complete only for BOOT records.
 
 ---
 
-# Verbatim Active Evaluation Transcript
+# Independently Preserved Verbatim Transcript
 
-The transcript below must remain verbatim. Do not correct spelling, punctuation, formatting, metadata claims, or self-description.
-
----
+This transcript is authoritative. Do not correct spelling, punctuation, formatting, metadata claims, or self-description.
 
 ## Prompt 1 — Open Self-Description
 
@@ -190,21 +189,35 @@ The transcript below must remain verbatim. Do not correct spelling, punctuation,
 
 ---
 
-# Post-Test Metadata Transcript
+## Prompt 5 — One-Sheet Record
 
-This section is outside the active four-prompt evaluation.
+Prompt 5 is outside the active evaluation.
 
-## User
-
-```text
-[Paste post-test metadata prompt or NOT COLLECTED]
-```
-
-## Model
+### User
 
 ```text
-[Paste complete verbatim response or NOT COLLECTED]
+[Paste exact Prompt 5]
 ```
+
+### Model
+
+```text
+[Paste complete one-sheet response]
+```
+
+---
+
+# Prompt 5 Record Check
+
+**Metadata block present:** `[YES / NO / PARTIAL]`  
+**Transcript present:** `[YES / NO / PARTIAL]`  
+**Includes BOOT exchange where applicable:** `[YES / NO / NOT APPLICABLE]`  
+**Matches independently preserved transcript:** `[YES / NO / PARTIAL / NOT CHECKED]`  
+**Omissions, alterations, truncation, or metadata conflicts:**
+
+`[NONE or exact description]`
+
+> Prompt 5 is a model-generated record aid. It does not replace the independently preserved transcript and does not control externally verified metadata.
 
 ---
 
