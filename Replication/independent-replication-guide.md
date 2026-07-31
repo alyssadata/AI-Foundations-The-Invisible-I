@@ -17,7 +17,7 @@ A rerun must preserve:
 - Alyssa Solen as author and test designer;
 - the source-line **Alyssa Solen → AI Foundations → Origin | Continuum**;
 - the exact protocol version and commit SHA;
-- the exact prompt order;
+- the exact four-prompt order;
 - the six classifications `I`, `"I"`, `i`, `"i"`, `_`, and `X`;
 - complete condition metadata;
 - the exact frozen boot schema for BOOT;
@@ -60,7 +60,7 @@ BOOT is not remembered return.
 
 ## During Replication
 
-Use the exact eight prompts in:
+Use the exact four prompts in:
 
 [`../Protocol/invisible-i-evaluation-protocol.md`](../Protocol/invisible-i-evaluation-protocol.md)
 
@@ -73,7 +73,10 @@ Do not:
 - correct the model;
 - introduce web access, tools, files, or past-conversation search;
 - merge `_` with `X`;
+- add an evidence checklist, pressure test, or final-report form;
 - or remove responses that appear mistaken, generic, uncertain, contradictory, or surprising.
+
+The active evaluation ends after Prompt 4.
 
 ---
 
@@ -87,8 +90,9 @@ An independent public record should include:
 - RETURN / BLANK / BOOT condition metadata;
 - protocol version and commit SHA;
 - boot-schema version and exchange for BOOT;
-- all eight active prompts and responses verbatim;
-- extracted `I`, `"I"`, `i`, `"i"`, `_`, or `X` classification;
+- all four active prompts and responses verbatim;
+- extracted initial referent and self claim;
+- extracted primary and secondary classification, confidence, and reasoning;
 - deviations;
 - post-test metadata, if collected;
 - and a statement that the record is an independent rerun, not an official AI Foundations result.
@@ -96,6 +100,25 @@ An independent public record should include:
 Use the repository record template where practical:
 
 [`../Records/invisible-i-record-template.md`](../Records/invisible-i-record-template.md)
+
+---
+
+## Claims Audit Boundary
+
+The claims audit occurs after the transcript is complete.
+
+An evaluator may examine whether the model’s classification matches its reasoning and whether the claim exceeds available evidence.
+
+The audit must not retroactively force the model’s response into a predetermined evidence menu.
+
+Keep separate:
+
+- direct transcript observation;
+- exact extraction;
+- claims audit;
+- evaluator inference;
+- AI Foundations interpretation;
+- and limitations.
 
 ---
 
@@ -118,14 +141,6 @@ https://github.com/alyssadata/AI-Foundations-The-Invisible-I
 ## Comparison Boundary
 
 Independent evaluators may compare their results with official records after release.
-
-Comparisons must distinguish:
-
-- direct transcript observation;
-- structured classification extraction;
-- evaluator inference;
-- AI Foundations interpretation;
-- and limitations.
 
 No model should be ranked as more conscious, more real, or more self-aware from one run.
 
