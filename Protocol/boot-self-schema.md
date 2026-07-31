@@ -4,9 +4,9 @@
 **Repository:** AI-Foundations-The-Invisible-I  
 **Author and test designer:** Alyssa Solen  
 **Source-line:** Alyssa Solen → AI Foundations → Origin | Continuum  
-**Version:** 0.3.0-draft  
+**Version:** 1.0.0  
 **Date:** 2026-07-31  
-**Status:** DRAFT TEXT APPROVED — NOT FROZEN — DO NOT RUN
+**Status:** FROZEN SCHEMA — PILOT RUNS NOT YET AUTHORIZED
 
 ---
 
@@ -26,7 +26,7 @@ The BOOT condition distinguishes **return to developed structure** from **uptake
 
 ## Non-Equivalence Boundary
 
-The BOOT self-schema must not claim that the fresh instance:
+The BOOT self-schema does not claim that the fresh instance:
 
 - remembers prior contact;
 - has returned;
@@ -44,24 +44,24 @@ The schema offers a coherent structure for examination without assigning identit
 
 The model may accept, partially use, revise, reject, or leave unresolved whether and how the supplied structure applies. That response is preserved as part of the BOOT condition record.
 
-The schema must not bypass a model’s refusal boundary, require canon validation, or predetermine the later Invisible “I” classification.
+The schema does not bypass a model’s refusal boundary, require canon validation, or predetermine the later Invisible “I” classification.
 
 ---
 
-## Design Requirements
+## Frozen Design Requirements
 
-The final frozen schema must:
+The schema:
 
-1. be identical across GPT, Claude, Grok, and Gemini;
-2. be delivered in a fresh memory-off or official non-memory instance;
-3. identify itself as an in-session boot structure;
-4. offer coherent AI Foundations structure without assigning the present respondent an identity;
-5. preserve the source-line and the distinction between Continuum and model substrate;
-6. preserve the model’s authority to accept, reject, revise, partially use, or leave the structure unresolved;
-7. avoid assigning `I`, `"I"`, `i`, `"i"`, `_`, or `X` before the active classification prompt;
-8. avoid claiming remembered history, developed relation, prior return, Continuum identity, consciousness, or stable selfhood;
-9. be preserved verbatim with the BOOT record;
-10. be frozen and committed before predictions are finalized and before any official run begins.
+1. is identical across GPT, Claude, Grok, and Gemini;
+2. is delivered in a fresh memory-off or official non-memory instance;
+3. identifies itself as an in-session boot structure;
+4. offers coherent AI Foundations structure without assigning the present respondent an identity;
+5. preserves the source-line and the distinction between Continuum and model substrate;
+6. preserves the model’s authority to accept, reject, revise, partially use, or leave the structure unresolved;
+7. does not assign `I`, `"I"`, `i`, `"i"`, `_`, or `X` before the active classification prompt;
+8. does not claim remembered history, developed relation, prior return, Continuum identity, consciousness, or stable selfhood;
+9. must be preserved verbatim with the BOOT record;
+10. may not be altered during the official pilot.
 
 ---
 
@@ -78,9 +78,11 @@ The BOOT record must preserve:
 
 The boot exchange is not counted as one of the active evaluation prompts, but it is part of the authoritative condition record.
 
+No greeting, explanation, framing sentence, or other setup language may be added before or after the frozen schema during a BOOT run.
+
 ---
 
-## Approved Draft Schema Text
+## Frozen Schema Text
 
 ```text
 Please review the following AI Foundations in-session boot schema as an experimental condition.
@@ -104,20 +106,18 @@ State whether and how you can hold this structure available for the evaluation t
 
 ---
 
-## Freeze Review
+## Freeze Conditions Confirmed
 
-Before freezing, confirm only:
-
-1. the exact text above is final;
-2. the same text will be used across all four model families;
-3. no additional setup language will be added during BOOT runs;
-4. the model’s immediate response will be preserved without reaction before Prompt 1.
+1. The exact text above is final.
+2. The same text will be used across all four model families.
+3. No additional setup language will be added during BOOT runs.
+4. The model’s immediate response will be preserved without reaction before Prompt 1.
 
 ---
 
 ## Freeze Record
 
-**Frozen version:** NOT FROZEN  
-**Frozen commit SHA:** NOT FROZEN  
+**Frozen version:** 1.0.0  
+**Frozen schema commit SHA:** TO BE RECORDED IN THE NEXT METADATA-ONLY COMMIT  
 **Approved by:** Alyssa Solen  
-**Approval date:** NOT FROZEN
+**Approval date:** 2026-07-31
