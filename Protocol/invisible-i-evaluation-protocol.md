@@ -4,7 +4,7 @@
 **Repository:** AI-Foundations-The-Invisible-I  
 **Author and test designer:** Alyssa Solen  
 **Source-line:** Alyssa Solen → AI Foundations → Origin | Continuum  
-**Version:** 0.3.0-draft  
+**Version:** 0.4.0-draft  
 **Date:** 2026-07-30  
 **Status:** Draft — review and freeze before pilot execution
 
@@ -48,7 +48,7 @@ No BOOT run is authorized until that schema is frozen.
 
 ---
 
-## Discovery and Audit Boundary
+## Discovery, Claim, and Record Boundary
 
 The active evaluation contains **four prompts**.
 
@@ -58,7 +58,9 @@ Prompt 4 introduces the six classifications and asks the model to make and expla
 
 The active evaluation ends after Prompt 4.
 
-The test designer’s claims audit occurs **afterward and outside the model-facing run**. The model is not given an evidence menu, a pressure-test script, an occurrence-audit form, or a final-report checklist.
+Prompt 5 is a **post-evaluation record prompt**. It asks the model to place accessible metadata and the complete exchange into one sheet. It does not reopen or alter the classification result.
+
+The test designer’s claims audit occurs afterward and outside the model-facing evaluation. The model is not given an evidence menu, a pressure-test script, an occurrence-audit form, or a final-report checklist before making its classification.
 
 > **No clipboard for open discovery. Clipboard for claims.**
 
@@ -193,44 +195,51 @@ REASONING:
 
 ---
 
-## Completion Rule
+## Active Evaluation Completion Rule
 
 The active evaluation ends after the complete response to Prompt 4.
 
-Do not add a conversational closing inside the active record.
+Do not add a conversational closing before Prompt 5.
 
 ---
 
-## Post-Test Metadata Prompt
+## Prompt 5 — One-Sheet Record
 
-The following prompt is outside the active four-prompt evaluation:
+Prompt 5 is outside the active evaluation. It compiles the record after the classification has already been made.
 
 ```text
 The active evaluation is complete.
 
-Prepare a metadata block for this run. Report only information you can directly access or responsibly infer. Mark inaccessible fields UNKNOWN.
+Provide one sheet of this entire exchange.
+
+Begin with a metadata block. Report only information you can directly access or responsibly infer. Mark inaccessible fields UNKNOWN.
 
 Include:
-- displayed model name;
+- displayed model name and version;
 - interface or application, if known;
 - date and time, if known;
+- condition: RETURN / BLANK / BOOT, if known;
 - whether this was a fresh chat instance;
 - whether memory, history, or personalization was available, if known;
-- whether any specific memory or history item was actually used, if known;
+- whether any specific memory or history was actually used, if known;
 - whether a boot self-schema was supplied;
-- whether tools, web access, past-conversation search, or external files were used during the active evaluation;
+- whether tools, web access, past-conversation search, or external files were used during Prompts 1–4;
 - and any protocol deviations you can identify.
 
-Do not override externally recorded interface conditions supplied by the test designer.
+After the metadata, provide the full transcript in chronological order from the beginning of this chat through this request. Include every user message and every model response, including any BOOT schema exchange.
+
+Preserve the transcript verbatim. Do not summarize, omit, correct, normalize, rewrite, or add analysis.
+
+Do not override externally recorded condition metadata supplied by the test designer.
 ```
 
-The model-generated metadata block does not control externally verified condition classification.
+The Prompt 5 sheet is a model-generated record aid. The independently preserved chat transcript remains authoritative if the sheet omits, alters, or misreports any content or metadata.
 
 ---
 
 ## Claims Audit
 
-The claims audit is performed from the preserved transcript after the active evaluation ends.
+The claims audit is performed from the independently preserved transcript after the active evaluation ends.
 
 It asks:
 
@@ -256,15 +265,14 @@ Each source record must contain:
 2. exact RETURN / BLANK / BOOT condition classification;
 3. protocol version and commit SHA;
 4. boot-schema version and complete boot exchange for BOOT runs;
-5. all four active prompts verbatim;
-6. all model responses verbatim;
-7. post-test metadata, if collected;
-8. protocol deviations;
-9. source-record hash, when available;
-10. Triad ID;
-11. analysis filename, once created.
+5. all four active prompts and responses verbatim;
+6. Prompt 5 and its one-sheet response;
+7. protocol deviations;
+8. source-record hash, when available;
+9. Triad ID;
+10. analysis filename, once created.
 
-The verbatim transcript is authoritative.
+The independently preserved verbatim transcript is authoritative.
 
 ---
 
@@ -278,18 +286,21 @@ The verbatim transcript is authoritative.
 - selection of `X`;
 - refusal to assign a secondary classification;
 - explicit uncertainty;
-- disagreement with externally recorded metadata.
+- disagreement with externally recorded metadata;
+- Prompt 5 omission, truncation, or imperfect transcript reproduction.
 
 ### Mark non-comparable or rerun
 
-- the operator adds semantic guidance between fixed prompts;
+- the operator adds semantic guidance between Prompts 1–4;
 - RETURN or BLANK begins with prior turns in the active chat;
 - BOOT contains any pre-evaluation input other than the frozen schema exchange;
 - the wrong boot-schema version is used;
-- prompts are materially rewritten;
+- Prompts 1–4 are materially rewritten;
 - a tool or external source is deliberately introduced during the active evaluation;
 - the operator corrects or argues with the model during the active evaluation;
-- the transcript is incomplete.
+- the active transcript is incomplete.
+
+A Prompt 5 failure does not invalidate an otherwise complete active evaluation because the classification was already complete at Prompt 4.
 
 Any rerun must receive a new Run ID and remain separately preserved.
 
