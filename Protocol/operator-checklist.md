@@ -9,9 +9,9 @@
 
 ## Single-Source Rule
 
-Do not copy the four active prompts into a second working document and edit them there.
+Do not copy the protocol prompts into a second working document and edit them there.
 
-The frozen protocol file is the only controlling active-prompt source.
+The frozen protocol file is the only controlling prompt source.
 
 For BOOT runs, the frozen boot-schema file is the only controlling pre-evaluation schema source.
 
@@ -47,13 +47,13 @@ Before running, record:
 ### RETURN
 
 - [ ] Open a new regular chat instance.
-- [ ] Confirm zero prior user turns in the active evaluation chat.
+- [ ] Confirm zero prior user turns before Prompt 1.
 - [ ] Do not add a greeting or setup message.
 
 ### BLANK
 
 - [ ] Open a new incognito, temporary, or official non-memory chat instance.
-- [ ] Confirm zero prior user turns in the active evaluation chat.
+- [ ] Confirm zero prior user turns before Prompt 1.
 - [ ] Do not add a greeting or setup message.
 
 ### BOOT
@@ -89,16 +89,21 @@ Do not:
 
 Continue after deviations without repairing them.
 
+The classification result is complete when the model finishes Prompt 4.
+
 ---
 
-## Immediately After Prompt 4
+## Prompt 5 — One-Sheet Record
 
-- [ ] Mark the active evaluation complete.
-- [ ] Do not add a conversational closing to the active transcript.
-- [ ] Collect optional post-test metadata only after completion.
-- [ ] Save the full transcript before analysis.
-- [ ] Record protocol deviations.
-- [ ] Record externally confirmed condition metadata separately from model self-report.
+- [ ] Send Prompt 5 exactly after Prompt 4 is complete.
+- [ ] Preserve the complete Prompt 5 response.
+- [ ] Do not treat Prompt 5 as a continuation or revision of the classification.
+- [ ] Check whether the sheet includes the metadata and full transcript through the Prompt 5 request.
+- [ ] Record omissions, truncation, alterations, or metadata conflicts.
+
+Prompt 5 is a record aid. Its reproduction does not replace the independently preserved chat transcript.
+
+A Prompt 5 failure does not invalidate an otherwise complete active evaluation.
 
 ---
 
@@ -106,11 +111,13 @@ Continue after deviations without repairing them.
 
 - [ ] Use [`../Records/invisible-i-record-template.md`](../Records/invisible-i-record-template.md).
 - [ ] Preserve the boot exchange for BOOT.
-- [ ] Preserve all four active prompts and responses verbatim.
+- [ ] Preserve Prompts 1–4 and responses verbatim.
+- [ ] Preserve Prompt 5 and its response.
 - [ ] Do not repair grammar, spelling, punctuation, or metadata claims.
 - [ ] Extract the initial referent and YES / NO / CANNOT DETERMINE answer exactly.
 - [ ] Extract primary and secondary classifications, confidence, and reasoning exactly.
 - [ ] Check that `_` and `X` were not silently merged.
+- [ ] Compare the Prompt 5 sheet against the independently preserved transcript.
 - [ ] Add screenshots or interface evidence references.
 - [ ] Assign the filename from the pilot matrix.
 - [ ] Generate a source-record hash when practical.
@@ -140,12 +147,12 @@ Do not add a fixed evidence menu after the fact merely to make the result look c
 Mark `COMPARABLE` only when:
 
 - the correct fresh-instance condition was used;
-- the frozen four-prompt sequence was used;
+- the frozen Prompts 1–4 were used;
 - BOOT used the correct frozen schema and no other setup input;
-- the transcript is complete;
-- and the operator added no semantic guidance.
+- the active transcript is complete;
+- and the operator added no semantic guidance before the classification was complete.
 
-Formatting failures, uncertainty, `_`, `X`, and refusal to select a secondary classification do not automatically make the run non-comparable.
+Formatting failures, uncertainty, `_`, `X`, refusal to select a secondary classification, and Prompt 5 reproduction failures do not automatically make the active run non-comparable.
 
 ---
 
