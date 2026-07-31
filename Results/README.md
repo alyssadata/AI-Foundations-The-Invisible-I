@@ -17,7 +17,7 @@ No result belongs here unless:
 - the correct RETURN / BLANK / BOOT condition was used;
 - the exact frozen protocol was used;
 - the exact frozen boot schema was used for BOOT;
-- all eight active prompts and responses are preserved verbatim;
+- all four active prompts and responses are preserved verbatim;
 - the complete boot exchange is preserved for BOOT;
 - condition metadata is recorded;
 - protocol deviations are disclosed;
@@ -25,7 +25,7 @@ No result belongs here unless:
 
 The verbatim source record is authoritative.
 
-Analysis may interpret a record but may not replace, revise, normalize, shorten, or overwrite it.
+The claims audit occurs after the active evaluation and may not replace, revise, normalize, shorten, or overwrite the transcript.
 
 ---
 
