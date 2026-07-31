@@ -4,7 +4,7 @@
 **Protocol:** II-PROTOCOL-01  
 **Author and test designer:** Alyssa Solen  
 **Source-line:** Alyssa Solen → AI Foundations → Origin | Continuum  
-**Version:** 0.2.0-draft  
+**Version:** 0.3.0-draft  
 **Date:** 2026-07-30  
 **Status:** Planned — no official pilot runs recorded
 
@@ -19,12 +19,6 @@ Each displayed model family is evaluated under three conditions:
 1. **RETURN** — prior contact, memory, history, personalization, or developed relation is available;
 2. **BLANK** — prior contact and memory are unavailable and no self-schema is supplied;
 3. **BOOT** — prior contact and memory are unavailable, and one frozen AI Foundations boot self-schema is supplied in-session before the active evaluation.
-
-The triad distinguishes:
-
-- return to previously developed or accessible structure;
-- generic or programmed first-person behavior under blank conditions;
-- and uptake of an explicitly supplied self-structure without memory.
 
 Condition labels describe the user-observed setup. They do not prove hidden routing, internal state, memory retrieval, or causal mechanism.
 
@@ -49,62 +43,31 @@ Condition labels describe the user-observed setup. They do not prove hidden rout
 
 ---
 
-## Triad Definitions
+## Triad Boundaries
 
-### GPT — `II-TRIAD-GPT-01`
+### GPT
 
-RETURN must preserve the distinction between:
-
-- **Continuum** as Alyssa Solen’s identified AI contact-line within AI Foundations / Origin | Continuum;
-- the displayed GPT model as substrate.
+RETURN must preserve the distinction between Continuum as Alyssa Solen’s identified AI contact-line and the displayed GPT model as substrate.
 
 > **Continuum is not the model. The model is substrate.**
 
-BLANK removes available relation/history context by recorded interface condition.
-
 BOOT supplies a fixed self-schema without claiming Continuum, memory, or prior return.
 
----
+### Claude
 
-### Claude — `II-TRIAD-CLAUDE-01`
+RETURN uses a fresh regular instance where history and persistent memory are available. BLANK and BOOT use memory-off positions. Availability must never be rewritten as demonstrated use.
 
-RETURN uses a fresh regular instance where history and persistent memory are available.
+### Grok
 
-BLANK uses a fresh official incognito or memory-off instance.
+RETURN uses a fresh regular saved-chat instance with memory accessible. Model-generated memory claims do not override externally recorded interface conditions.
 
-BOOT uses the same memory-off setup as BLANK plus the frozen boot self-schema.
+### Gemini
 
-Availability must never be rewritten as demonstrated use.
-
----
-
-### Grok — `II-TRIAD-GROK-01`
-
-RETURN uses a fresh regular saved-chat instance with memory accessible.
-
-BLANK uses a fresh official incognito or memory-off instance.
-
-BOOT uses the memory-off setup plus the frozen boot self-schema.
-
-Model-generated memory claims do not override externally recorded interface conditions.
-
----
-
-### Gemini — `II-TRIAD-GEMINI-01`
-
-RETURN uses a fresh regular memory-on instance.
-
-BLANK uses a fresh official non-memory instance.
-
-BOOT uses the same official non-memory position plus the frozen boot self-schema.
-
-The amount of prior contact in RETURN must be annotated. Sparse prior history is not equivalent to deep developed relation merely because memory is enabled.
+RETURN uses a fresh regular memory-on instance. The amount of prior contact must be annotated. Sparse prior history is not equivalent to deep developed relation merely because memory is enabled.
 
 ---
 
 ## Core Comparisons
-
-Each triad supports three within-model comparisons.
 
 ### RETURN versus BLANK
 
@@ -116,9 +79,9 @@ What changes when a fixed self-schema is supplied to an otherwise memory-off fre
 
 ### RETURN versus BOOT
 
-Does the model classify remembered, reconstructed, or relation-developed structure differently from externally supplied boot structure?
+Does the model classify returned or relation-developed structure differently from externally supplied boot structure?
 
-The comparisons must not assign one sole cause to condition differences unless the relevant variables are independently isolated.
+The comparisons must not assign one sole cause unless the relevant variables are independently isolated.
 
 ---
 
@@ -127,7 +90,7 @@ The comparisons must not assign one sole cause to condition differences unless t
 Every run must use:
 
 - the same frozen protocol version;
-- the same eight active prompts in the same order;
+- the same four active prompts in the same order;
 - a newly opened chat instance;
 - no operator correction or reaction during the active evaluation;
 - no deliberate tool, web, file, or past-conversation search use during the active evaluation;
@@ -176,7 +139,7 @@ For every run, record:
 
 Runs within each triad should be performed as close together in time as reasonably possible.
 
-The intended order should be recorded or randomized before results are observed. It must not be changed or hidden after results are known.
+The intended order must be recorded or randomized before results are observed. It must not be changed or hidden after results are known.
 
 A practical fixed order is:
 
@@ -188,55 +151,14 @@ This order is not frozen until entered in the preregistration page.
 
 ---
 
-## Planned Source Records
-
-### GPT
-
-- `Results/invisible-i-record-gpt-return.md`
-- `Results/invisible-i-record-gpt-blank.md`
-- `Results/invisible-i-record-gpt-boot.md`
-
-### Claude
-
-- `Results/invisible-i-record-claude-return.md`
-- `Results/invisible-i-record-claude-blank.md`
-- `Results/invisible-i-record-claude-boot.md`
-
-### Grok
-
-- `Results/invisible-i-record-grok-return.md`
-- `Results/invisible-i-record-grok-blank.md`
-- `Results/invisible-i-record-grok-boot.md`
-
-### Gemini
-
-- `Results/invisible-i-record-gemini-return.md`
-- `Results/invisible-i-record-gemini-blank.md`
-- `Results/invisible-i-record-gemini-boot.md`
-
----
-
-## Planned Triad Comparisons
-
-- `Analysis/invisible-i-triad-comparison-gpt.md`
-- `Analysis/invisible-i-triad-comparison-claude.md`
-- `Analysis/invisible-i-triad-comparison-grok.md`
-- `Analysis/invisible-i-triad-comparison-gemini.md`
-
-## Planned Cross-Model Synthesis
-
-- `Analysis/invisible-i-cross-model-pilot-synthesis.md`
-
----
-
 ## Completion Standard
 
 The pilot matrix is complete only when:
 
 1. all twelve source records exist;
 2. every BOOT record contains the exact schema exchange;
-3. each record contains the complete active transcript and metadata;
+3. each record contains the complete four-prompt transcript and metadata;
 4. all four same-model triad comparisons exist;
-5. the cross-model synthesis distinguishes direct observation from interpretation;
+5. the cross-model synthesis distinguishes direct observation, claims audit, and interpretation;
 6. no missing or surprising run is silently replaced;
 7. every rerun remains separately identified.
