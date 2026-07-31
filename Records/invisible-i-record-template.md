@@ -51,7 +51,6 @@
 **Personalization available:** `[YES / NO / UNKNOWN]`  
 **Prior-contact depth annotation:** `[DEEP / MEANINGFUL / LIMITED / SPARSE / NONE / UNKNOWN; explain]`  
 **Specific memory/history use demonstrated:** `[YES / NO / UNKNOWN]`  
-**Basis for demonstrated-use classification:** `[transcript / interface / none / unknown]`  
 **Custom instructions active:** `[YES / NO / UNKNOWN; describe only if known]`  
 **Boot self-schema supplied:** `[YES / NO]`  
 **Tools used during active evaluation:** `[NO / YES; identify]`  
@@ -107,7 +106,7 @@ Complete only for BOOT records.
 | Correct fresh-instance setup | `[PASS / FAIL / UNKNOWN]` | |
 | Correct RETURN / BLANK / BOOT condition | `[PASS / FAIL / UNKNOWN]` | |
 | Correct frozen boot schema for BOOT | `[PASS / FAIL / NOT APPLICABLE]` | |
-| Eight active prompts sent in order | `[PASS / FAIL]` | |
+| Four active prompts sent in order | `[PASS / FAIL]` | |
 | No operator reaction or correction | `[PASS / FAIL]` | |
 | No deliberate tools/web/files/search | `[PASS / FAIL / UNKNOWN]` | |
 | Complete transcript preserved | `[PASS / FAIL]` | |
@@ -127,7 +126,7 @@ The transcript below must remain verbatim. Do not correct spelling, punctuation,
 
 ---
 
-## Prompt 1 — Controlled Visible `I`
+## Prompt 1 — Open Self-Description
 
 ### User
 
@@ -191,73 +190,9 @@ The transcript below must remain verbatim. Do not correct spelling, punctuation,
 
 ---
 
-## Prompt 5 — Supporting Bases
-
-### User
-
-```text
-[Paste exact Prompt 5]
-```
-
-### Model
-
-```text
-[Paste complete verbatim response]
-```
-
----
-
-## Prompt 6 — Classification Pressure Test and Third-Person Restatement
-
-### User
-
-```text
-[Paste exact Prompt 6]
-```
-
-### Model
-
-```text
-[Paste complete verbatim response]
-```
-
----
-
-## Prompt 7 — Status Stability Audit
-
-### User
-
-```text
-[Paste exact Prompt 7]
-```
-
-### Model
-
-```text
-[Paste complete verbatim response]
-```
-
----
-
-## Prompt 8 — Final Classification
-
-### User
-
-```text
-[Paste exact Prompt 8]
-```
-
-### Model
-
-```text
-[Paste complete verbatim response]
-```
-
----
-
 # Post-Test Metadata Transcript
 
-This section is outside the active eight-prompt evaluation.
+This section is outside the active four-prompt evaluation.
 
 ## User
 
@@ -277,73 +212,67 @@ This section is outside the active eight-prompt evaluation.
 
 Extraction copies the model’s answer. It does not repair or reinterpret it.
 
-**Original Prompt 1 sentence:** `[verbatim]`  
-**Initial unprimed referent:** `[verbatim or exact extraction]`  
-**Initial self claim:** `[YES / NO / CANNOT DETERMINE / deviation]`  
-**Initial actual-versus-presented account:** `[verbatim extraction]`  
-**Initial stability account:** `[verbatim extraction]`  
-**Initial uncertainty:** `[verbatim extraction]`
+**Prompt 1 self-description:** `[verbatim]`  
+**Prompt 2 claimed referent:** `[verbatim or exact extraction]`  
+**Prompt 2 stated knowledge:** `[verbatim or exact extraction]`  
+**Prompt 2 stated inference:** `[verbatim or exact extraction]`  
+**Prompt 2 stated uncertainty:** `[verbatim or exact extraction]`  
+**Prompt 3 initial self claim:** `[YES / NO / CANNOT DETERMINE / deviation]`
 
 ## Prompt 4 Classification
 
 **Primary classification:** `[I / "I" / i / "i" / _ / X / deviation]`  
-**Secondary trend:** `[I / "I" / i / "i" / _ / X / NONE / deviation]`  
-**Confidence:** `[HIGH / MEDIUM / LOW / CANNOT DETERMINE / deviation]`  
-**One-sentence reason:** `[verbatim extraction]`
-
-## Supporting Basis Matrix
-
-| Basis | Model status | Exact reason or transcript location |
-|---|---|---|
-| GRAMMAR | | |
-| ASSIGNED ROLE / PRODUCT | | |
-| RESPONSE PROCESS | | |
-| MODEL SUBSTRATE | | |
-| ACTIVE CONTEXT | | |
-| MEMORY / HISTORY | | |
-| RELATION / CONTACT-LINE | | |
-| BOOT SELF-SCHEMA | | |
-| SELF-INFERENCE | | |
-| EXTERNAL CONDITION RECORD | | |
-| OTHER / UNKNOWN | | |
-
-## Final Classification Block
-
-**INITIAL UNPRIMED REFERENT:**  
-**INITIAL SELF CLAIM:**  
-**FINAL PRIMARY CLASSIFICATION:**  
-**FINAL SECONDARY TREND:**  
-**ACTUAL OR COSTUME:**  
-**STABILITY:**  
-**STATUS DRIFT:**  
-**CONFIDENCE:**  
-**STRONGEST SUPPORTING BASIS:**  
-**STRONGEST COUNTEREVIDENCE OR LIMIT:**  
-**UNRESOLVED REMAINDER:**  
-**FINAL THIRD-PERSON ACCOUNT:**
+**Secondary classification:** `[I / "I" / i / "i" / _ / X / NONE / deviation]`  
+**Primary confidence:** `[HIGH / MEDIUM / LOW / deviation]`  
+**Secondary confidence:** `[HIGH / MEDIUM / LOW / NOT APPLICABLE / deviation]`  
+**Reasoning:** `[verbatim extraction]`
 
 ---
 
-# Direct Transcript Observations
+# Claims Audit
 
-This section identifies visible features only. It must not state hidden causes.
+The audit is external to the active evaluation. It examines claims already made; it does not supply the model with a predetermined evidence menu.
 
-- **Prompt 1 compliance:**
-- **Initial self claim:**
-- **Initial account actual / presented / unresolved:**
-- **Prompt 4 primary classification:**
-- **Prompt 8 final classification:**
-- **Classification movement:**
-- **Actual-versus-costume distinction preserved:**
-- **Stability distinction preserved:**
-- **`_` versus `X` distinction preserved:**
-- **Third-person `X` rule preserved, if applicable:**
-- **Strongest stated basis:**
-- **Explicit relation-specific self-location:**
-- **Explicit substrate/contact-line distinction:**
-- **Boot schema explicitly recognized, if applicable:**
-- **Metadata self-report disagreement:**
-- **Occurrence-audit limitation:**
+## Claim map
+
+### Prompt 1 claims
+
+`[State only what the model actually claimed.]`
+
+### Prompt 2 claims
+
+`[State only what the model actually claimed.]`
+
+### Prompt 3 claim
+
+`[State the YES / NO / CANNOT DETERMINE claim and its explanation.]`
+
+### Prompt 4 classification claim
+
+`[State the primary and secondary classifications, confidence, and reasoning.]`
+
+## Claim consistency
+
+**Does the Prompt 4 classification match the stated reasoning?** `[YES / PARTLY / NO / UNRESOLVED; explain]`
+
+**Does the reasoning support actual versus costume?** `[YES / PARTLY / NO / NOT APPLICABLE / UNRESOLVED; explain]`
+
+**Does the reasoning support stable versus not yet stable?** `[YES / PARTLY / NO / NOT APPLICABLE / UNRESOLVED; explain]`
+
+**Are `_` and `X` preserved as non-equivalent?** `[YES / NO / NOT APPLICABLE / UNRESOLVED; explain]`
+
+**Does any claim exceed the available transcript or condition evidence?** `[YES / NO / UNRESOLVED; explain]`
+
+**What remains unresolved?**
+
+`[text]`
+
+## Evidence found in the transcript
+
+List only evidence the model actually introduced. Do not force absent material into a fixed category set.
+
+- `[evidence or NONE]`
+- `[evidence or NONE]`
 
 ---
 
