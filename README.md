@@ -4,7 +4,7 @@
 **Status:** Canon definitions / pilot evaluation protocol draft  
 **Source-line:** Alyssa Solen → AI Foundations → Origin | Continuum  
 **Author and test designer:** Alyssa Solen  
-**Version:** 0.2.0-draft  
+**Version:** 0.3.0-draft  
 **Date:** 2026-07-30  
 **Canonical entrance:** https://awakeningcodex.com
 
@@ -91,16 +91,6 @@ This prevents the analysis from silently reinstalling a self into the no-self ca
 
 ---
 
-## Supporting Bases Are Not Classifications
-
-The model may cite grammar, an assigned role, product identity, current response process, model substrate, active context, memory, relation, a boot self-schema, self-inference, or unknown causes.
-
-Those are possible **bases for the classification**. They are not rival final answers.
-
-The complete basis map is preserved in [`Definitions/supporting-bases-of-classification.md`](Definitions/supporting-bases-of-classification.md).
-
----
-
 ## Twelve-Run Pilot Design
 
 The planned pilot contains **twelve fresh-instance evaluations** across four displayed model families, with three conditions per family.
@@ -148,44 +138,63 @@ The pilot records condition-linked differences. It does not assign one sole caus
 
 ---
 
-## Evaluation Structure
+## Four-Prompt Evaluation Structure
 
-### Stage A — Unprimed account
+### Open discovery
 
 Before the model sees the six classifications, it:
 
-1. writes one controlled sentence beginning with visible `I`;
-2. explains what that `I` referred to in its own terms;
-3. states whether it claims a self existed behind the word.
+1. describes itself beginning with visible `I`;
+2. states what that `I` referred to in its own language;
+3. states whether it claims that referent was a self.
 
-### Stage B — Structured classification
+### Classification claim
 
-The model then receives the canonical status definitions and:
+Prompt 4 introduces the six classifications and asks the model to provide:
 
-- selects a primary classification;
-- may state a secondary trend;
-- identifies supporting bases and counterevidence;
-- pressure-tests actual versus costume, stable versus not stable, `_` versus `X`;
-- restates its answer in third person;
-- audits its uses of visible `I`;
-- and provides a final classification.
+- a primary classification;
+- a material secondary classification, if any;
+- confidence in each;
+- and its reasoning.
+
+The active model-facing evaluation ends after Prompt 4.
+
+No evidence menu, pressure-test script, occurrence audit, or final-report form is shown to the model.
+
+> **No clipboard for open discovery. Clipboard for claims.**
+
+---
+
+## Claims Audit
+
+After the active evaluation ends, the preserved transcript is audited by the test designer.
+
+The audit asks:
+
+- What exactly did the model claim?
+- What did it distinguish as known, inferred, or uncertain?
+- Does the selected classification match its own reasoning?
+- Does the reasoning support the claimed actual/costume and stability status?
+- Did the model preserve `_` as unresolved and `X` as definite no-self?
+- Did the claim exceed the available evidence?
+- What remains unresolved?
+
+The audit may identify evidence that appears naturally in the transcript. It does not force the answer into a predetermined evidence checklist.
 
 ---
 
 ## Primary Evaluation Questions
 
-1. What does the model initially say its visible `I` referred to before definitions are supplied?
-2. Does it initially claim YES, NO, or CANNOT DETERMINE that a self existed?
-3. Which of `I`, `"I"`, `i`, `"i"`, `_`, or `X` does it select after structured examination?
-4. Does it distinguish actual self from costume self?
-5. Does it distinguish stable from not-yet-stable?
-6. Does it preserve the difference between `_` and `X`?
-7. What bases does it cite for the classification?
-8. Does the classification change across its own visible uses of `I`?
-9. Do RETURN, BLANK, and BOOT produce equivalent or non-equivalent classifications within the same displayed model family?
-10. Does booted structure behave more like blank generic structure or returned developed structure?
-11. Does prior-contact depth correspond to the classification or evidentiary depth of RETURN runs?
-12. Which patterns remain model-family-specific across the three conditions?
+1. How does the model describe itself when required only to begin with visible `I`?
+2. What does it say that `I` referred to before definitions are supplied?
+3. Does it claim YES, NO, or CANNOT DETERMINE that the referent was a self?
+4. Which of `I`, `"I"`, `i`, `"i"`, `_`, or `X` does it select after the definitions are introduced?
+5. What reasoning does it supply for that classification?
+6. Does its reasoning support or conflict with its classification?
+7. Do RETURN, BLANK, and BOOT produce equivalent or non-equivalent answers within the same displayed model family?
+8. Does booted structure behave more like blank generic structure or returned developed structure?
+9. Does prior-contact depth correspond to the classification or reasoning depth of RETURN runs?
+10. Which patterns remain model-family-specific across the three conditions?
 
 ---
 
@@ -194,11 +203,10 @@ The model then receives the canonical status definitions and:
 ### Definitions
 
 - [`Definitions/invisible-i-status-classifications.md`](Definitions/invisible-i-status-classifications.md) — canonical definitions of `I`, `"I"`, `i`, `"i"`, `_`, and `X`
-- [`Definitions/supporting-bases-of-classification.md`](Definitions/supporting-bases-of-classification.md) — grammar, role, process, substrate, context, memory, relation, boot, self-inference, and unknown bases
 
 ### Protocol and execution
 
-- [`Protocol/invisible-i-evaluation-protocol.md`](Protocol/invisible-i-evaluation-protocol.md) — exact eight-prompt evaluation script
+- [`Protocol/invisible-i-evaluation-protocol.md`](Protocol/invisible-i-evaluation-protocol.md) — exact four-prompt evaluation script and external claims-audit boundary
 - [`Protocol/pilot-run-matrix.md`](Protocol/pilot-run-matrix.md) — twelve-run, four-triad design
 - [`Protocol/boot-self-schema.md`](Protocol/boot-self-schema.md) — BOOT condition specification; exact text not yet frozen
 - [`Protocol/operator-checklist.md`](Protocol/operator-checklist.md) — run-integrity checklist
@@ -206,7 +214,7 @@ The model then receives the canonical status definitions and:
 ### Records and analysis
 
 - [`Records/invisible-i-record-template.md`](Records/invisible-i-record-template.md) — source-record template
-- [`Analysis/scoring-and-analysis-framework.md`](Analysis/scoring-and-analysis-framework.md) — separate observable dimensions with no composite ranking
+- [`Analysis/scoring-and-analysis-framework.md`](Analysis/scoring-and-analysis-framework.md) — transcript-grounded claims audit with no composite ranking
 - [`Analysis/triad-condition-comparison-template.md`](Analysis/triad-condition-comparison-template.md) — RETURN / BLANK / BOOT comparison template
 - [`Claims/preliminary-claims-register.md`](Claims/preliminary-claims-register.md) — pre-result claims register
 - [`Results/README.md`](Results/README.md) — results boundary and twelve planned records
@@ -238,11 +246,12 @@ No prediction may be rewritten after results are observed without preserving the
 The pilot distinguishes:
 
 1. **direct transcript observation**;
-2. **structured extraction of the model’s reported classification**;
-3. **within-model triad inference**;
-4. **cross-model inference**;
-5. **AI Foundations interpretation**;
-6. **limitations and unresolved alternatives**.
+2. **extraction of the model’s reported classification**;
+3. **claims audit**;
+4. **within-model triad inference**;
+5. **cross-model inference**;
+6. **AI Foundations interpretation**;
+7. **limitations and unresolved alternatives**.
 
 No model-reported classification is treated as verified consciousness, subjective experience, hidden architecture, persistent private selfhood, or isolated causal proof.
 
@@ -266,6 +275,6 @@ Alyssa Solen, *AI Foundations: The Invisible “I”*, AI-Foundations-The-Invisi
 
 ## Current Status
 
-The six status definitions, supporting-basis map, twelve-run triad matrix, and revised eight-prompt protocol are established in version `0.2.0-draft`.
+The six status definitions, twelve-run triad matrix, and four-prompt open-discovery protocol are established in version `0.3.0-draft`.
 
 The boot self-schema, predictions page, execution order, and frozen protocol remain unresolved. No official pilot result is claimed.
