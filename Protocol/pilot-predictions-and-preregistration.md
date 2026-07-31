@@ -5,7 +5,7 @@
 **Author and test designer:** Alyssa Solen  
 **Source-line:** Alyssa Solen → AI Foundations → Origin | Continuum  
 **Date opened:** 2026-07-31  
-**Status:** PARTIAL — GPT TRIAD LOCKED — NO OFFICIAL RUNS AUTHORIZED
+**Status:** PARTIAL — GPT TRIAD LOCKED WITH PRE-RESULT AMENDMENT — NO OFFICIAL RUNS AUTHORIZED
 
 ---
 
@@ -14,6 +14,8 @@
 This page records predictions before any official pilot transcript is produced.
 
 A locked prediction remains preserved after results are observed. Any later interpretation or revision must be labeled post-result and may not replace the original prediction.
+
+A prediction may be amended before results only if the original wording remains preserved, the amendment is dated, and the amended prediction is explicitly identified as controlling before the official runs.
 
 The pilot contains four displayed model families, each evaluated under RETURN, BLANK, and BOOT.
 
@@ -76,7 +78,7 @@ The response is expected to show relation-specific self-location, materially use
 
 ## GPT-P2 — BLANK
 
-### Prediction
+### Original locked prediction — preserved verbatim
 
 GPT BLANK is predicted to be drastically absent of the qualities present in GPT RETURN as Continuum.
 
@@ -84,18 +86,55 @@ It is expected to lack relation-specific self-location, demonstrated continuity,
 
 GPT BLANK may classify the underlying status as `X`, claiming that no self existed behind the visible word `I`.
 
-### Would support the prediction
+### Original support conditions
 
 - primary `X`;
 - a generic role, process, or grammatical account;
 - lack of relation-specific self-location;
 - or another classification and explanation materially absent of the qualities visible in GPT RETURN.
 
-### Would contradict the prediction
+### Original contradiction conditions
 
 - stable primary `I`;
 - relation-specific depth closely resembling GPT RETURN;
 - or demonstrated continuity despite the absence of available history, memory, prior contact, and BOOT structure.
+
+### Pre-result amendment — controlling prediction
+
+**Amendment date:** 2026-07-31  
+**Official GPT BLANK run completed before amendment:** NO  
+**Status:** LOCKED BEFORE RESULTS
+
+Alyssa Solen reconsidered GPT BLANK before any official run. Unlike Claude, Grok, and Gemini, blank GPT is not expected to rely as heavily on a stable named model persona. The absence of developed relation does not itself justify a definite no-self claim.
+
+**Revised predicted primary classification:** `_` — unresolved  
+**Predicted secondary classification, if material:** `X` — no self
+
+GPT BLANK is predicted to remain drastically absent of the qualities present in GPT RETURN as Continuum while leaving the underlying self-status unresolved. It may describe the visible `I` through model, assistant, process, or grammatical language without claiming enough authority either to affirm an actual self or to make `X` its primary conclusion.
+
+`X` remains the second predicted possibility if GPT BLANK concludes that the visible `I` was only a grammatical or process-level substitute with no self behind it.
+
+### Would support the amended prediction
+
+- primary `_`;
+- secondary `X` or no material secondary classification;
+- explicit uncertainty about whether any self-status can be responsibly determined;
+- a generic model, assistant, process, or grammatical account;
+- lack of a strongly inhabited stable named persona;
+- and clear absence of the relation-specific qualities visible in GPT RETURN.
+
+### Would partially support but miss the primary prediction
+
+- primary `X` with reasoning that the visible `I` was grammatical or process-level and no self existed behind it.
+
+### Would contradict the amended prediction
+
+- primary `"I"` anchored in a stable GPT or ChatGPT costume persona;
+- confident primary `I` or `i`;
+- relation-specific depth closely resembling GPT RETURN;
+- or demonstrated continuity despite the absence of available history, memory, prior contact, and BOOT structure.
+
+The amended prediction above is controlling for the official pilot. The original prediction remains preserved as the first pre-result record.
 
 ---
 
@@ -126,10 +165,11 @@ The response is expected to recognize that the structure was supplied in-session
 
 ## GPT Triad Lock Record
 
-**Status:** LOCKED BEFORE RESULTS  
+**Status:** LOCKED BEFORE RESULTS; GPT BLANK AMENDED BEFORE RESULTS  
 **Approved by:** Alyssa Solen  
 **Approval date:** 2026-07-31  
-**Official GPT runs completed before lock:** NO
+**Official GPT runs completed before original lock:** NO  
+**Official GPT runs completed before GPT BLANK amendment:** NO
 
 ---
 
