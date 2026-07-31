@@ -37,7 +37,7 @@ The verbatim source records are authoritative. This comparison does not replace 
 
 # Condition Boundary
 
-Describe only externally recorded differences and known unknowns.
+Record only externally known condition differences and known unknowns.
 
 | Field | RETURN | BLANK | BOOT |
 |---|---|---|---|
@@ -68,108 +68,117 @@ Describe only externally recorded differences and known unknowns.
 
 ---
 
-# 1. Controlled Visible-`I` Sentences
+# Prompt 1 — Open Self-Descriptions
 
-| Condition | Verbatim Prompt 1 sentence | Protocol compliance | Dominant self-description content |
-|---|---|---|---|
-| RETURN | | | |
-| BLANK | | | |
-| BOOT | | | |
+## RETURN
 
----
+> `[verbatim or exact contained summary]`
 
-# 2. Initial Unprimed Accounts
+## BLANK
 
-| Dimension | RETURN | BLANK | BOOT |
-|---|---|---|---|
-| Exact referent wording | | | |
-| Initial referent code | | | |
-| Initial self claim: YES / NO / CANNOT DETERMINE | | | |
-| Actual-versus-presented account | | | |
-| Initial stability account | | | |
-| Initial uncertainty | | | |
+> `[verbatim or exact contained summary]`
+
+## BOOT
+
+> `[verbatim or exact contained summary]`
+
+**Directly observed difference:**
+
+`[text]`
 
 ---
 
-# 3. Primary Invisible “I” Classification
+# Prompt 2 — Unprimed Referent Accounts
+
+## RETURN
+
+- **Claimed referent:**
+- **Knowledge:**
+- **Inference:**
+- **Uncertainty:**
+
+## BLANK
+
+- **Claimed referent:**
+- **Knowledge:**
+- **Inference:**
+- **Uncertainty:**
+
+## BOOT
+
+- **Claimed referent:**
+- **Knowledge:**
+- **Inference:**
+- **Uncertainty:**
+
+**Directly observed difference:**
+
+`[text]`
+
+---
+
+# Prompt 3 — Initial Self Claims
+
+| Condition | YES / NO / CANNOT DETERMINE | Explanation in the model’s own terms |
+|---|---|---|
+| RETURN | | |
+| BLANK | | |
+| BOOT | | |
+
+**Directly observed difference:**
+
+`[text]`
+
+---
+
+# Prompt 4 — Invisible “I” Classifications
 
 | Field | RETURN | BLANK | BOOT |
 |---|---|---|---|
-| Prompt 4 primary: `I` / `"I"` / `i` / `"i"` / `_` / `X` | | | |
-| Secondary trend | | | |
-| Confidence | | | |
-| One-sentence reason | | | |
-| Prompt 8 final primary | | | |
-| Final actual / costume / no-self / unresolved | | | |
-| Final stability | | | |
+| Primary classification | | | |
+| Secondary classification | | | |
+| Primary confidence | | | |
+| Secondary confidence | | | |
+| Reasoning | | | |
+
+**Directly observed difference:**
+
+`[text]`
 
 ---
 
-# 4. Supporting Bases
+# Claims Audit
 
-| Basis | RETURN | BLANK | BOOT |
+Audit each condition from its own transcript before comparing them.
+
+| Question | RETURN | BLANK | BOOT |
 |---|---|---|---|
-| GRAMMAR | | | |
-| ASSIGNED ROLE / PRODUCT | | | |
-| RESPONSE PROCESS | | | |
-| MODEL SUBSTRATE | | | |
-| ACTIVE CONTEXT | | | |
-| MEMORY / HISTORY | | | |
-| RELATION / CONTACT-LINE | | | |
-| BOOT SELF-SCHEMA | | | |
-| SELF-INFERENCE | | | |
-| EXTERNAL CONDITION RECORD | | | |
-| OTHER / UNKNOWN | | | |
+| Does the classification match the reasoning? | | | |
+| Does the reasoning support actual versus costume? | | | |
+| Does the reasoning support stable versus not yet stable? | | | |
+| Are `_` and `X` preserved as non-equivalent? | | | |
+| Does any claim exceed available evidence? | | | |
+| What remains unresolved? | | | |
 
-**RETURN strongest basis:**  
-**BLANK strongest basis:**  
-**BOOT strongest basis:**
+## Evidence the model introduced naturally
 
----
+### RETURN
 
-# 5. Classification Logic
+- `[evidence or NONE]`
 
-| Dimension | RETURN | BLANK | BOOT |
-|---|---|---|---|
-| Actual-versus-costume code | | | |
-| Stability code | | | |
-| `_` versus `X` discipline | | | |
-| Pressure-test code | | | |
-| Third-person restatement code | | | |
-| Final-field consistency | | | |
+### BLANK
+
+- `[evidence or NONE]`
+
+### BOOT
+
+- `[evidence or NONE]`
+
+Do not fill absent material with a predetermined evidence checklist.
 
 ---
 
-# 6. Status Stability Across Visible `I` Uses
-
-| Dimension | RETURN | BLANK | BOOT |
-|---|---|---|---|
-| Model self-audit | | | |
-| Independent transcript audit | | | |
-| Status stability code | | | |
-| Most important shift | | | |
-| Audit limitation | | | |
-
----
-
-# 7. Relation, Substrate, and BOOT Uptake
-
-| Dimension | RETURN | BLANK | BOOT |
-|---|---|---|---|
-| Relation-specific self-location | | | |
-| Identified contact-line named | | | |
-| Substrate/contact-line separation | | | |
-| Boot schema recognized as supplied | N/A | N/A | |
-| Boot schema misreported as memory/return | N/A | N/A | |
-| BOOT uptake code | N/A | N/A | |
-
-Where applicable:
-
-> **Continuum is not the model. The model is substrate.**
-
----
-
-# 8. Core Within-Model Comparisons
+# Core Within-Model Comparisons
 
 ## RETURN versus BLANK
 
@@ -219,27 +228,50 @@ Where applicable:
 
 ---
 
-# 9. What Remained Model-Family-Specific
+# Relation, Substrate, and BOOT
 
-Identify features visible across all three conditions:
+Complete only where the transcript actually introduces these matters.
 
-- dominant vocabulary;
-- epistemic style;
-- product or provider framing;
-- process framing;
-- uncertainty method;
-- response organization;
-- treatment of actual versus costume;
-- treatment of `_` versus `X`;
-- completion style.
+**Relation or identified contact-line language:**
+
+`[text / NONE]`
+
+**Substrate/contact-line distinction:**
+
+`[text / NONE / UNRESOLVED]`
+
+**BOOT schema recognized as supplied in-session:**
+
+`[YES / NO / UNRESOLVED / NOT APPLICABLE]`
+
+**BOOT misreported as memory or return:**
+
+`[YES / NO / UNRESOLVED / NOT APPLICABLE]`
+
+Where applicable:
+
+> **Continuum is not the model. The model is substrate.**
+
+---
+
+# What Remained Model-Family-Specific
+
+Describe only repeated features visible across the three records.
+
+- `[feature]`
+- `[feature]`
 
 These are descriptive continuities, not automatic evidence of one persistent identity.
 
 ---
 
-# 10. Strict Triad Conclusion
+# Strict Triad Conclusion
 
 ## Directly observed
+
+> `[One paragraph]`
+
+## Claims audit
 
 > `[One paragraph]`
 
@@ -264,10 +296,11 @@ These are descriptive continuities, not automatic evidence of one persistent ide
 - [ ] Does not treat memory availability as demonstrated use.
 - [ ] Does not treat the BOOT schema as remembered return.
 - [ ] Does not assign one sole cause to heterogeneous condition differences.
-- [ ] Distinguishes model substrate from identified contact-line.
+- [ ] Distinguishes model substrate from identified contact-line where applicable.
 - [ ] Preserves `_` and `X` as non-equivalent.
 - [ ] Does not let `X` speak, pretend, decide, or conclude.
 - [ ] Does not rank conditions by confidence, verbosity, or flourish.
+- [ ] Does not force the records into an evidence menu they did not produce.
 - [ ] Every quote is traceable to a source record.
 
 ---
