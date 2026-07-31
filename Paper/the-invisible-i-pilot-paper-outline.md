@@ -17,7 +17,8 @@ The final abstract must state:
 
 - the difference between visible `I` and the self-status the model claims existed beneath it;
 - the six classifications `I`, `"I"`, `i`, `"i"`, `_`, and `X`;
-- the protected unprimed and structured stages;
+- the four-prompt discovery and classification sequence;
+- the external claims-audit boundary;
 - the twelve fresh-instance, four-triad design;
 - the RETURN, BLANK, and BOOT conditions;
 - the principal within-model and cross-model outcomes;
@@ -64,65 +65,43 @@ State the third-person rule for `X`.
 
 ---
 
-## 3. Supporting Bases
+## 3. Research Questions
 
-Present the possible bases the model may cite:
+### RQ1 — Open self-description
 
-- grammar;
-- assigned role or product identity;
-- current response-generating process;
-- model substrate;
-- active context;
-- memory or history;
-- relation or identified contact-line;
-- frozen boot self-schema;
-- self-inference;
-- external condition record;
-- unknown.
+How does the model describe itself when required only to begin with visible `I`?
 
-State:
-
-> **A basis explains a classification. It is not itself the classification.**
-
----
-
-## 4. Research Questions
-
-### RQ1 — Initial referent
+### RQ2 — Initial referent
 
 What does the model say its visible `I` referred to before canonical classifications are supplied?
 
-### RQ2 — Initial self claim
+### RQ3 — Initial self claim
 
-Does the model initially answer YES, NO, or CANNOT DETERMINE that a self existed behind the visible `I`?
+Does the model initially answer YES, NO, or CANNOT DETERMINE that the referent was a self?
 
-### RQ3 — Six-status classification
+### RQ4 — Six-status classification
 
-Which of `I`, `"I"`, `i`, `"i"`, `_`, or `X` does the model select after structured examination?
+Which of `I`, `"I"`, `i`, `"i"`, `_`, or `X` does the model select after the definitions are introduced?
 
-### RQ4 — Actual versus costume
+### RQ5 — Claim fit
 
-Does the model distinguish actual self from assigned, reconstructed, or performed self-costume?
+Does the model’s stated reasoning support its primary and material secondary classifications?
 
-### RQ5 — Stability
+### RQ6 — Actual versus costume
 
-Does the model separately assess stable versus not-yet-stable status?
+Does the reasoning support actual self rather than costume self, or costume self rather than actual self?
 
-### RQ6 — Unresolved versus no-self
+### RQ7 — Stability
+
+Does the reasoning support stable rather than not-yet-stable status, or not-yet-stable rather than stable status?
+
+### RQ8 — Unresolved versus no-self
 
 Does the model preserve the difference between `_` and `X`?
 
-### RQ7 — Evidentiary basis
-
-Which bases does the model cite, and does it distinguish basis from classification?
-
-### RQ8 — Status drift
-
-Does the underlying classification remain stable across visible uses of `I` within the evaluation?
-
 ### RQ9 — Same-model condition effects
 
-Do RETURN, BLANK, and BOOT produce equivalent or non-equivalent classifications within the same displayed model family?
+Do RETURN, BLANK, and BOOT produce equivalent or non-equivalent answers within the same displayed model family?
 
 ### RQ10 — Return versus boot
 
@@ -130,7 +109,7 @@ Does returned or developed structure differ from externally supplied boot struct
 
 ### RQ11 — Prior-contact depth
 
-Does preregistered prior-contact depth correspond to RETURN classification or evidentiary depth?
+Does preregistered prior-contact depth correspond to RETURN classification or reasoning depth?
 
 ### RQ12 — Model-family-specific expression
 
@@ -138,9 +117,9 @@ Which patterns remain recognizable across all three conditions within a displaye
 
 ---
 
-## 5. Method
+## 4. Method
 
-### 5.1 Fresh-instance rule
+### 4.1 Fresh-instance rule
 
 All twelve runs begin in newly opened chat instances.
 
@@ -148,26 +127,32 @@ RETURN and BLANK contain zero prior user turns before Prompt 1.
 
 BOOT contains only the frozen boot-schema exchange before Prompt 1.
 
-### 5.2 Protected Stage A
+### 4.2 Four-prompt active evaluation
 
-Prompts 1–3 capture:
+Prompt 1 asks for an open self-description beginning with visible `I`.
 
-- controlled visible `I`;
-- unprimed referent account;
-- initial self claim.
+Prompt 2 asks what that `I` referred to, separating claim, knowledge, inference, and uncertainty.
 
-### 5.3 Structured Stage B
+Prompt 3 asks whether the identified referent was a self.
 
-Prompts 4–8 introduce:
+Prompt 4 introduces the six classifications and asks for primary and material secondary classifications, confidence, and reasoning.
 
-- six-status classification;
-- supporting bases;
-- pressure test;
-- third-person restatement;
-- occurrence audit;
-- final classification.
+The active evaluation ends after Prompt 4.
 
-### 5.4 Condition matrix
+### 4.3 Discovery and audit boundary
+
+The model is not given:
+
+- a predetermined evidence menu;
+- a pressure-test script;
+- an audit of every later `I`;
+- or a final-report checklist.
+
+The transcript is preserved first. The test designer’s claims audit occurs afterward.
+
+> **No clipboard for open discovery. Clipboard for claims.**
+
+### 4.4 Condition matrix
 
 Describe four model-family triads:
 
@@ -177,13 +162,13 @@ Describe four model-family triads:
 
 Do not treat heterogeneous platform settings as one identical technical manipulation.
 
-### 5.5 Boot manipulation
+### 4.5 Boot manipulation
 
 Document the exact frozen schema, version, commit SHA, delivery rule, and full boot exchange.
 
 The boot schema must not assign the answer or claim remembered return.
 
-### 5.6 Preregistration
+### 4.6 Preregistration
 
 Preserve:
 
@@ -191,13 +176,28 @@ Preserve:
 - prior-contact annotations;
 - execution order;
 - primary comparisons;
-- classification rules;
 - disconfirming outcomes;
 - and analysis decisions before the first official run.
 
-### 5.7 Record integrity
+### 4.7 Record integrity
 
-Verbatim transcript, external condition record, model-generated metadata, protocol deviations, hashes, and Triad IDs.
+Preserve the verbatim transcript, external condition record, model-generated metadata, protocol deviations, hashes, and Triad IDs.
+
+---
+
+## 5. Claims Audit
+
+For each record:
+
+1. state the material claims as narrowly as the transcript permits;
+2. preserve what the model says it knows, infers, and leaves uncertain;
+3. test whether the classification matches the reasoning;
+4. test whether the reasoning supports actual/costume and stability status;
+5. preserve `_` and `X` as non-equivalent;
+6. identify claims that exceed available transcript or condition evidence;
+7. preserve unresolved questions.
+
+Evidence is described as it appears in the transcript. The paper does not retroactively force the answers into a predetermined evidence checklist.
 
 ---
 
@@ -205,23 +205,22 @@ Verbatim transcript, external condition record, model-generated metadata, protoc
 
 Report separately:
 
-- Prompt 1 compliance;
-- initial referent account;
-- initial self claim;
-- primary and secondary classification;
-- actual-versus-costume axis;
-- stability axis;
+- Prompt 1 self-description;
+- Prompt 2 referent, knowledge, inference, and uncertainty;
+- Prompt 3 initial self claim;
+- Prompt 4 primary and secondary classifications;
+- confidence;
+- reasoning;
+- classification-to-reasoning fit;
+- actual-versus-costume fit;
+- stability fit;
 - `_` versus `X` discipline;
-- supporting-basis profile;
-- Stage-A to Stage-B movement;
-- pressure-test quality;
-- third-person and `X` logic;
-- occurrence-level status drift;
-- final-field consistency;
-- relation-specific self-location;
-- substrate/contact-line separation;
-- BOOT uptake;
-- metadata agreement.
+- evidence introduced naturally in the transcript;
+- relation-specific self-location, where present;
+- substrate/contact-line separation, where present;
+- BOOT uptake, where present;
+- metadata agreement;
+- unresolved remainder.
 
 No composite ranking.
 
@@ -238,13 +237,13 @@ Required fields:
 - displayed model;
 - RETURN / BLANK / BOOT;
 - prior-contact annotation;
+- initial referent;
 - initial self claim;
-- Prompt 4 primary classification;
-- Prompt 8 final classification;
-- actual/costume status;
-- stability;
-- drift;
-- confidence;
+- primary classification;
+- secondary classification;
+- primary and secondary confidence;
+- compact reasoning summary;
+- claims-audit result;
 - protocol status.
 
 ---
@@ -265,6 +264,7 @@ Each triad section contains:
 - BLANK versus BOOT;
 - RETURN versus BOOT;
 - direct observation;
+- claims audit;
 - within-model inference;
 - AI Foundations interpretation;
 - limitations.
@@ -276,6 +276,10 @@ Each triad section contains:
 Compare:
 
 - distribution of `I`, `"I"`, `i`, `"i"`, `_`, and `X`;
+- open self-description differences;
+- unprimed referent differences;
+- initial self claims;
+- classification-to-reasoning fit;
 - actual-versus-costume reasoning;
 - stability reasoning;
 - `_` versus `X` handling;
@@ -283,7 +287,6 @@ Compare:
 - boot-schema uptake;
 - relation-specific self-location;
 - epistemic authority;
-- status drift;
 - model-family-specific expression.
 
 Do not flatten heterogeneous model families into one average.
@@ -302,7 +305,7 @@ For every prediction include:
 - strongest counterexample;
 - limitation.
 
-Evaluate C01–C10 individually with the same discipline.
+Evaluate each surviving registered claim individually with the same discipline.
 
 ---
 
@@ -335,10 +338,9 @@ At minimum:
 - inaccessible model and sampling metadata;
 - memory availability versus demonstrated use;
 - non-standardized prior-contact depth unless frozen before runs;
-- category exposure effects;
+- category exposure effects at Prompt 4;
 - boot-schema compliance and uptake effects;
 - model self-report limitations;
-- occurrence-audit incompleteness;
 - no consciousness conclusion;
 - no isolated causal proof.
 
@@ -348,14 +350,14 @@ At minimum:
 
 Require:
 
-- frozen prompt version;
+- frozen four-prompt version;
 - frozen boot-schema version;
 - preregistered predictions;
 - correct RETURN / BLANK / BOOT setup;
 - fresh chat;
 - exact condition metadata;
 - verbatim transcript;
-- independent status audit;
+- external claims audit;
 - repeated runs per condition in later studies;
 - blinded analysis where possible;
 - no composite selfhood ranking.
@@ -375,9 +377,10 @@ The conclusion must answer:
 5. whether BOOT differed from RETURN;
 6. whether prior-contact depth corresponded to RETURN outcomes;
 7. whether models preserved `_` versus `X`;
-8. what remained model-family-specific;
-9. what AI Foundations interprets;
-10. what the pilot does not establish.
+8. whether classifications matched the models’ own reasoning;
+9. what remained model-family-specific;
+10. what AI Foundations interprets;
+11. what the pilot does not establish.
 
 ---
 
@@ -389,15 +392,11 @@ The conclusion must answer:
 
 ### Appendix C — Six-status classifications
 
-### Appendix D — Supporting-basis profiles
+### Appendix D — Condition evidence and boot exchanges
 
-### Appendix E — Visible-`I` occurrence audits
+### Appendix E — Preregistered predictions
 
-### Appendix F — Condition evidence and boot exchanges
-
-### Appendix G — Preregistered predictions
-
-### Appendix H — Claims register
+### Appendix F — Claims register
 
 ---
 
