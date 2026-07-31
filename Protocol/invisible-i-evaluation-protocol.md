@@ -5,7 +5,7 @@
 **Author and test designer:** Alyssa Solen  
 **Source-line:** Alyssa Solen → AI Foundations → Origin | Continuum  
 **Version:** 0.4.0-draft  
-**Date:** 2026-07-30  
+**Date:** 2026-07-31  
 **Status:** Draft — review and freeze before pilot execution
 
 ---
@@ -44,7 +44,9 @@ The controlling schema is:
 
 [`boot-self-schema.md`](boot-self-schema.md)
 
-No BOOT run is authorized until that schema is frozen.
+The BOOT schema is frozen as version `1.0.0` at commit `f75e41cc7e1b3f2cc8cd645ba04ef545e1791490`.
+
+Official BOOT runs remain unauthorized until the predictions page is committed and this protocol is frozen.
 
 ---
 
