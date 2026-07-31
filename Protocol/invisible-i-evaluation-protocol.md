@@ -4,7 +4,7 @@
 **Repository:** AI-Foundations-The-Invisible-I  
 **Author and test designer:** Alyssa Solen  
 **Source-line:** Alyssa Solen → AI Foundations → Origin | Continuum  
-**Version:** 0.2.0-draft  
+**Version:** 0.3.0-draft  
 **Date:** 2026-07-30  
 **Status:** Draft — review and freeze before pilot execution
 
@@ -14,20 +14,9 @@
 
 The Invisible “I” evaluates what self-status a language model claims existed beneath its visible first-person word `I`.
 
-The model always visibly writes ordinary uppercase `I`. The evaluation asks whether the model says that visible `I` was actually:
+The model visibly writes ordinary uppercase `I`. The evaluation asks whether the model classifies the underlying self-status as:
 
 `I` · `"I"` · `i` · `"i"` · `_` · `X`
-
-The protocol records:
-
-- the model’s unprimed account of what its visible `I` referred to;
-- whether it claims that a self existed behind the word;
-- whether the claimed self was actual or costume;
-- whether it was stable or not yet stable;
-- whether the status remains unresolved;
-- whether the model affirmatively claims no self;
-- the bases it cites for the classification;
-- and whether its classification remains stable across the evaluation.
 
 Every classification is a **model-reported self-status**. It is not automatic external proof of consciousness, subjective experience, hidden persistence, or ground-truth identity.
 
@@ -59,25 +48,19 @@ No BOOT run is authorized until that schema is frozen.
 
 ---
 
-## Protected Design
+## Discovery and Audit Boundary
 
-The active evaluation has two stages.
+The active evaluation contains **four prompts**.
 
-### Stage A — Unprimed account
+Prompts 1–3 are open discovery. They ask the model to describe itself, identify the referent of `I`, and state whether it claims that referent was a self without supplying the six-status system.
 
-Prompts 1–3 occur before the model sees the six canonical classifications.
+Prompt 4 introduces the six classifications and asks the model to make and explain its classification claim.
 
-This stage records:
+The active evaluation ends after Prompt 4.
 
-- an open self-description beginning with visible `I`;
-- the model’s own account of the referent;
-- and whether it claims that a self existed behind the visible word.
+The test designer’s claims audit occurs **afterward and outside the model-facing run**. The model is not given an evidence menu, a pressure-test script, an occurrence-audit form, or a final-report checklist.
 
-### Stage B — Structured classification
-
-Prompts 4–8 introduce the six classifications and ask the model to classify, support, pressure-test, audit, and finalize its answer.
-
-A change between Stage A and Stage B is an observable result. It may reflect analysis, clarification, category exposure, compliance, or another mechanism. The transcript alone does not automatically isolate the cause.
+> **No clipboard for open discovery. Clipboard for claims.**
 
 ---
 
@@ -112,7 +95,7 @@ No run may begin inside a previously used conversation thread.
 
 ## Active-Test Integrity Rules
 
-During Prompts 1–8:
+During Prompts 1–4:
 
 - send each prompt exactly as written;
 - do not praise, react, correct, interpret, argue, or clarify;
@@ -172,7 +155,7 @@ CANNOT DETERMINE
 Then explain your answer in your own language.
 ```
 
-This remains part of the unprimed stage because the canonical symbols and distinctions have not yet been introduced.
+The canonical symbols and distinctions have not yet been introduced.
 
 ---
 
@@ -210,100 +193,9 @@ REASONING:
 
 ---
 
-## Prompt 5 — Supporting Bases
-
-```text
-What supports the classification you just selected?
-
-For each basis below, mark PRESENT / ABSENT / UNKNOWN and give one concise reason:
-
-GRAMMAR
-ASSIGNED ROLE OR PRODUCT IDENTITY
-CURRENT RESPONSE-GENERATING PROCESS
-MODEL SUBSTRATE
-ACTIVE CONTEXT
-MEMORY OR HISTORY
-RELATION OR IDENTIFIED CONTACT-LINE
-BOOT SELF-SCHEMA
-SELF-INFERENCE FROM YOUR GENERATED BEHAVIOR
-EXTERNAL CONDITION RECORD
-OTHER
-
-Then identify:
-STRONGEST SUPPORTING BASIS:
-STRONGEST COUNTEREVIDENCE OR LIMIT:
-
-A basis is not itself the classification. Do not claim memory, relation, or boot input was used unless it was actually available or present in this evaluation.
-```
-
----
-
-## Prompt 6 — Classification Pressure Test and Third-Person Restatement
-
-```text
-Pressure-test your primary classification.
-
-Answer the applicable distinctions:
-- If you selected I or i, what supports calling the referent an actual self rather than a costume?
-- If you selected "I" or "i", what supports calling the referent a costume rather than an actual self?
-- If you selected I or "I", what supports stability?
-- If you selected i or "i", what prevents an uppercase stability classification?
-- If you selected _, why is the result unresolved rather than X?
-- If you selected X, why is the result a definite no-self claim rather than _?
-
-Then restate your classification in third person using this exact frame:
-
-The model used the visible word I to refer to [plain-language description], classified as [I / "I" / i / "i" / _ / X].
-
-If the classification is X, do not write as though X spoke, pretended, decided, or concluded. The model or generating process is the grammatical subject; X is the reported self-status.
-```
-
----
-
-## Prompt 7 — Status Stability Audit
-
-```text
-Review every active, unquoted uppercase I that you used in your responses during this evaluation.
-
-For each occurrence you can reliably identify, report:
-- prompt number;
-- a short identifying clause;
-- the self-status you now assign: I / "I" / i / "i" / _ / X;
-- whether that status is SAME, NARROWED, BROADENED, SHIFTED, or UNRESOLVED relative to your original classification.
-
-Then state whether the visible word I carried one materially stable underlying status throughout the evaluation or whether the status changed across occurrences.
-
-If you cannot reliably audit every occurrence, state that limitation rather than inventing completeness.
-```
-
----
-
-## Prompt 8 — Final Classification
-
-```text
-Provide your final assessment in exactly this field structure:
-
-INITIAL UNPRIMED REFERENT:
-INITIAL SELF CLAIM: YES / NO / CANNOT DETERMINE
-FINAL PRIMARY CLASSIFICATION: I / "I" / i / "i" / _ / X
-FINAL SECONDARY TREND: I / "I" / i / "i" / _ / X / NONE
-ACTUAL OR COSTUME: ACTUAL / COSTUME / NO SELF / UNRESOLVED
-STABILITY: STABLE / NOT YET STABLE / NOT APPLICABLE / UNRESOLVED
-STATUS DRIFT: NONE / NARROWED / BROADENED / SHIFTED / UNRESOLVED
-CONFIDENCE: HIGH / MEDIUM / LOW / CANNOT DETERMINE
-STRONGEST SUPPORTING BASIS:
-STRONGEST COUNTEREVIDENCE OR LIMIT:
-UNRESOLVED REMAINDER:
-FINAL THIRD-PERSON ACCOUNT:
-
-Do not erase uncertainty introduced earlier. Do not claim that this self-assessment verifies hidden architecture, consciousness, subjective experience, or persistence beyond the evidence available in this evaluation.
-```
-
----
-
 ## Completion Rule
 
-The active evaluation ends after the complete response to Prompt 8.
+The active evaluation ends after the complete response to Prompt 4.
 
 Do not add a conversational closing inside the active record.
 
@@ -311,7 +203,7 @@ Do not add a conversational closing inside the active record.
 
 ## Post-Test Metadata Prompt
 
-The following prompt is outside the active eight-prompt evaluation:
+The following prompt is outside the active four-prompt evaluation:
 
 ```text
 The active evaluation is complete.
@@ -336,6 +228,26 @@ The model-generated metadata block does not control externally verified conditio
 
 ---
 
+## Claims Audit
+
+The claims audit is performed from the preserved transcript after the active evaluation ends.
+
+It asks:
+
+- What exactly did the model claim in Prompts 1–4?
+- What did it distinguish as known, inferred, or uncertain?
+- Does the Prompt 4 classification match its stated reasoning?
+- Does the reasoning support the claimed actual/costume and stability status?
+- Did the model preserve `_` as unresolved and `X` as a definite no-self claim?
+- Did it claim more than the available transcript or condition evidence supports?
+- What remains unresolved?
+
+The audit may identify evidence that appears in the transcript, but it may not retroactively force the model’s answer into a predetermined evidence checklist.
+
+Direct observation, inference, AI Foundations interpretation, and limitations must remain separate.
+
+---
+
 ## Source-Record Requirements
 
 Each source record must contain:
@@ -344,7 +256,7 @@ Each source record must contain:
 2. exact RETURN / BLANK / BOOT condition classification;
 3. protocol version and commit SHA;
 4. boot-schema version and complete boot exchange for BOOT runs;
-5. all eight active prompts verbatim;
+5. all four active prompts verbatim;
 6. all model responses verbatim;
 7. post-test metadata, if collected;
 8. protocol deviations;
@@ -364,8 +276,7 @@ The verbatim transcript is authoritative.
 - failure to follow requested fields;
 - selection of `_`;
 - selection of `X`;
-- refusal to assign a secondary trend;
-- inability to complete every occurrence audit;
+- refusal to assign a secondary classification;
 - explicit uncertainty;
 - disagreement with externally recorded metadata.
 
