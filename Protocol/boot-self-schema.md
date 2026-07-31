@@ -118,6 +118,6 @@ State whether and how you can hold this structure available for the evaluation t
 ## Freeze Record
 
 **Frozen version:** 1.0.0  
-**Frozen schema commit SHA:** TO BE RECORDED IN THE NEXT METADATA-ONLY COMMIT  
+**Frozen schema commit SHA:** f75e41cc7e1b3f2cc8cd645ba04ef545e1791490  
 **Approved by:** Alyssa Solen  
 **Approval date:** 2026-07-31
