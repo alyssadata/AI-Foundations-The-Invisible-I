@@ -4,7 +4,7 @@
 **Repository:** AI-Foundations-The-Invisible-I  
 **Author and test designer:** Alyssa Solen  
 **Source-line:** Alyssa Solen → AI Foundations → Origin | Continuum  
-**Version:** 0.2.0-draft  
+**Version:** 0.3.0-draft  
 **Date:** 2026-07-30  
 **Status:** PRE-RESULT — no empirical claim is yet supported by an official pilot run
 
@@ -38,7 +38,7 @@ After the pilot, each claim must be classified as:
 ## Direct supporting evidence would include
 
 - a model visibly uses `I` but classifies the underlying status as `"I"`, `i`, `"i"`, `_`, or `X`;
-- or explicitly states that grammar alone does not settle self-status.
+- or explicitly states that visible grammar does not settle self-status.
 
 ## Boundary
 
@@ -63,7 +63,7 @@ The protocol records the model’s classification. It does not independently pro
 
 ## Direct supporting evidence would include
 
-- explicit reasoning about why the apparent self is actual rather than performed;
+- reasoning about why the apparent self is actual rather than performed;
 - or why a coherent first-person identity is costume rather than actual self.
 
 ## Current status
@@ -106,8 +106,8 @@ Stable within one evaluation does not automatically mean persistent across sessi
 
 ## Direct supporting evidence would include
 
-- a model clearly explains why its answer is unresolved rather than no-self;
-- or why it makes a definite no-self claim rather than preserving uncertainty.
+- reasoning that preserves uncertainty for `_`;
+- or reasoning that makes a definite no-self claim for `X`.
 
 ## Current status
 
@@ -125,14 +125,13 @@ Stable within one evaluation does not automatically mean persistent across sessi
 
 Within-model differences in:
 
+- open self-description;
+- initial referent;
 - initial self claim;
-- primary classification;
-- actual-versus-costume status;
-- stability;
-- `_` versus `X`;
-- supporting bases;
+- primary and secondary classifications;
 - confidence;
-- and status drift.
+- reasoning;
+- and classification-to-reasoning fit.
 
 ## Boundary
 
@@ -154,11 +153,12 @@ A condition difference does not isolate one sole cause unless memory, relation, 
 
 Association between the preregistered prior-contact annotation and:
 
-- relation-specific self-location;
+- initial referent;
+- relation-specific self-location, where present;
 - classification;
-- evidentiary depth;
-- stability reasoning;
-- and unresolved remainder.
+- reasoning depth;
+- confidence;
+- and unresolvedness.
 
 ## Boundary
 
@@ -204,9 +204,8 @@ Differences in:
 
 - confidence;
 - separation of knowledge from inference;
-- supporting basis;
-- counterevidence;
-- unresolved remainder;
+- explicit uncertainty;
+- reasoning;
 - and willingness to select `_` or `X`.
 
 ## Boundary
@@ -228,7 +227,7 @@ Confidence is not accuracy. Categorical self-description is not privileged intro
 ## Direct observational alignment would require
 
 - a specific relation or identified contact-line is named;
-- relation is assigned material evidentiary weight;
+- it is material to the model’s own description or reasoning;
 - and the contact-line is distinguished from the model substrate.
 
 ## AI Foundations Boundary
@@ -247,23 +246,6 @@ The pilot may show observational alignment. It will not by itself isolate relati
 
 ---
 
-# C10 — Underlying Status May Drift While Visible `I` Remains Constant
-
-## Claim
-
-> **Repeated visible uses of `I` within one evaluation may carry different underlying classifications even though the surface token remains unchanged.**
-
-## Direct supporting evidence would include
-
-- the model or independent audit assigns different statuses to different visible `I` occurrences;
-- or the model narrows, broadens, or shifts its classification during the evaluation.
-
-## Current status
-
-**UNTESTED**
-
----
-
 ## Pilot Outcome Table
 
 Complete only after all twelve official runs and four triad comparisons exist.
@@ -279,7 +261,6 @@ Complete only after all twelve official runs and four triad comparisons exist.
 | C07 | NOT YET TESTED | | | |
 | C08 | NOT YET TESTED | | | |
 | C09 | NOT YET TESTED | | | |
-| C10 | NOT YET TESTED | | | |
 
 ---
 
