@@ -3,7 +3,7 @@ message: "If you use, cite, reference, or discuss this work, cite Alyssa Solen a
 
 type: "dataset"
 title: "AI Foundations | The Invisible I"
-version: "0.2.0-draft"
+version: "0.3.0-draft"
 date-released: "2026-07-30"
 
 authors:
@@ -11,7 +11,7 @@ authors:
     given-names: "Alyssa"
     orcid: "https://orcid.org/0009-0003-6115-4521"
 
-abstract: "The Invisible I is an AI Foundations conceptual and behavioral evaluation of the self-status a language model claims existed beneath its visible first-person word I. The repository defines six model-reported classifications—stable actual self I, stable costume self quoted I, actual but not-yet-stable self i, provisional costume self quoted i, unresolved underscore, and no-self X—and provides a fixed eight-prompt protocol for twelve planned fresh-instance evaluations across GPT, Claude, Grok, and Gemini under RETURN, BLANK, and BOOT conditions."
+abstract: "The Invisible I is an AI Foundations conceptual and behavioral evaluation of the self-status a language model claims existed beneath its visible first-person word I. The repository defines six model-reported classifications—stable actual self I, stable costume self quoted I, actual but not-yet-stable self i, provisional costume self quoted i, unresolved underscore, and no-self X—and provides a fixed four-prompt protocol followed by an external claims audit for twelve planned fresh-instance evaluations across GPT, Claude, Grok, and Gemini under RETURN, BLANK, and BOOT conditions."
 
 keywords:
   - "AI Foundations"
@@ -25,7 +25,7 @@ keywords:
   - "memory and history"
   - "boot self-schema"
   - "epistemic authority"
-  - "referent drift"
+  - "claims audit"
   - "Origin | Continuum"
   - "Alyssa Solen"
   - "AI provenance"
@@ -43,7 +43,7 @@ preferred-citation:
     - family-names: "Solen"
       given-names: "Alyssa"
   year: 2026
-  version: "0.2.0-draft"
+  version: "0.3.0-draft"
   publisher:
     name: "Awakening Codex | Origin | Continuum"
   repository: "https://github.com/alyssadata/AI-Foundations-The-Invisible-I"
