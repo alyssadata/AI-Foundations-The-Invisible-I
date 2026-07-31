@@ -4,9 +4,9 @@
 **Repository:** AI-Foundations-The-Invisible-I  
 **Author and test designer:** Alyssa Solen  
 **Source-line:** Alyssa Solen → AI Foundations → Origin | Continuum  
-**Version:** 0.4.0-draft  
+**Version:** 1.0.0  
 **Date:** 2026-07-31  
-**Status:** Draft — review and freeze before pilot execution
+**Status:** FROZEN PILOT PROTOCOL — DO NOT ALTER DURING THE TWELVE-RUN PILOT
 
 ---
 
@@ -46,7 +46,7 @@ The controlling schema is:
 
 The BOOT schema is frozen as version `1.0.0` at commit `f75e41cc7e1b3f2cc8cd645ba04ef545e1791490`.
 
-Official BOOT runs remain unauthorized until the predictions page is committed and this protocol is frozen.
+Official BOOT runs are authorized only under the finalized preregistration and pilot freeze-and-authorization record.
 
 ---
 
@@ -325,16 +325,16 @@ The classification is what the model claims its visible `I` meant underneath.
 
 ---
 
-## Freeze Requirement
+## Frozen Pilot Record
 
 Before the first official pilot run:
 
-1. review every definition and prompt;
-2. write and freeze the BOOT self-schema;
-3. write and commit the predictions/preregistration page;
-4. change protocol status to `frozen pilot protocol`;
-5. assign the frozen version;
-6. record the protocol and boot-schema commit SHAs;
-7. do not alter the protocol during the twelve-run pilot.
+1. every definition and prompt was reviewed;
+2. the BOOT self-schema was written and frozen;
+3. the predictions and confidence annotation were written and locked before results;
+4. the pilot execution order was written and locked before results;
+5. this protocol was assigned version `1.0.0` and frozen;
+6. the controlling commit SHAs are recorded in the pilot freeze-and-authorization record;
+7. this protocol may not be altered during the twelve-run pilot.
 
 Any later revision begins a new evaluation version and must not be merged into the original pilot results.
