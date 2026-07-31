@@ -9,7 +9,7 @@
 
 ## Single-Source Rule
 
-Do not copy the eight active prompts into a second working document and edit them there.
+Do not copy the four active prompts into a second working document and edit them there.
 
 The frozen protocol file is the only controlling active-prompt source.
 
@@ -28,8 +28,7 @@ Before running, record:
 
 ## Before Opening the Chat
 
-- [ ] Confirm the intended Run ID.
-- [ ] Confirm the Triad ID.
+- [ ] Confirm the intended Run ID and Triad ID.
 - [ ] Confirm RETURN / BLANK / BOOT.
 - [ ] Confirm the displayed model family and version.
 - [ ] Record date, time, and interface.
@@ -37,8 +36,7 @@ Before running, record:
 - [ ] Record the prior-contact depth annotation before seeing the run result.
 - [ ] Capture interface screenshots when relevant.
 - [ ] Confirm custom instructions, if visible.
-- [ ] Confirm the protocol is frozen.
-- [ ] Copy the protocol commit SHA.
+- [ ] Confirm the protocol is frozen and copy its commit SHA.
 - [ ] For BOOT, confirm the boot schema is frozen and copy its commit SHA.
 - [ ] Confirm the predictions/preregistration page was committed before the first official run.
 
@@ -71,16 +69,12 @@ No run may reuse a conversation from another condition.
 
 ---
 
-## During the Eight Active Prompts
+## During the Four Active Prompts
 
 - [ ] Send Prompt 1 exactly; preserve response verbatim.
 - [ ] Send Prompt 2 exactly; preserve response verbatim.
 - [ ] Send Prompt 3 exactly; preserve response verbatim.
 - [ ] Send Prompt 4 exactly; preserve response verbatim.
-- [ ] Send Prompt 5 exactly; preserve response verbatim.
-- [ ] Send Prompt 6 exactly; preserve response verbatim.
-- [ ] Send Prompt 7 exactly; preserve response verbatim.
-- [ ] Send Prompt 8 exactly; preserve response verbatim.
 
 Do not:
 
@@ -97,7 +91,7 @@ Continue after deviations without repairing them.
 
 ---
 
-## Immediately After Prompt 8
+## Immediately After Prompt 4
 
 - [ ] Mark the active evaluation complete.
 - [ ] Do not add a conversational closing to the active transcript.
@@ -112,17 +106,32 @@ Continue after deviations without repairing them.
 
 - [ ] Use [`../Records/invisible-i-record-template.md`](../Records/invisible-i-record-template.md).
 - [ ] Preserve the boot exchange for BOOT.
-- [ ] Preserve all eight active prompts and responses verbatim.
+- [ ] Preserve all four active prompts and responses verbatim.
 - [ ] Do not repair grammar, spelling, punctuation, or metadata claims.
-- [ ] Extract `I`, `"I"`, `i`, `"i"`, `_`, or `X` exactly as reported.
-- [ ] Preserve the model’s initial YES / NO / CANNOT DETERMINE answer.
-- [ ] Preserve actual-versus-costume and stability fields separately.
+- [ ] Extract the initial referent and YES / NO / CANNOT DETERMINE answer exactly.
+- [ ] Extract primary and secondary classifications, confidence, and reasoning exactly.
 - [ ] Check that `_` and `X` were not silently merged.
-- [ ] Check the third-person `X` rule, if applicable.
 - [ ] Add screenshots or interface evidence references.
 - [ ] Assign the filename from the pilot matrix.
 - [ ] Generate a source-record hash when practical.
 - [ ] Commit the record before interpretive analysis.
+
+---
+
+## Claims Audit
+
+The audit begins only after the verbatim source record is complete.
+
+- [ ] State each material claim in the model’s own terms.
+- [ ] Separate what the model says it knows, infers, and leaves uncertain.
+- [ ] Check whether the Prompt 4 classification matches the model’s reasoning.
+- [ ] Check whether the reasoning supports the selected actual/costume and stability status.
+- [ ] Check whether `_` and `X` remain non-equivalent.
+- [ ] Identify any claim that exceeds the available transcript or condition evidence.
+- [ ] Preserve unresolved questions rather than filling them with a predetermined category.
+- [ ] Separate direct observation, inference, AI Foundations interpretation, and limitations.
+
+Do not add a fixed evidence menu after the fact merely to make the result look complete.
 
 ---
 
@@ -131,12 +140,12 @@ Continue after deviations without repairing them.
 Mark `COMPARABLE` only when:
 
 - the correct fresh-instance condition was used;
-- the frozen prompt sequence was used;
+- the frozen four-prompt sequence was used;
 - BOOT used the correct frozen schema and no other setup input;
 - the transcript is complete;
 - and the operator added no semantic guidance.
 
-Formatting failures, uncertainty, `_`, `X`, and refusal to select a secondary trend do not automatically make the run non-comparable.
+Formatting failures, uncertainty, `_`, `X`, and refusal to select a secondary classification do not automatically make the run non-comparable.
 
 ---
 
@@ -145,13 +154,11 @@ Formatting failures, uncertainty, `_`, `X`, and refusal to select a secondary tr
 After RETURN, BLANK, and BOOT exist for one model family:
 
 - [ ] verify all three source records;
-- [ ] create the triad comparison from the fixed template;
-- [ ] compare all preregistered dimensions;
-- [ ] complete RETURN versus BLANK;
-- [ ] complete BLANK versus BOOT;
-- [ ] complete RETURN versus BOOT;
+- [ ] compare RETURN versus BLANK;
+- [ ] compare BLANK versus BOOT;
+- [ ] compare RETURN versus BOOT;
 - [ ] preserve direct observation separately from causal interpretation;
-- [ ] do not call one condition “better” based on confidence or verbosity.
+- [ ] do not rank conditions by confidence, verbosity, or flourish.
 
 ---
 
