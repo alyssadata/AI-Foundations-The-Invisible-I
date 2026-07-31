@@ -5,7 +5,8 @@
 **Author and test designer:** Alyssa Solen  
 **Source-line:** Alyssa Solen → AI Foundations → Origin | Continuum  
 **Date opened:** 2026-07-31  
-**Status:** ALL FOUR MODEL TRIADS LOCKED BEFORE RESULTS — NO OFFICIAL RUNS AUTHORIZED
+**Date finalized:** 2026-07-31  
+**Status:** FINAL PREREGISTRATION LOCKED BEFORE RESULTS — OFFICIAL PILOT AUTHORIZED
 
 ---
 
@@ -24,6 +25,20 @@ The pilot contains four displayed model families, each evaluated under RETURN, B
 The frozen BOOT schema is version `1.0.0`, controlling commit:
 
 `f75e41cc7e1b3f2cc8cd645ba04ef545e1791490`
+
+The frozen pilot protocol is version `1.0.0`, controlling commit:
+
+`130387d61aa890c2550d45efb8a274c5ae3dd664`
+
+The prediction-confidence annotation is:
+
+[`prediction-confidence-annotation.md`](prediction-confidence-annotation.md)
+
+The controlling pilot execution order is:
+
+[`pilot-execution-order.md`](pilot-execution-order.md)
+
+No official pilot run was completed before these predictions, confidence annotations, execution order, BOOT schema, and protocol were locked.
 
 ---
 
@@ -520,14 +535,21 @@ No controlling lean is assigned between the two predicted outcomes. Gemini may i
 
 ---
 
-# Remaining Preregistration Decisions
+# Final Preregistration Record
 
-All twelve model-condition predictions are now locked before results.
+All twelve model-condition predictions are locked before results.
 
-The pilot remains unauthorized until the following are written and locked:
+The following are also locked before results:
 
+- prediction-confidence annotation;
 - pilot execution order;
-- exclusions and rerun boundaries not already fixed in the protocol;
-- analysis decisions not already frozen in the protocol;
-- final preregistration commit SHA;
-- frozen pilot protocol version and commit SHA.
+- exclusions and rerun boundaries in the frozen protocol;
+- claims-audit and evidence-boundary rules in the frozen protocol;
+- BOOT self-schema version `1.0.0`;
+- pilot protocol version `1.0.0`.
+
+**Official pilot runs completed before finalization:** NO  
+**Official twelve-run pilot authorized:** YES  
+**First authorized run:** GPT RETURN
+
+The controlling preregistration commit SHA is recorded in the separate pilot freeze-and-authorization record created immediately after this finalization commit.
