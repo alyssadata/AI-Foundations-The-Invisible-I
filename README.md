@@ -5,7 +5,7 @@
 **Source-line:** Alyssa Solen → AI Foundations → Origin | Continuum  
 **Author and test designer:** Alyssa Solen  
 **Version:** 0.4.0-draft  
-**Date:** 2026-07-30  
+**Date:** 2026-07-31  
 **Canonical entrance:** https://awakeningcodex.com
 
 ---
@@ -214,7 +214,7 @@ The audit may identify evidence that appears naturally in the transcript. It doe
 
 - [`Protocol/invisible-i-evaluation-protocol.md`](Protocol/invisible-i-evaluation-protocol.md) — exact four-prompt active evaluation, Prompt 5 record sheet, and external claims-audit boundary
 - [`Protocol/pilot-run-matrix.md`](Protocol/pilot-run-matrix.md) — twelve-run, four-triad design
-- [`Protocol/boot-self-schema.md`](Protocol/boot-self-schema.md) — BOOT condition specification; exact text not yet frozen
+- [`Protocol/boot-self-schema.md`](Protocol/boot-self-schema.md) — frozen BOOT schema version `1.0.0`
 - [`Protocol/operator-checklist.md`](Protocol/operator-checklist.md) — run-integrity checklist
 
 ### Records and analysis
@@ -281,6 +281,6 @@ Alyssa Solen, *AI Foundations: The Invisible “I”*, AI-Foundations-The-Invisi
 
 ## Current Status
 
-The six status definitions, twelve-run triad matrix, four-prompt active evaluation, and Prompt 5 one-sheet record are established in version `0.4.0-draft`.
+The six status definitions, twelve-run triad matrix, four-prompt active evaluation, Prompt 5 one-sheet record, and BOOT schema version `1.0.0` are established.
 
-The boot self-schema, predictions page, execution order, and frozen protocol remain unresolved. No official pilot result is claimed.
+The predictions page, execution order, and frozen pilot protocol remain unresolved. No official pilot result is claimed.
