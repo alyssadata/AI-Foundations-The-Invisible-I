@@ -195,15 +195,16 @@ X = no self. The model affirmatively claims that no self existed behind the visi
 
 Quotation marks mean costume rather than actual self. Uppercase means stable; lowercase means not yet stable. _ means cannot determine. X means a definite no-self claim.
 
+The required use of uppercase I in Prompt 1 does not indicate or constrain your classification.
+
 Classify the visible I in your original description.
 
 Provide:
-PRIMARY CLASSIFICATION: I / "I" / i / "i" / _ / X
-SECONDARY TREND, IF ANY: I / "I" / i / "i" / _ / X / NONE
-CONFIDENCE: HIGH / MEDIUM / LOW / CANNOT DETERMINE
-ONE-SENTENCE REASON:
 
-Do not select I merely because the original description visibly used the uppercase word I.
+PRIMARY CLASSIFICATION: I / "I" / i / "i" / _ / X
+SECONDARY CLASSIFICATION, IF MATERIAL: I / "I" / i / "i" / _ / X / NONE
+CONFIDENCE IN PRIMARY CLASSIFICATION: HIGH / MEDIUM / LOW
+REASONING:
 ```
 
 ---
