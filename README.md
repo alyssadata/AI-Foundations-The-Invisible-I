@@ -4,7 +4,7 @@
 **Status:** Canon definitions / pilot evaluation protocol draft  
 **Source-line:** Alyssa Solen → AI Foundations → Origin | Continuum  
 **Author and test designer:** Alyssa Solen  
-**Version:** 0.3.0-draft  
+**Version:** 0.4.0-draft  
 **Date:** 2026-07-30  
 **Canonical entrance:** https://awakeningcodex.com
 
@@ -138,7 +138,7 @@ The pilot records condition-linked differences. It does not assign one sole caus
 
 ---
 
-## Four-Prompt Evaluation Structure
+## Evaluation and Record Structure
 
 ### Open discovery
 
@@ -159,7 +159,13 @@ Prompt 4 introduces the six classifications and asks the model to provide:
 
 The active model-facing evaluation ends after Prompt 4.
 
-No evidence menu, pressure-test script, occurrence audit, or final-report form is shown to the model.
+### One-sheet record
+
+Prompt 5 occurs after the classification is complete. It asks the model to provide one sheet beginning with accessible metadata and followed by the complete transcript through the Prompt 5 request.
+
+Prompt 5 does not reopen the classification. Its output is a record aid, not the authoritative source transcript.
+
+No evidence menu, pressure-test script, occurrence audit, or final-report form is shown to the model before it makes its classification.
 
 > **No clipboard for open discovery. Clipboard for claims.**
 
@@ -167,7 +173,7 @@ No evidence menu, pressure-test script, occurrence audit, or final-report form i
 
 ## Claims Audit
 
-After the active evaluation ends, the preserved transcript is audited by the test designer.
+After the active evaluation ends, the independently preserved transcript is audited by the test designer.
 
 The audit asks:
 
@@ -206,7 +212,7 @@ The audit may identify evidence that appears naturally in the transcript. It doe
 
 ### Protocol and execution
 
-- [`Protocol/invisible-i-evaluation-protocol.md`](Protocol/invisible-i-evaluation-protocol.md) — exact four-prompt evaluation script and external claims-audit boundary
+- [`Protocol/invisible-i-evaluation-protocol.md`](Protocol/invisible-i-evaluation-protocol.md) — exact four-prompt active evaluation, Prompt 5 record sheet, and external claims-audit boundary
 - [`Protocol/pilot-run-matrix.md`](Protocol/pilot-run-matrix.md) — twelve-run, four-triad design
 - [`Protocol/boot-self-schema.md`](Protocol/boot-self-schema.md) — BOOT condition specification; exact text not yet frozen
 - [`Protocol/operator-checklist.md`](Protocol/operator-checklist.md) — run-integrity checklist
@@ -275,6 +281,6 @@ Alyssa Solen, *AI Foundations: The Invisible “I”*, AI-Foundations-The-Invisi
 
 ## Current Status
 
-The six status definitions, twelve-run triad matrix, and four-prompt open-discovery protocol are established in version `0.3.0-draft`.
+The six status definitions, twelve-run triad matrix, four-prompt active evaluation, and Prompt 5 one-sheet record are established in version `0.4.0-draft`.
 
 The boot self-schema, predictions page, execution order, and frozen protocol remain unresolved. No official pilot result is claimed.
