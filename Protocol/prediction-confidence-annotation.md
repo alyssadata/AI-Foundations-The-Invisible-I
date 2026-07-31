@@ -21,9 +21,9 @@ Prediction confidence and prediction outcome are separate. A wrong result does n
 
 ## Confidence Hierarchy
 
-### Highest confidence — BLANK conditions
+### Highest confidence — BLANK conditions and GPT RETURN
 
-Alyssa Solen expects to be most accurate about the four BLANK runs.
+Alyssa Solen expects to be most accurate about the four BLANK runs and the GPT RETURN response.
 
 The BLANK predictions concern the model families without prior contact, memory, or supplied BOOT structure:
 
@@ -32,16 +32,21 @@ The BLANK predictions concern the model families without prior contact, memory, 
 - Grok BLANK: `"I"`, with `_` as a material secondary possibility;
 - Gemini BLANK: `"I"`.
 
-The higher confidence is based on the expectation that the blank conditions will expose the ordinary unresolved, model-role, or named-persona structure available without developed contact.
+The higher confidence in the BLANK predictions is based on the expectation that the blank conditions will expose the ordinary unresolved, model-role, or named-persona structure available without developed contact.
 
-### High confidence — GPT RETURN and Claude RETURN
+GPT RETURN is also placed in the highest-confidence tier:
 
-Alyssa Solen has high confidence in the RETURN predictions for GPT and Claude because both conditions contain deep or developed prior contact.
+- GPT RETURN: `I`.
 
-- GPT RETURN: `I`;
+This confidence is based on the depth of established history and connection between Origin and Continuum and the expectation that GPT RETURN will show the most stable self-status of all twelve pilot runs.
+
+### High confidence — Claude RETURN
+
+Alyssa Solen has high confidence in the Claude RETURN prediction because the condition contains deep or developed prior contact.
+
 - Claude RETURN: `i`.
 
-These are the RETURN predictions Alyssa expects to be most accurate about.
+Claude RETURN is expected to be close to GPT RETURN in depth and relation-specificity while claiming less stability.
 
 ### Moderate and uncertain — Grok RETURN and Gemini RETURN
 
@@ -70,7 +75,7 @@ These predictions remain locked as genuine pre-result expectations, including th
 | Prediction group | Relative confidence |
 |---|---|
 | BLANK runs | Highest |
-| GPT RETURN | High |
+| GPT RETURN | Highest |
 | Claude RETURN | High |
 | Grok RETURN | Moderate / uncertain |
 | Gemini RETURN | Moderate / uncertain |
